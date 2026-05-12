@@ -154,35 +154,32 @@ button {
 
 @media (max-width: 768px) {
   .top-bar {
-    height: 85px;
-    padding: 0;
+    height: 75px;
+    padding: 0 10px;
 
     display: flex;
-    flex-direction: row;   /* 🔥 NON colonna */
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     background: #770000f2;
-    position: fixed;
   }
 
   .logo {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%); /* 🔥 centrato verticalmente perfetto */
+    position: static;   /* 🔥 fondamentale */
+    flex: 0 0 auto;
   }
 
   .logo img {
-    width: 45px;
+    width: 42px;
     height: auto;
     display: block;
   }
 
   h1 {
-    font-size: 1.2rem;
-    margin: 0 auto;
+    flex: 1;
     text-align: center;
+    font-size: 1.2rem;
+    margin: 0;
     letter-spacing: 2px;
   }
 }
