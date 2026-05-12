@@ -67,14 +67,13 @@ function renderMatches() {
 
     div.innerHTML = `
       <strong>${m.teams[0].name} vs ${m.teams[1].name}</strong><br>
-      Risultato: ${m.score[0]} - ${m.score[1]}<br>
+      Risultato: ${m.score[0]} - ${m.score[1]}
     `;
 
-    const btn = document.createElement("button");
-    btn.textContent = "INFO";
-    btn.onclick = () => showMatch(m);
+    div.appendChild(infoBtn);
+    div.appendChild(toggleBtn);
+    div.appendChild(infoBox);
 
-    div.appendChild(btn);
     container.appendChild(div);
   });
 }
