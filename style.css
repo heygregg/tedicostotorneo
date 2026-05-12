@@ -109,6 +109,7 @@ h2, h3 {
 ========================= */
 button {
   margin-top: 5px;
+  margin-left: 40px;
   padding: 6px 12px;
   cursor: pointer;
 
