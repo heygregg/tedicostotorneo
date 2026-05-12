@@ -1,11 +1,11 @@
 [
   {
     "id": "1",
-    "date": "12/05/2026",
+    "date": "06/05/2026",
     "teams": [
       {
-        "name": "Milan",
-        "players": ["Giocatore 1", "Giocatore 2", "Giocatore 3", "Giocatore 4", "Giocatore 5"],
+        "name": "Gioventù Alpina",
+        "players": ["Alpo", "Cita", "Willo", "Moro", "Bura"],
         "goals": {
           "Giocatore 1": 1,
           "Giocatore 3": 2
