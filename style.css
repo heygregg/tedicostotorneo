@@ -247,6 +247,8 @@ button {
   h1 {
     font-size: 1.2rem;
     letter-spacing: 2px;
+    padding-left: 60px;
+    padding-right: 10px;
   }
 
   .page {
