@@ -123,8 +123,15 @@ function renderRanking() {
       const gdB = b.gf - b.ga;
       return gdB - gdA;
     })
-    .map(([team, stats]) =>
-      `<div>${team}: ${stats.points} punti, GF ${stats.gf}, GS ${stats.ga}</div>`
+    .map(([team, stats], index) =>
+      `<div class="ranking-card">
+        <div class="rank">${index + 1}</div>
+        <div class="info">
+          <div class="team">${team}</div>
+          <div class="sub">GF ${stats.gf} • GS ${stats.ga}</div>
+        </div>
+        <div class="points">${stats.points}</div>
+      </div>`
     )
     .join("");
 }
