@@ -32,8 +32,8 @@ function renderMatches() {
     let isOpen = false;
 
     const infoBox = document.createElement("div");
+    infoBox.className = "info-box";
     infoBox.style.display = "none";
-    infoBox.style.marginTop = "10px";
 
     const btn = document.createElement("button");
     btn.textContent = "INFO";
