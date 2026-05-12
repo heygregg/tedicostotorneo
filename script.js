@@ -89,31 +89,43 @@ function renderMatches() {
 ========================= */
 // Funzione per calcolare e visualizzare la classifica delle squadre
 function renderRanking() {
-  const table = {}; // Oggetto per memorizzare i punti delle squadre
+  const table = {}; // Oggetto per memorizzare punti, goal fatti e subiti
 
   matches.forEach(m => {
     const a = m.teams[0].name;
     const b = m.teams[1].name;
 
-    if (!table[a]) table[a] = 0;
-    if (!table[b]) table[b] = 0;
+    if (!table[a]) table[a] = { points: 0, gf: 0, ga: 0 };
+    if (!table[b]) table[b] = { points: 0, gf: 0, ga: 0 };
+
+    table[a].gf += m.score[0];
+    table[a].ga += m.score[1];
+    table[b].gf += m.score[1];
+    table[b].ga += m.score[0];
 
     // Assegna punti: 3 per vittoria, 1 per pareggio, 0 per sconfitta
     if (m.score[0] > m.score[1]) {
-      table[a] += 3;
+      table[a].points += 3;
     } else if (m.score[1] > m.score[0]) {
-      table[b] += 3;
+      table[b].points += 3;
     } else {
-      table[a] += 1;
-      table[b] += 1;
+      table[a].points += 1;
+      table[b].points += 1;
     }
   });
 
   const el = document.getElementById("ranking");
 
   el.innerHTML = Object.entries(table)
-    .sort((a, b) => b[1] - a[1]) // Ordina per punti decrescenti
-    .map(t => `<div>${t[0]}: ${t[1]} punti</div>`)
+    .sort(([, a], [, b]) => {
+      if (b.points !== a.points) return b.points - a.points;
+      const gdA = a.gf - a.ga;
+      const gdB = b.gf - b.ga;
+      return gdB - gdA;
+    })
+    .map(([team, stats]) =>
+      `<div>${team}: ${stats.points} punti, GF ${stats.gf}, GS ${stats.ga}</div>`
+    )
     .join("");
 }
 
