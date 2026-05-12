@@ -3,8 +3,12 @@ body {
   margin: 0;
   padding: 10px;
   background: #290d86;
+  color: #000;
 }
 
+/* =========================
+   TITOLI (SOLO ORBITRON 800)
+========================= */
 h1 {
   text-align: center;
   color: white;
@@ -14,14 +18,24 @@ h1 {
   text-transform: uppercase;
 }
 
-/* CONTENITORE PRINCIPALE */
+/* eventuali sottotitoli */
+h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
+}
+
+/* =========================
+   LAYOUT
+========================= */
 .page {
   display: flex;
   gap: 15px;
   align-items: flex-start;
 }
 
-/* COLONNA PARTITE */
+/* =========================
+   PARTITE (TESTO NORMALE)
+========================= */
 .matches {
   flex: 2;
   min-width: 300px;
@@ -29,47 +43,61 @@ h1 {
   padding: 10px;
   border-radius: 8px;
   height: fit-content;
-  font-family: 'Orbitron', sans-serif;
-  font-weight: 600;
+
+  /* ❌ tolto Orbitron */
+  font-family: Arial, sans-serif;
 }
 
-/* COLONNA CLASSIFICA */
+/* singola partita */
+.match {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+
+  font-family: Arial, sans-serif;
+}
+
+/* =========================
+   CLASSIFICA / MARCATORI
+========================= */
 .stats {
   flex: 1;
   min-width: 280px;
   background: white;
   padding: 10px;
   border-radius: 8px;
-  font-family: 'Orbitron', sans-serif;
-  font-weight: 600;
+
+  font-family: Arial, sans-serif;
 }
 
-/* CARD PARTITE */
-.match {
-  background: white;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-}
-
-/* BOTTONI */
+/* =========================
+   BOTTONI
+========================= */
 button {
   margin-top: 5px;
   padding: 5px 10px;
 }
 
-/* INFO BOX */
+/* =========================
+   INFO BOX
+========================= */
 .info-box {
   background: #f5f5f5;
   border-left: 4px solid #7b56f5;
   padding: 10px;
   margin-top: 10px;
   border-radius: 4px;
+
+  font-family: Arial, sans-serif;
 }
 
 .info-box h4 {
   margin-top: 0;
   color: #333;
+
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
 }
 
 .info-box ul {
@@ -81,7 +109,9 @@ button {
   margin: 4px 0;
 }
 
-/* 📱 MOBILE */
+/* =========================
+   MOBILE
+========================= */
 @media (max-width: 700px) {
   .page {
     flex-direction: column;
