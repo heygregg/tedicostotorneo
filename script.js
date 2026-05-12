@@ -44,14 +44,14 @@ function renderMatches() {
 
       m.teams.forEach(t => {
         html += `<strong>${t.name}</strong><ul>`;
-        t.players.forEach(p => {
-          const g = (t.goals && t.goals[p]) || 0;
-          if (t.goals) {
+        if (!t.goals) {
+          html += `<li><em>Goal non assegnati</em></li>`;
+        } else {
+          t.players.forEach(p => {
+            const g = t.goals[p] || 0;
             html += `<li>${p} - Gol: ${g}</li>`;
-          } else {
-            html += `<li>${p}</li>`;
-          }
-        });
+          });
+        }
         html += `</ul>`;
       });
 
