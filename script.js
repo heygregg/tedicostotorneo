@@ -116,13 +116,14 @@ function renderRanking() {
 /* =========================
    MARCATORI
 ========================= */
+// Funzione per calcolare e visualizzare i marcatori (giocatori con più gol)
 function renderScorers() {
-  const scorers = {};
+  const scorers = {}; // Oggetto per memorizzare i gol dei giocatori
 
   matches.forEach(m => {
     m.teams.forEach(t => {
       for (const [player, goals] of Object.entries(t.goals)) {
-        scorers[player] = (scorers[player] || 0) + goals;
+        scorers[player] = (scorers[player] || 0) + goals; // Somma i gol per giocatore
       }
     });
   });
@@ -130,7 +131,7 @@ function renderScorers() {
   const el = document.getElementById("scorers");
 
   el.innerHTML = Object.entries(scorers)
-    .sort((a, b) => b[1] - a[1])
+    .sort((a, b) => b[1] - a[1]) // Ordina per gol decrescenti
     .map(s => `<div>${s[0]}: ${s[1]} gol</div>`)
     .join("");
 }
