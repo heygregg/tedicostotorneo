@@ -85,7 +85,7 @@ button {
 ========================= */
 .info-box {
   background: #f5f5f5;
-  border-left: 4px solid #7b56f5;
+  border-left: 4px solid #a70000;
   padding: 10px;
   margin-top: 10px;
   border-radius: 4px;
@@ -128,10 +128,10 @@ button {
 }
 
 .logo img {
-  width: 120px;          /* dimensione desktop */
-  height: 120px;
+  width: 180px;          /* dimensione desktop */
+  height: 180px;
   object-fit: contain;  /* mantiene proporzioni */
-  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
+  filter: drop-shadow(0 5px 6px rgba(0,0,0,0.3));
 }
 
 /* Responsive per mobile */
