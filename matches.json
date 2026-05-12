@@ -13,5 +13,20 @@
       }
     ],
     "score": [14, 18]
+  },
+  {
+    "id": "2",
+    "date": "12/05/2026",
+    "teams": [
+      {
+        "name": "Gioventù Alpina",
+        "players": ["Alpo", "Greg", "Bura", "Pardo", "Sera"]
+      },
+      {
+        "name": "River Pres",
+        "players": ["Pres", "Cita", "Gioi", "Simo", "Spre"]
+      }
+    ],
+    "score": [14, 18]
   }
 ]
