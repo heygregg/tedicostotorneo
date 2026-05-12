@@ -181,7 +181,8 @@ button {
   }
   .logo {
     position: static;   /* IMPORTANTISSIMO: toglie il posizionamento assoluto */
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+    margin-top: 5px;
   }
 
   .logo img {
