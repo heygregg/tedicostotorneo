@@ -74,6 +74,7 @@ function renderMatches() {
 
     div.innerHTML = `
       <strong>${m.teams[0].name} vs ${m.teams[1].name}</strong><br>
+      Data: ${m.date}<br>
       Risultato: ${m.score[0]} - ${m.score[1]}
     `;
 
