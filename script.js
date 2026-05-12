@@ -69,7 +69,7 @@ function renderMatches() {
     };
 
     div.innerHTML = `
-      <strong>Risultato di ${m.teams[0].name} vs ${m.teams[1].name}</strong><br>
+      <strong>${m.teams[0].name} vs ${m.teams[1].name}</strong><br>
       Risultato: ${m.score[0]} - ${m.score[1]}
     `;
 
