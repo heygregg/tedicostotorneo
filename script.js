@@ -1,5 +1,9 @@
+// Questo script carica i dati delle partite da un file JSON e li visualizza nella pagina web.
+// Gestisce la visualizzazione delle partite, della classifica delle squadre e dei marcatori.
+
 let matches = [];
 
+// Carica i dati dal file matches.json
 fetch("matches.json")
   .then(res => res.json())
   .then(data => {
@@ -16,6 +20,7 @@ fetch("matches.json")
 /* =========================
    PARTITE
 ========================= */
+// Funzione per visualizzare le partite nella pagina
 function renderMatches() {
   const container = document.getElementById("matches");
   container.innerHTML = "";
@@ -33,6 +38,7 @@ function renderMatches() {
     const btn = document.createElement("button");
     btn.textContent = "INFO";
 
+    // Funzione per rendere le informazioni dettagliate della partita
     function renderInfo() {
       let html = `<h4>${m.teams[0].name} vs ${m.teams[1].name}</h4>`;
 
@@ -48,6 +54,7 @@ function renderMatches() {
       infoBox.innerHTML = html;
     }
 
+    // Gestisce il click del pulsante INFO per mostrare/nascondere i dettagli
     btn.onclick = () => {
       isOpen = !isOpen;
 
@@ -76,8 +83,9 @@ function renderMatches() {
 /* =========================
    CLASSIFICA SQUADRE
 ========================= */
+// Funzione per calcolare e visualizzare la classifica delle squadre
 function renderRanking() {
-  const table = {};
+  const table = {}; // Oggetto per memorizzare i punti delle squadre
 
   matches.forEach(m => {
     const a = m.teams[0].name;
@@ -86,6 +94,7 @@ function renderRanking() {
     if (!table[a]) table[a] = 0;
     if (!table[b]) table[b] = 0;
 
+    // Assegna punti: 3 per vittoria, 1 per pareggio, 0 per sconfitta
     if (m.score[0] > m.score[1]) {
       table[a] += 3;
     } else if (m.score[1] > m.score[0]) {
@@ -99,7 +108,7 @@ function renderRanking() {
   const el = document.getElementById("ranking");
 
   el.innerHTML = Object.entries(table)
-    .sort((a, b) => b[1] - a[1])
+    .sort((a, b) => b[1] - a[1]) // Ordina per punti decrescenti
     .map(t => `<div>${t[0]}: ${t[1]} punti</div>`)
     .join("");
 }
