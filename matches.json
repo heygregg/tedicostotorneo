@@ -8,7 +8,8 @@
         "players": ["Alpo", "Cita", "Willo", "Moro", "Bura"],
         "goals": {
             "Cita": 2,
-            "Willo": 1
+            "Willo": 1,
+            "Alpo": 4
         }
       },
       {
