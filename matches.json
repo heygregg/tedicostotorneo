@@ -18,8 +18,8 @@
         "name": "Brigata Luchezio",
         "players": ["Luchezio", "Greg", "Pardo", "Dimoz", "Hamza"],
         "goals": {
-            "Pardo": 4,
-            "Damio": 4,
+            "Pardo": 3,
+            "Dimoz": 4,
             "Greg": 6,
             "Luchezio": 1,
             "Hamza": 4
