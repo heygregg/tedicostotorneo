@@ -17,6 +17,54 @@ function renderMatches() {
     const div = document.createElement("div");
     div.className = "match";
 
+    const infoBox = document.createElement("div");
+    infoBox.className = "info-box";
+    infoBox.style.display = "none";
+
+    let isOpen = false;
+
+    const infoBtn = document.createElement("button");
+    infoBtn.textContent = "INFO";
+
+    const toggleBtn = document.createElement("button");
+    toggleBtn.textContent = "MOSTRA";
+    toggleBtn.style.display = "none";
+
+    function renderInfo() {
+      let html = `<h4>${m.teams[0].name} vs ${m.teams[1].name}</h4>`;
+
+      m.teams.forEach(t => {
+        html += `<strong>${t.name}</strong><ul>`;
+        t.players.forEach(p => {
+          const g = t.goals[p] || 0;
+          html += `<li>${p} - Gol: ${g}</li>`;
+        });
+        html += `</ul>`;
+      });
+
+      infoBox.innerHTML = html;
+    }
+
+    infoBtn.onclick = () => {
+      renderInfo();
+      infoBox.style.display = "block";
+      infoBtn.style.display = "none";
+      toggleBtn.style.display = "inline-block";
+      isOpen = true;
+    };
+
+    toggleBtn.onclick = () => {
+      isOpen = !isOpen;
+
+      if (isOpen) {
+        infoBox.style.display = "block";
+        toggleBtn.textContent = "MOSTRA MENO";
+      } else {
+        infoBox.style.display = "none";
+        toggleBtn.textContent = "MOSTRA";
+      }
+    };
+
     div.innerHTML = `
       <strong>${m.teams[0].name} vs ${m.teams[1].name}</strong><br>
       Risultato: ${m.score[0]} - ${m.score[1]}<br>
