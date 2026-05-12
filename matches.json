@@ -7,8 +7,8 @@
         "name": "Gioventù Alpina",
         "players": ["Alpo", "Cita", "Willo", "Moro", "Bura"],
         "goals": {
-          "Giocatore 1": 1,
-          "Giocatore 3": 2
+          "Alpo": 1,
+          "Cita": 2
         }
       },
       {
