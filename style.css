@@ -3,9 +3,11 @@ html, body {
   overflow-x: hidden;
   box-sizing: border-box;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -13,6 +15,7 @@ body {
   background: #290d86;
   color: #000;
   -webkit-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* =========================
@@ -22,7 +25,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 110px;
 
   display: flex;
@@ -36,7 +39,7 @@ body {
   box-shadow: 0 2px 15px rgba(0,0,0,0.4);
 }
 
-/* LOGO dentro header */
+/* LOGO */
 .logo {
   position: absolute;
   left: 20px;
@@ -46,13 +49,14 @@ body {
   width: 90px;
   height: auto;
   object-fit: contain;
-  filter: drop-shadow(0 5px 6px #770000f2);
+  filter: drop-shadow(0 5px 6px rgba(0,0,0,0.3));
 }
 
 /* =========================
    TITOLI
 ========================= */
 h1 {
+  margin: 0;
   text-align: center;
   color: white;
   font-family: 'Orbitron', sans-serif;
@@ -60,7 +64,6 @@ h1 {
   font-size: 2.8rem;
   letter-spacing: 4px;
   text-transform: uppercase;
-  margin: 0;
 }
 
 h2, h3 {
@@ -69,7 +72,7 @@ h2, h3 {
 }
 
 /* =========================
-   SPAZIO CONTENUTO (IMPORTANTISSIMO)
+   LAYOUT PAGINA
 ========================= */
 .page {
   display: flex;
@@ -77,7 +80,7 @@ h2, h3 {
   align-items: flex-start;
   justify-content: center;
 
-  margin-top: 140px; /* evita che finisca sotto header */
+  margin-top: 140px;
   padding: 10px;
 }
 
@@ -87,22 +90,50 @@ h2, h3 {
 .matches {
   flex: 2;
   min-width: 300px;
+  max-width: 100%;
+
   background: white;
   padding: 10px;
   border-radius: 8px;
-  height: fit-content;
-  font-family: Arial, sans-serif;
-}
 
+  height: fit-content;
+}
 
 .match {
   background: white;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
-  font-family: Arial, sans-serif;
 }
 
+/* =========================
+   INFO BOX PARTITA
+========================= */
+.info-box {
+  background: #f5f5f5;
+  border-left: 4px solid #770000;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.info-box h4 {
+  margin-top: 0;
+  color: #333;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
+}
+
+.info-box ul {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.info-box li {
+  margin: 4px 0;
+}
+
+/* layout interno info */
 .info-grid {
   display: flex;
   gap: 15px;
@@ -115,10 +146,10 @@ h2, h3 {
 
 .info-right {
   flex: 1;
-  background: #f5f5f5;
+  background: white;
   padding: 12px;
   border-radius: 8px;
-  border-left: 4px solid #770000f2;
+  border-left: 4px solid #770000;
 }
 
 /* =========================
@@ -127,10 +158,11 @@ h2, h3 {
 .stats {
   flex: 1;
   min-width: 280px;
+  max-width: 100%;
+
   background: white;
   padding: 10px;
   border-radius: 8px;
-  font-family: Arial, sans-serif;
 }
 
 .ranking-card {
@@ -146,9 +178,9 @@ h2, h3 {
 }
 
 .rank {
-  font-weight: bold;
-  font-size: 18px;
   width: 30px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .info {
@@ -174,64 +206,31 @@ h2, h3 {
    BOTTONI
 ========================= */
 button {
-  margin-top: 5px;
+  margin-top: 8px;
   margin-left: 40px;
   padding: 6px 12px;
-  cursor: pointer;
 
-  background: #770000f2;
+  background: #770000;
   color: white;
 
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 
   -webkit-appearance: none;
   appearance: none;
-
-  display: inline-block;
 }
 
 /* =========================
-   INFO BOX
+   MOBILE
 ========================= */
-.info-box {
-  background: #f5f5f5;
-  border-left: 4px solid #770000f2;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 4px;
-  font-family: Arial, sans-serif;
-}
-
-.info-box h4 {
-  margin-top: 0;
-  color: #333;
-  font-family: 'Orbitron', sans-serif;
-  font-weight: 800;
-}
-
-.info-box ul {
-  margin: 8px 0;
-  padding-left: 20px;
-}
-
-.info-box li {
-  margin: 4px 0;
-}
-
 @media (max-width: 768px) {
+
   .top-bar {
     height: 75px;
     padding: 0 10px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: fixed;
-    width: 100%;
-
-    background: #770000f2;
+    width: 100vw;
+    background: #770000;
   }
 
   .logo {
@@ -243,20 +242,17 @@ button {
 
   .logo img {
     width: 48px;
-    height: auto;
-    display: block;
   }
 
   h1 {
     font-size: 1.2rem;
-    margin: 0;
-    text-align: center;
     letter-spacing: 2px;
   }
 
   .page {
     flex-direction: column;
     align-items: stretch;
+
     margin-top: 95px;
     padding: 10px 12px 20px;
   }
@@ -265,6 +261,7 @@ button {
   .stats {
     min-width: auto;
     width: 100%;
+    max-width: 100%;
   }
 
   .info-grid {
@@ -272,12 +269,11 @@ button {
   }
 
   .info-right {
-    margin-top: 10px;
     width: 100%;
+    margin-top: 10px;
   }
 
   button {
     margin: 8px 0 0 0;
-    width: auto;
   }
 }
