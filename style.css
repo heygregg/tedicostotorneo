@@ -93,6 +93,24 @@ h2, h3 {
   font-family: Arial, sans-serif;
 }
 
+.info-grid {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.info-left {
+  flex: 2;
+}
+
+.info-right {
+  flex: 1;
+  background: #f5f5f5;
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #770000f2;
+}
+
 /* =========================
    CLASSIFICA
 ========================= */
@@ -224,5 +242,12 @@ button {
     margin: 0;
     text-align: center;
     letter-spacing: 2px;
+  }
+   .info-grid {
+    flex-direction: column;
+  }
+
+  .info-right {
+    margin-top: 10px;
   }
 }
