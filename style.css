@@ -111,6 +111,8 @@ button {
   margin-top: 5px;
   padding: 5px 10px;
   cursor: pointer;
+  background: #770000f2;
+  color: white;
 }
 
 /* =========================
