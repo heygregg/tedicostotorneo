@@ -8,9 +8,10 @@
         "players": ["Alpo", "Cita", "Willo", "Moro", "Bura"],
         "goals": {
             "Cita": 2,
-            "Willo": 1,
+            "Willo": 2,
             "Alpo": 4,
-            "Bura": 4
+            "Bura": 4,
+            "Moro": 2
         }
       },
       {
@@ -19,6 +20,9 @@
         "goals": {
             "Pardo": 3,
             "Damio": 4,
+            "Greg": 5,
+            "Luchezio": 2,
+            "Hamza": 2
         }
       }
     ],

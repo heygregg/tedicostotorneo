@@ -29,6 +29,8 @@ h1 {
   padding: 10px;
   border-radius: 8px;
   height: fit-content;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
 }
 
 /* COLONNA CLASSIFICA */
@@ -38,6 +40,8 @@ h1 {
   background: white;
   padding: 10px;
   border-radius: 8px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
 }
 
 /* CARD PARTITE */
