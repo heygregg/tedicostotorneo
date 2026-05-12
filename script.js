@@ -1,53 +1,68 @@
-const data = {
-  milanInter: `
-    <h3>Milan</h3>
-    <ul>
-      <li>Leao</li>
-      <li>Giroud</li>
-      <li>Theo Hernandez</li>
-    </ul>
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
 
-    <h3>Inter</h3>
-    <ul>
-      <li>Lautaro</li>
-      <li>Barella</li>
-      <li>Bastoni</li>
-    </ul>
-  `,
+h1 {
+  text-align: center;
+}
 
-  juveRoma: `
-    <h3>Juventus</h3>
-    <ul>
-      <li>Chiesa</li>
-      <li>Vlahovic</li>
-      <li>Locatelli</li>
-    </ul>
+.page {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
 
-    <h3>Roma</h3>
-    <ul>
-      <li>Dybala</li>
-      <li>Pellegrini</li>
-      <li>Lukaku</li>
-    </ul>
-  `,
+.matches {
+  flex: 2;
+}
 
-  napoliLazio: `
-    <h3>Napoli</h3>
-    <ul>
-      <li>Osimhen</li>
-      <li>Kvaratskhelia</li>
-      <li>Di Lorenzo</li>
-    </ul>
+.match {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    <h3>Lazio</h3>
-    <ul>
-      <li>Immobile</li>
-      <li>Zaccagni</li>
-      <li>Luis Alberto</li>
-    </ul>
-  `
-};
+.team {
+  font-weight: bold;
+}
 
-function showInfo(match) {
-  document.getElementById("players").innerHTML = data[match];
+.date {
+  margin-left: 10px;
+  font-size: 0.85em;
+  color: gray;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.score {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.info-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.info-panel {
+  flex: 1;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  height: fit-content;
 }
