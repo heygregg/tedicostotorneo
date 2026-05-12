@@ -40,7 +40,10 @@
       },
       {
         "name": "River Pres",
-        "players": ["Pres", "Cita", "Gioi", "Simo", "Spre"]
+        "players": ["Pres", "Cita", "Gioi", "Simo", "Spre"],
+        "goal":{
+
+        }
       }
     ],
     "score": [0, 0]
