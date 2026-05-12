@@ -84,12 +84,17 @@ h2, h3 {
   font-family: Arial, sans-serif;
 }
 
+
 .match {
   background: white;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
   font-family: Arial, sans-serif;
+
+  display: flex;               /* <— NUOVO */
+  justify-content: space-between; /* <— NUOVO */
+  align-items: center;
 }
 
 /* =========================
