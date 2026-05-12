@@ -36,15 +36,24 @@
         "name": "Gioventù Alpina",
         "players": ["Alpo", "Greg", "Bura", "Pardo", "Sera"],
         "goals": {
+            "Alpo": 1,
+            "Greg": 2,
+            "Bura": 5,
+            "Pardo": 1,
+            "Sera": 0
         }
       },
       {
         "name": "River Pres",
         "players": ["Pres", "Cita", "Gioi", "Simo", "Spre"],
         "goals":{
+            "Spre": 4,
+            "Gioi": 3,
+            "Pres": 1,
+            "Simo": 2,
         }
       }
     ],
-    "score": [0, 0]
+    "score": [9, 10]
   }
 ]
