@@ -127,8 +127,8 @@ button {
 }
 
 .logo img {
-  width: 60px;          /* dimensione desktop */
-  height: 60px;
+  width: 120px;          /* dimensione desktop */
+  height: 120px;
   object-fit: contain;  /* mantiene proporzioni */
   filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
 }
