@@ -7,17 +7,19 @@ const matches = [
     players: {
       "Brigata Luchezio": ["PARDO", "GREG", "HAMZA", "DAMIO", "LUCHEZIO"],
       "Gioventù Alpina": ["CITA", "WILLO", "MORO", "ALPO", "BURA"]
-    },
-  }
+    }
+  },
+
+  {
     id: "12052026",
     teams: ["River Pres", "Gioventù Alpina"],
     score: " - ",
     date: "12/05/2026",
     players: {
-    "River Pres": ["CITA", "GIOI", "SIMO", "PRES", "SPRE"],
-    "Gioventù Alpina": ["PARDO", "GREG", "BURA", "ALPO", "SERA"]
+      "River Pres": ["CITA", "GIOI", "SIMO", "PRES", "SPRE"],
+      "Gioventù Alpina": ["PARDO", "GREG", "BURA", "ALPO", "SERA"]
     }
-}
+  }
 ];
 
 const matchesContainer = document.getElementById("matches");
