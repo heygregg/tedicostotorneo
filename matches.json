@@ -12,14 +12,14 @@
         }
       },
       {
-        "name": "Inter",
-        "players": ["Giocatore 6", "Giocatore 7", "Giocatore 8", "Giocatore 9", "Giocatore 10"],
+        "name": "Brigata Luchezio",
+        "players": ["Luchezio", "Greg", "Pardo", "Dimoz", "Hamza"],
         "goals": {
-          "Giocatore 7": 1,
-          "Giocatore 9": 1
+          "Luchezio": 1,
+          "Hamza": 1
         }
       }
     ],
-    "score": [3, 2]
+    "score": [14, 18]
   }
 ]
