@@ -9,14 +9,16 @@
         "goals": {
             "Cita": 2,
             "Willo": 1,
-            "Alpo": 4
+            "Alpo": 4,
+            "Bura": 4
         }
       },
       {
         "name": "Brigata Luchezio",
         "players": ["Luchezio", "Greg", "Pardo", "Dimoz", "Hamza"],
         "goals": {
-            "Pardo": 3
+            "Pardo": 3,
+            "Damio": 4,
         }
       }
     ],
