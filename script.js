@@ -1,129 +1,142 @@
-// Questo script carica i dati delle partite da un file JSON e li visualizza nella pagina web.
-// Gestisce la visualizzazione delle partite, della classifica delle squadre e dei marcatori.
+// Questo script carica i dati delle partite da un file JSON e li visualizza nella pagina.
+// Gestisce: elenco partite, classifica squadre e marcatori.
 
-let matches = [];
+let matches = []; // Array che conterrà tutte le partite caricate dal JSON
 
 // Carica i dati dal file matches.json
 fetch("matches.json")
-  .then(res => res.json())
+  .then(res => res.json()) // Converte la risposta in JSON
   .then(data => {
-    matches = data;
+    matches = data; // Salva i dati nel nostro array
 
-    renderMatches();
-    renderRanking();
-    renderScorers();
+    renderMatches();  // Mostra le partite
+    renderRanking();  // Calcola e mostra la classifica
+    renderScorers();  // Calcola e mostra i marcatori
   })
   .catch(err => {
-    console.error("Errore caricamento JSON:", err);
+    console.error("Errore caricamento JSON:", err); // Gestione errori
   });
 
 /* =========================
    PARTITE
 ========================= */
-// Funzione per visualizzare le partite nella pagina
+
+// Funzione che crea e mostra tutte le partite nella pagina
 function renderMatches() {
-  const container = document.getElementById("matches");
-  container.innerHTML = "";
+  const container = document.getElementById("matches"); // Contenitore HTML
+  container.innerHTML = ""; // Pulisce eventuali contenuti precedenti
 
-  matches.forEach(m => {
-    const div = document.createElement("div");
-    div.className = "match";
+  matches.forEach(m => { // Cicla ogni partita
+    const div = document.createElement("div"); // Crea un blocco per la partita
+    div.className = "match"; // Applica la classe CSS
 
-    let isOpen = false;
+    let isOpen = false; // Stato per mostrare/nascondere i dettagli
 
-    const infoBox = document.createElement("div");
+    const infoBox = document.createElement("div"); // Box con i dettagli della partita
     infoBox.className = "info-box";
-    infoBox.style.display = "none";
+    infoBox.style.display = "none"; // Nascosto di default
 
-    const btn = document.createElement("button");
+    const btn = document.createElement("button"); // Pulsante INFO
     btn.textContent = "INFO";
 
-    // Funzione per rendere le informazioni dettagliate della partita
+    // Funzione che genera l'HTML dei dettagli della partita
     function renderInfo() {
       let html = `<h4>${m.teams[0].name} vs ${m.teams[1].name}</h4>`;
 
+      // Per ogni squadra della partita
       m.teams.forEach(t => {
         html += `<strong>${t.name}</strong><ul>`;
+
         if (!t.goals) {
+          // Se non ci sono dati sui goal
           html += `<li><em>Goal non assegnati</em></li>`;
         } else {
+          // Per ogni giocatore della squadra
           t.players.forEach(p => {
-            const g = t.goals[p] || 0;
+            const g = t.goals[p] || 0; // Goal del giocatore (0 se non presente)
             html += `<li>${p} - Gol: ${g}</li>`;
           });
         }
+
         html += `</ul>`;
       });
 
-      infoBox.innerHTML = html;
+      infoBox.innerHTML = html; // Inserisce l'HTML nel box
     }
 
-    // Gestisce il click del pulsante INFO per mostrare/nascondere i dettagli
+    // Gestisce il click del pulsante INFO
     btn.onclick = () => {
-      isOpen = !isOpen;
+      isOpen = !isOpen; // Inverte lo stato (aperto/chiuso)
 
       if (isOpen) {
-        renderInfo();
-        infoBox.style.display = "block";
-        btn.textContent = "MOSTRA MENO";
+        renderInfo(); // Genera i dettagli
+        infoBox.style.display = "block"; // Mostra il box
+        btn.textContent = "MOSTRA MENO"; // Cambia testo pulsante
       } else {
-        infoBox.style.display = "none";
-        btn.textContent = "INFO";
+        infoBox.style.display = "none"; // Nasconde il box
+        btn.textContent = "INFO"; // Ripristina testo pulsante
       }
     };
 
+    // Inserisce le informazioni principali della partita
     div.innerHTML = `
-      <strong>${m.teams[0].name} vs ${m.teams[1].name}</strong>&nbsp;&nbsp;&nbsp;&nbsp;Data: ${m.date}<br>
+      <strong>${m.teams[0].name} vs ${m.teams[1].name}</strong>
+      &nbsp;&nbsp;&nbsp;&nbsp;Data: ${m.date}<br>
       Risultato: ${m.score[0]} - ${m.score[1]}
     `;
 
-    div.appendChild(btn);
-    div.appendChild(infoBox);
+    div.appendChild(btn);     // Aggiunge il pulsante
+    div.appendChild(infoBox); // Aggiunge il box dei dettagli
 
-    container.appendChild(div);
+    container.appendChild(div); // Aggiunge la partita al contenitore
   });
 }
 
 /* =========================
    CLASSIFICA SQUADRE
 ========================= */
-// Funzione per calcolare e visualizzare la classifica delle squadre
+
+// Funzione che calcola e mostra la classifica
 function renderRanking() {
-  const table = {}; // Oggetto per memorizzare punti, goal fatti e subiti
+  const table = {}; // Oggetto che conterrà punti, goal fatti e subiti per squadra
 
   matches.forEach(m => {
-    const a = m.teams[0].name;
-    const b = m.teams[1].name;
+    const a = m.teams[0].name; // Nome squadra A
+    const b = m.teams[1].name; // Nome squadra B
 
+    // Se la squadra non esiste ancora nella tabella, la crea
     if (!table[a]) table[a] = { points: 0, gf: 0, ga: 0 };
     if (!table[b]) table[b] = { points: 0, gf: 0, ga: 0 };
 
+    // Aggiorna goal fatti e subiti
     table[a].gf += m.score[0];
     table[a].ga += m.score[1];
     table[b].gf += m.score[1];
     table[b].ga += m.score[0];
 
-    // Assegna punti: 3 per vittoria, 1 per pareggio, 0 per sconfitta
+    // Assegna punti
     if (m.score[0] > m.score[1]) {
-      table[a].points += 3;
+      table[a].points += 3; // Vittoria squadra A
     } else if (m.score[1] > m.score[0]) {
-      table[b].points += 3;
+      table[b].points += 3; // Vittoria squadra B
     } else {
-      table[a].points += 1;
+      table[a].points += 1; // Pareggio
       table[b].points += 1;
     }
   });
 
-  const el = document.getElementById("ranking");
+  const el = document.getElementById("ranking"); // Contenitore classifica
 
+  // Ordina le squadre per punti e differenza reti
   el.innerHTML = Object.entries(table)
     .sort(([, a], [, b]) => {
-      if (b.points !== a.points) return b.points - a.points;
-      const gdA = a.gf - a.ga;
-      const gdB = b.gf - b.ga;
-      return gdB - gdA;
+      if (b.points !== a.points) return b.points - a.points; // Prima i punti
+      const gdA = a.gf - a.ga; // Differenza reti squadra A
+      const gdB = b.gf - b.ga; // Differenza reti squadra B
+      return gdB - gdA; // Ordina per differenza reti
     })
     .map(([team, stats], index) =>
+      // Genera la card HTML della squadra
       `<div class="ranking-card">
         <div class="rank">${index + 1}</div>
         <div class="info">
@@ -139,29 +152,32 @@ function renderRanking() {
 /* =========================
    MARCATORI
 ========================= */
-// Funzione per calcolare e visualizzare i marcatori (giocatori con più gol)
+
+// Funzione che calcola e mostra i marcatori
 function renderScorers() {
-  const scorers = {};
+  const scorers = {}; // Oggetto: giocatore → gol totali
 
   matches.forEach(m => {
     m.teams.forEach(t => {
-      if (!t.goals) return; // 👈 fondamentale
+      if (!t.goals) return; // Se la squadra non ha goal registrati, salta
 
+      // Somma i goal di ogni giocatore
       for (const [player, goals] of Object.entries(t.goals)) {
         scorers[player] = (scorers[player] || 0) + goals;
       }
     });
   });
 
-  const el = document.getElementById("scorers");
+  const el = document.getElementById("scorers"); // Contenitore marcatori
 
   const entries = Object.entries(scorers);
 
   if (entries.length === 0) {
-    el.innerHTML = "Nessun marcatore disponibile";
+    el.innerHTML = "Nessun marcatore disponibile"; // Nessun dato
     return;
   }
 
+  // Ordina i giocatori per numero di goal
   el.innerHTML = entries
     .sort((a, b) => b[1] - a[1])
     .map(s => `<div>${s[0]}: ${s[1]} gol</div>`)
