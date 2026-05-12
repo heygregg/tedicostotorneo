@@ -34,7 +34,7 @@ function renderMatches() {
       <span class="date">${match.date}</span>
       <div class="right-side">
         <span class="score">${match.score}</span>
-        <button class="info-btn" onclick="showInfo('${match.id}')">Info</button>
+        <button class="info-btn" onclick="showInfo('${match.id}')">INFO</button>
       </div>
     `;
 
