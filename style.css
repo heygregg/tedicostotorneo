@@ -167,7 +167,9 @@ button {
     height: 130px;
     padding: 10px 0;
   }
-
+  .top-bar {
+    background: #770000f2; /* solido, niente trasparenza */
+  }
   .logo {
     position: static;   /* IMPORTANTISSIMO: toglie il posizionamento assoluto */
     margin-bottom: 5px;
