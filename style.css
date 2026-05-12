@@ -159,14 +159,19 @@ button {
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+
+    position: fixed;
+    width: 100%;
 
     background: #770000f2;
   }
 
   .logo {
-    position: static;   /* 🔥 fondamentale */
-    flex: 0 0 auto;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .logo img {
@@ -176,10 +181,9 @@ button {
   }
 
   h1 {
-    flex: 1;
-    text-align: center;
     font-size: 1.2rem;
     margin: 0;
+    text-align: center;
     letter-spacing: 2px;
   }
 }
