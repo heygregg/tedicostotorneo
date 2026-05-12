@@ -40,36 +40,46 @@ function renderMatches() {
     btn.textContent = "INFO";
 
     // Funzione che genera l'HTML dei dettagli della partita
-    function renderInfo() {
-      let html = `<h4>${m.teams[0].name} vs ${m.teams[1].name}</h4>`;
+    function renderInfo(m) {
+      let left = `<h4>${m.teams[0].name} vs ${m.teams[1].name}</h4>`;
 
-      // Per ogni squadra della partita
       m.teams.forEach(t => {
-        html += `<strong>${t.name}</strong><ul>`;
+        left += `<strong>${t.name}</strong><ul>`;
 
         if (!t.goals) {
-          // Se non ci sono dati sui goal
-          html += `<li><em>Goal non assegnati</em></li>`;
+          left += `<li><em>Goal non assegnati</em></li>`;
         } else {
-          // Per ogni giocatore della squadra
           t.players.forEach(p => {
-            const g = t.goals[p] || 0; // Goal del giocatore (0 se non presente)
-            html += `<li>${p} - Gol: ${g}</li>`;
+            const g = t.goals[p] || 0;
+            left += `<li>${p} - Gol: ${g}</li>`;
           });
         }
 
-        html += `</ul>`;
+        left += `</ul>`;
       });
 
-      infoBox.innerHTML = html; // Inserisce l'HTML nel box
-    }
+      const right = `
+        <div class="match-desc">
+          <h4>Analisi partita</h4>
+          <p><strong>Data:</strong> ${m.date}</p>
+          <p>${m.description || "Nessuna descrizione disponibile."}</p>
+        </div>
+      `;
+
+      infoBox.innerHTML = `
+        <div class="info-grid">
+          <div class="info-left">${left}</div>
+          <div class="info-right">${right}</div>
+        </div>
+      `;
+}
 
     // Gestisce il click del pulsante INFO
     btn.onclick = () => {
       isOpen = !isOpen; // Inverte lo stato (aperto/chiuso)
 
       if (isOpen) {
-        renderInfo(); // Genera i dettagli
+        renderInfo(m); // Genera i dettagli
         infoBox.style.display = "block"; // Mostra il box
         btn.textContent = "MOSTRA MENO"; // Cambia testo pulsante
       } else {
