@@ -120,7 +120,7 @@ button {
 
 .logo {
   position: fixed;      /* resta fisso anche durante lo scroll */
-  top: 20px;            /* distanza dall'alto */
+  top: 10px;            /* distanza dall'alto */
   left: 20px;           /* distanza da sinistra */
   z-index: 1000;        /* sopra agli altri elementi */
   display: block;
