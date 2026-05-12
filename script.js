@@ -145,7 +145,7 @@ function renderRanking() {
         <div class="info">
           <div class="team">${team}</div>
           <div class="sub">
-            ${stats.played} partite • GF ${stats.gf} • GS ${stats.ga}
+            ${stats.played} match • Goal Fatti ${stats.gf} • Goal Subiti ${stats.ga}
           </div>
         </div>
         <div class="points">${stats.points}</div>
