@@ -1,70 +1,93 @@
-const matches = [
-  {
-    id: "06052026",
-    teams: ["Brigata Luchezio", "Gioventù Alpina"],
-    score: "18 - 14",
-    date: "06/05/2026",
-    players: {
-      "Brigata Luchezio": ["PARDO", "GREG", "HAMZA", "DAMIO", "LUCHEZIO"],
-      "Gioventù Alpina": ["CITA", "WILLO", "MORO", "ALPO", "BURA"]
-    }
-  },
+let matches = [];
 
-  {
-    id: "12052026",
-    teams: ["River Pres", "Gioventù Alpina"],
-    score: " - ",
-    date: "12/05/2026",
-    players: {
-      "River Pres": ["CITA", "GIOI", "SIMO", "PRES", "SPRE"],
-      "Gioventù Alpina": ["PARDO", "GREG", "BURA", "ALPO", "SERA"]
-    }
-  }
-];
-
-const matchesContainer = document.getElementById("matches");
+fetch("matches.json")
+  .then(res => res.json())
+  .then(data => {
+    matches = data;
+    renderMatches();
+    renderRanking();
+    renderScorers();
+  });
 
 function renderMatches() {
-  matchesContainer.innerHTML = "";
+  const container = document.getElementById("matches");
+  container.innerHTML = "";
 
-  matches.forEach(match => {
+  matches.forEach(m => {
     const div = document.createElement("div");
     div.className = "match";
 
     div.innerHTML = `
-      <span class="team">${match.teams[0]} vs ${match.teams[1]}</span>
-      <span class="date">${match.date}</span>
-      <div class="right-side">
-        <span class="score">${match.score}</span>
-        <button class="info-btn" onclick="showInfo('${match.id}')">INFO</button>
-      </div>
+      <strong>${m.teams[0].name} vs ${m.teams[1].name}</strong><br>
+      Risultato: ${m.score[0]} - ${m.score[1]}<br>
     `;
 
-    matchesContainer.appendChild(div);
+    const btn = document.createElement("button");
+    btn.textContent = "INFO";
+    btn.onclick = () => showMatch(m);
+
+    div.appendChild(btn);
+    container.appendChild(div);
   });
 }
 
-function showInfo(id) {
-  const container = document.getElementById("players");
+function showMatch(match) {
+  const c = document.getElementById("players");
 
-  const match = matches.find(m => m.id === id);
+  let html = `<h3>${match.teams[0].name} vs ${match.teams[1].name}</h3>`;
 
-  if (!match) {
-    container.innerHTML = "Partita non trovata";
-    return;
-  }
-
-  let html = `<h3>${match.teams[0]} vs ${match.teams[1]}</h3>`;
-
-  for (const [team, players] of Object.entries(match.players)) {
-    html += `<h4>${team}</h4><ul>`;
-    players.forEach(p => {
-      html += `<li>${p}</li>`;
+  match.teams.forEach(t => {
+    html += `<h4>${t.name}</h4><ul>`;
+    t.players.forEach(p => {
+      const g = t.goals[p] || 0;
+      html += `<li>${p} - Gol: ${g}</li>`;
     });
     html += `</ul>`;
-  }
+  });
 
-  container.innerHTML = html;
+  c.innerHTML = html;
 }
 
-renderMatches();
+function renderRanking() {
+  const table = {};
+
+  matches.forEach(m => {
+    const a = m.teams[0].name;
+    const b = m.teams[1].name;
+
+    if (!table[a]) table[a] = 0;
+    if (!table[b]) table[b] = 0;
+
+    if (m.score[0] > m.score[1]) table[a] += 3;
+    else if (m.score[1] > m.score[0]) table[b] += 3;
+    else {
+      table[a] += 1;
+      table[b] += 1;
+    }
+  });
+
+  const el = document.getElementById("ranking");
+  el.innerHTML = Object.entries(table)
+    .sort((a, b) => b[1] - a[1])
+    .map(t => `<div>${t[0]}: ${t[1]} punti</div>`)
+    .join("");
+}
+
+function renderScorers() {
+  const scorers = {};
+
+  matches.forEach(m => {
+    m.teams.forEach(t => {
+      for (const [player, goals] of Object.entries(t.goals)) {
+        scorers[player] = (scorers[player] || 0) + goals;
+      }
+    });
+  });
+
+  const el = document.getElementById("scorers");
+
+  el.innerHTML = Object.entries(scorers)
+    .sort((a, b) => b[1] - a[1])
+    .map(s => `<div>${s[0]}: ${s[1]} gol</div>`)
+    .join("");
+}

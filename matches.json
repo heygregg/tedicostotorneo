@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1",
+    "date": "12/05/2026",
+    "teams": [
+      {
+        "name": "Milan",
+        "players": ["Giocatore 1", "Giocatore 2", "Giocatore 3", "Giocatore 4", "Giocatore 5"],
+        "goals": {
+          "Giocatore 1": 1,
+          "Giocatore 3": 2
+        }
+      },
+      {
+        "name": "Inter",
+        "players": ["Giocatore 6", "Giocatore 7", "Giocatore 8", "Giocatore 9", "Giocatore 10"],
+        "goals": {
+          "Giocatore 7": 1,
+          "Giocatore 9": 1
+        }
+      }
+    ],
+    "score": [3, 2]
+  }
+]
