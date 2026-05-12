@@ -5,11 +5,17 @@
     "teams": [
       {
         "name": "Gioventù Alpina",
-        "players": ["Alpo", "Cita", "Willo", "Moro", "Bura"]
+        "players": ["Alpo", "Cita", "Willo", "Moro", "Bura"],
+        "goal": {
+            "Cita": 2,
+        }
       },
       {
         "name": "Brigata Luchezio",
-        "players": ["Luchezio", "Greg", "Pardo", "Dimoz", "Hamza"]
+        "players": ["Luchezio", "Greg", "Pardo", "Dimoz", "Hamza"],
+        "goal": {
+            "Pardo": 3
+        }
       }
     ],
     "score": [14, 18]
