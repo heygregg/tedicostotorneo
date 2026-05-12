@@ -173,7 +173,7 @@ button {
   .top-bar {
     flex-direction: column;
     justify-content: center;
-    height: 130px;
+    height: 90px;
     padding: 10px 0;
   }
   .top-bar {
