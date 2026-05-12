@@ -105,9 +105,12 @@ function renderRanking() {
     const b = m.teams[1].name; // Nome squadra B
 
     // Se la squadra non esiste ancora nella tabella, la crea
-    if (!table[a]) table[a] = { points: 0, gf: 0, ga: 0 };
-    if (!table[b]) table[b] = { points: 0, gf: 0, ga: 0 };
+    if (!table[a]) table[a] = { points: 0, gf: 0, ga: 0, played: 0 };
+    if (!table[b]) table[b] = { points: 0, gf: 0, ga: 0, played: 0 };
 
+    table[a].played++;
+    table[b].played++;
+    
     // Aggiorna goal fatti e subiti
     table[a].gf += m.score[0];
     table[a].ga += m.score[1];
@@ -141,7 +144,9 @@ function renderRanking() {
         <div class="rank">${index + 1}</div>
         <div class="info">
           <div class="team">${team}</div>
-          <div class="sub">GF ${stats.gf} • GS ${stats.ga}</div>
+          <div class="sub">
+            ${stats.played} partite • GF ${stats.gf} • GS ${stats.ga}
+          </div>
         </div>
         <div class="points">${stats.points}</div>
       </div>`
