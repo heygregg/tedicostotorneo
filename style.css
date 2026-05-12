@@ -1,41 +1,78 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 10px;
+  padding: 0;
   background: #290d86;
   color: #000;
 }
 
 /* =========================
-   TITOLI (SOLO ORBITRON 800)
+   HEADER FISSO
+========================= */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(8px);
+
+  z-index: 1000;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.4);
+}
+
+/* LOGO dentro header */
+.logo {
+  position: absolute;
+  left: 20px;
+}
+
+.logo img {
+  width: 90px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 5px 6px rgba(0,0,0,0.3));
+}
+
+/* =========================
+   TITOLI
 ========================= */
 h1 {
   text-align: center;
   color: white;
   font-family: 'Orbitron', sans-serif;
   font-weight: 900;
-  letter-spacing: 2px;
+  font-size: 2.8rem;
+  letter-spacing: 4px;
   text-transform: uppercase;
-  margin-bottom: 60px;
+  margin: 0;
 }
 
-/* eventuali sottotitoli */
 h2, h3 {
   font-family: 'Orbitron', sans-serif;
   font-weight: 800;
 }
 
 /* =========================
-   LAYOUT
+   SPAZIO CONTENUTO (IMPORTANTISSIMO)
 ========================= */
 .page {
   display: flex;
   gap: 15px;
   align-items: flex-start;
+
+  margin-top: 140px; /* evita che finisca sotto header */
+  padding: 10px;
 }
 
 /* =========================
-   PARTITE (TESTO NORMALE)
+   PARTITE
 ========================= */
 .matches {
   flex: 2;
@@ -44,23 +81,19 @@ h2, h3 {
   padding: 10px;
   border-radius: 8px;
   height: fit-content;
-
-  /* ❌ tolto Orbitron */
   font-family: Arial, sans-serif;
 }
 
-/* singola partita */
 .match {
   background: white;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
-
   font-family: Arial, sans-serif;
 }
 
 /* =========================
-   CLASSIFICA / MARCATORI
+   CLASSIFICA
 ========================= */
 .stats {
   flex: 1;
@@ -68,7 +101,6 @@ h2, h3 {
   background: white;
   padding: 10px;
   border-radius: 8px;
-
   font-family: Arial, sans-serif;
 }
 
@@ -78,6 +110,7 @@ h2, h3 {
 button {
   margin-top: 5px;
   padding: 5px 10px;
+  cursor: pointer;
 }
 
 /* =========================
@@ -89,14 +122,12 @@ button {
   padding: 10px;
   margin-top: 10px;
   border-radius: 4px;
-
   font-family: Arial, sans-serif;
 }
 
 .info-box h4 {
   margin-top: 0;
   color: #333;
-
   font-family: 'Orbitron', sans-serif;
   font-weight: 800;
 }
@@ -117,27 +148,12 @@ button {
   .page {
     flex-direction: column;
   }
-}
 
-.logo {
-  position: fixed;      /* resta fisso anche durante lo scroll */
-  top: 10px;            /* distanza dall'alto */
-  left: 20px;           /* distanza da sinistra */
-  z-index: 1000;        /* sopra agli altri elementi */
-  display: block;
-}
+  h1 {
+    font-size: 1.8rem;
+  }
 
-.logo img {
-  width: 180px;          /* dimensione desktop */
-  height: 180px;
-  object-fit: contain;  /* mantiene proporzioni */
-  filter: drop-shadow(0 5px 6px rgba(0,0,0,0.3));
-}
-
-/* Responsive per mobile */
-@media (max-width: 768px) {
   .logo img {
-    width: 40px;
-    height: 40px;
+    width: 60px;
   }
 }
