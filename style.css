@@ -173,21 +173,20 @@ button {
   .top-bar {
     flex-direction: column;
     justify-content: center;
-    height: 90px;
-    padding: 10px 0;
+
+    height: 70px;       /* ↓ più bassa */
+    padding: 0;         /* IMPORTANTISSIMO */
+    background: #770000f2;
   }
-  .top-bar {
-    background: #770000f2; /* solido, niente trasparenza */
-  }
+
   .logo {
-    position: static;   /* IMPORTANTISSIMO: toglie il posizionamento assoluto */
-    margin-bottom: 4px;
-    margin-top: 5px;
+    position: static;
+    margin-top: -5px;   /* lo alza verso il bordo alto */
+    margin-bottom: 2px;
   }
 
   .logo img {
-    width: 55px;
-    height: auto;
+    width: 50px;
   }
 
   h1 {
