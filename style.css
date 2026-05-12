@@ -117,3 +117,26 @@ button {
     flex-direction: column;
   }
 }
+
+.logo {
+  position: fixed;      /* resta fisso anche durante lo scroll */
+  top: 20px;            /* distanza dall'alto */
+  left: 20px;           /* distanza da sinistra */
+  z-index: 1000;        /* sopra agli altri elementi */
+  display: block;
+}
+
+.logo img {
+  width: 60px;          /* dimensione desktop */
+  height: 60px;
+  object-fit: contain;  /* mantiene proporzioni */
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
+}
+
+/* Responsive per mobile */
+@media (max-width: 768px) {
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+}
