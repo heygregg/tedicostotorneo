@@ -152,46 +152,37 @@ button {
   margin: 4px 0;
 }
 
-/* =========================
-   MOBILE
-========================= */
-@media (max-width: 700px) {
-  .page {
-    flex-direction: column;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  .logo img {
-    width: 60px;
-  }
-}
-
 @media (max-width: 768px) {
   .top-bar {
-    flex-direction: column;
+    height: 85px;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;   /* 🔥 NON colonna */
+    align-items: center;
     justify-content: center;
 
-    height: 70px;       /* ↓ più bassa */
-    padding: 0;         /* IMPORTANTISSIMO */
     background: #770000f2;
+    position: fixed;
   }
 
   .logo {
-    position: static;
-    margin-top: -5px;   /* lo alza verso il bordo alto */
-    margin-bottom: 2px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%); /* 🔥 centrato verticalmente perfetto */
   }
 
   .logo img {
-    width: 50px;
+    width: 45px;
+    height: auto;
+    display: block;
   }
 
   h1 {
-    font-size: 1.4rem;
-    letter-spacing: 2px;
+    font-size: 1.2rem;
+    margin: 0 auto;
     text-align: center;
+    letter-spacing: 2px;
   }
 }
