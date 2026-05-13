@@ -270,7 +270,7 @@ button:hover {
     font-size: 1.2rem;
     letter-spacing: 2px;
     padding-left: 70px;
-    padding-right: 10px;
+    padding-right: 70px; /* era 10px, lascia spazio ai link */
   }
 
   .page {
