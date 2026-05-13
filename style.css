@@ -54,7 +54,7 @@ body {
 
 .topbar-nav {
   position: absolute;
-  right: 20px;
+  right: 40px;
   display: flex;
   gap: 20px;
 }
