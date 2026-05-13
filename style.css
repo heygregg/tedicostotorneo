@@ -12,7 +12,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #290d86;
+  background: #003049; /*blu scuro
   color: #000;
   -webkit-text-size-adjust: 100%;
   -webkit-overflow-scrolling: touch;
@@ -32,7 +32,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  background: rgba(119, 0, 0, 0.95);
+  background: #d62828; #rosso scuro
   backdrop-filter: blur(8px);
 
   z-index: 1000;
