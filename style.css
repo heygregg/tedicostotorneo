@@ -145,7 +145,11 @@ h2, h3 {
 .info-left {
   flex: 2;
 }
-
+.info-right {
+  flex: 1;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 15px;
+}
 /* =========================
    CLASSIFICA
 ========================= */
