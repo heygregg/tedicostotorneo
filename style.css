@@ -222,6 +222,10 @@ button {
   appearance: none;
 }
 
+button:hover {
+  background-color: #e63946;
+}
+
 /* =========================
    MOBILE
 ========================= */
