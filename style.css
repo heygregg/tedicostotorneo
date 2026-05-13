@@ -161,7 +161,7 @@ h2, h3 {
   min-width: 280px;
   max-width: 100%;
 
-  background: white;
+  background: #457b9d;
   padding: 10px;
   border-radius: 8px;
 }
@@ -200,7 +200,7 @@ h2, h3 {
 .points {
   font-size: 18px;
   font-weight: bold;
-  color: #770000;
+  color: #e63946;
 }
 
 /* =========================
