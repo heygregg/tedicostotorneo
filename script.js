@@ -209,6 +209,7 @@ function renderScorers() {
     </div>
   `)
   .join("");
+}
 
 function renderPlayers() {
   const players = {};
