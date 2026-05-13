@@ -12,6 +12,7 @@ fetch("matches.json")
     renderMatches();  // Mostra le partite
     renderRanking();  // Calcola e mostra la classifica
     renderScorers();  // Calcola e mostra i marcatori
+    renderPlayeres();
   })
   .catch(err => {
     console.error("Errore caricamento JSON:", err); // Gestione errori
@@ -196,5 +197,52 @@ function renderScorers() {
   el.innerHTML = entries
     .sort((a, b) => b[1] - a[1])
     .map(s => `<div>${s[0]}: ${s[1]} gol</div>`)
+    .join("");
+}
+
+function renderPlayers() {
+  const players = {};
+
+  matches.forEach(m => {
+    let pointsA, pointsB;
+    if (m.score[0] > m.score[1]) {
+      pointsA = 3; pointsB = 0;
+    } else if (m.score[1] > m.score[0]) {
+      pointsA = 0; pointsB = 3;
+    } else {
+      pointsA = 1; pointsB = 1;
+    }
+
+    m.teams.forEach((t, index) => {
+      const teamPoints = index === 0 ? pointsA : pointsB;
+
+      t.players.forEach(p => {
+        if (!players[p]) players[p] = { played: 0, points: 0 };
+        players[p].played++;
+        players[p].points += teamPoints;
+      });
+    });
+  });
+
+  const el = document.getElementById("players");
+  const entries = Object.entries(players);
+
+  if (entries.length === 0) {
+    el.innerHTML = "Nessun giocatore disponibile";
+    return;
+  }
+
+  el.innerHTML = entries
+    .sort(([, a], [, b]) => b.points - a.points)
+    .map(([name, stats], index) =>
+      `<div class="ranking-card">
+        <div class="rank">${index + 1}</div>
+        <div class="info">
+          <div class="team">${name}</div>
+          <div class="sub">${stats.played} partite giocate</div>
+        </div>
+        <div class="points">${stats.points} pt</div>
+      </div>`
+    )
     .join("");
 }
