@@ -51,7 +51,7 @@ function renderMatches() {
           left += `<li><em>Goal non assegnati</em></li>`; //
         } else {
           t.players.forEach(p => { // per ogni squadra, cicla i giocatori 'p' e dall'array goals prende i goal di ogni p
-            const g = t.goals[p] || 0; // assegna quei goal a una costatne g. Se non ci sono goal inserisce '0'
+            const g = t.goals[p] || 0; // assegna quei goal a una costante g. Se non ci sono goal inserisce '0'
             left += `<li>${p} - Gol: ${g}</li>`; // aggiunge alla stringa la riga tipo <li> Greg - Gol: 3 </li>
           });
         }
