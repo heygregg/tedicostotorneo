@@ -146,20 +146,6 @@ h2, h3 {
   flex: 2;
 }
 
-.match-desc {
-  background-color: #e63946;
-  padding: 10px;
-}
-
-.info-right {
-  width: 100%;
-  background: #f1faee;
-  padding: 12px;
-  border-radius: 8px;
-  border-left: 4px solid #770000;
-  box-sizing: border-box;
-}
-
 /* =========================
    CLASSIFICA
 ========================= */
