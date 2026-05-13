@@ -110,24 +110,24 @@ function renderMatches() {
 function renderRanking() {
   const table = {}; // Oggetto che conterrà punti, goal fatti e subiti per squadra
 
-  matches.forEach(m => {
-    const a = m.teams[0].name; // Nome squadra A
-    const b = m.teams[1].name; // Nome squadra B
+  matches.forEach(m => { //cicla ogni partita 
+    const a = m.teams[0].name; // Nome squadra A //per ogni partita assegna il nome della prima squadra ad a
+    const b = m.teams[1].name; // Nome squadra B //per ogni partita assegna il nome della seconda squadra a b
 
     // Se la squadra non esiste ancora nella tabella, la crea
     if (!table[a]) table[a] = { points: 0, gf: 0, ga: 0, played: 0 };
     if (!table[b]) table[b] = { points: 0, gf: 0, ga: 0, played: 0 };
 
-    table[a].played++;
+    table[a].played++; //cerca nel dizionario table{} una determinata squadra e incrementa le partite giocate
     table[b].played++;
     
-    // Aggiorna goal fatti e subiti
+    // Aggiorna goal fatti e subiti per ogni squadra nel dizionario table{}
     table[a].gf += m.score[0];
     table[a].ga += m.score[1];
     table[b].gf += m.score[1];
     table[b].ga += m.score[0];
 
-    // Assegna punti
+    // Assegna punti in base ai valori dentro l'array score
     if (m.score[0] > m.score[1]) {
       table[a].points += 3; // Vittoria squadra A
     } else if (m.score[1] > m.score[0]) {
@@ -141,14 +141,14 @@ function renderRanking() {
   const el = document.getElementById("ranking"); // Contenitore classifica
 
   // Ordina le squadre per punti e differenza reti
-  el.innerHTML = Object.entries(table)
-    .sort(([, a], [, b]) => {
-      if (b.points !== a.points) return b.points - a.points; // Prima i punti
+  el.innerHTML = Object.entries(table) //converte l'oggetto in un array di coppie
+    .sort(([, a], [, b]) => { //ordina il dizionario;la virgola prima di a e b salta il primo elemnto della coppia (il nome squadra)
+      if (b.points !== a.points) return b.points - a.points; // 
       const gdA = a.gf - a.ga; // Differenza reti squadra A
       const gdB = b.gf - b.ga; // Differenza reti squadra B
       return gdB - gdA; // Ordina per differenza reti
     })
-    .map(([team, stats], index) =>
+    .map(([team, stats], index) => //trasforma ogni squadra in una stringa HTML
       // Genera la card HTML della squadra
       `<div class="ranking-card">
         <div class="rank">${index + 1}</div>
@@ -161,7 +161,7 @@ function renderRanking() {
         <div class="points">${stats.points}</div>
       </div>` 
         )
-    .join("");
+    .join(""); //unisce tute le stringhe HTML in una sola senza separatori e la assegna a el.innerHTML
 }
 
 /* =========================
