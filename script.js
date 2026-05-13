@@ -244,7 +244,10 @@ function renderPlayers() {
   }
 
   el.innerHTML = entries
-    .sort(([, a], [, b]) => b.points - a.points)
+    .sort(([, a], [, b]) => {
+        if (b.points !== a.points) return b.points - a.points; // Prima per punti (desc)
+        return a.played - b.played; // A parità di punti, meno partite = più in alto
+    })
     .map(([name, stats], index) =>
       `<div class="ranking-card">
         <div class="rank">${index + 1}</div>
