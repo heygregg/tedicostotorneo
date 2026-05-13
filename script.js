@@ -194,11 +194,21 @@ function renderScorers() {
   }
 
   // Ordina i giocatori per numero di goal
-  el.innerHTML = entries
-    .sort((a, b) => b[1] - a[1])
-    .map(s => `<div>${s[0]}: ${s[1]} gol</div>`)
-    .join("");
-}
+ el.innerHTML = entries
+  .sort((a, b) => b[1] - a[1])
+  .map((s, index) => `
+    <div class="ranking-card">
+      <div class="rank">${index + 1}</div>
+
+      <div class="info">
+        <div class="team">${s[0]}</div>
+        <div class="sub">Marcature totali</div>
+      </div>
+
+      <div class="points">${s[1]} gol</div>
+    </div>
+  `)
+  .join("");
 
 function renderPlayers() {
   const players = {};
