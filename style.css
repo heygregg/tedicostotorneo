@@ -112,7 +112,7 @@ h2, h3 {
 ========================= */
 .info-box {
   background: #457b9d; /* blu chiaro */
-  border-left: 4px solid #770000;
+  border-left: 4px solid #f1faee;
   padding: 10px;
   margin-top: 10px;
   border-radius: 6px;
@@ -152,7 +152,7 @@ h2, h3 {
 
 .info-right {
   flex: 1;
-  background: white;
+  background: #f1faee;
   padding: 12px;
   border-radius: 8px;
   border-left: 4px solid #770000;
