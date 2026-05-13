@@ -160,7 +160,7 @@ h2, h3 {
   flex: 1;
   min-width: 280px;
   max-width: 100%;
-
+  color: white;
   background: #457b9d;
   padding: 10px;
   border-radius: 8px;
