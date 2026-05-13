@@ -170,14 +170,14 @@ function renderRanking() {
 
 // Funzione che calcola e mostra i marcatori
 function renderScorers() {
-  const scorers = {}; // Oggetto: giocatore → gol totali
+  const scorers = {}; // Oggetto: giocatore → gol totali; è un dizionario
 
   matches.forEach(m => {
     m.teams.forEach(t => {
       if (!t.goals) return; // Se la squadra non ha goal registrati, salta
 
       // Somma i goal di ogni giocatore
-      for (const [player, goals] of Object.entries(t.goals)) {
+      for (const [player, goals] of Object.entries(t.goals)) { //Object.entries(t.goals) converte l'oggetto goals in array di coppie:
         scorers[player] = (scorers[player] || 0) + goals;
       }
     });
