@@ -174,7 +174,7 @@ h2, h3 {
   padding: 10px;
   margin-bottom: 8px;
 
-  background: #f5f5f5;
+  background: #f1faee;
   border-radius: 8px;
 }
 
@@ -211,7 +211,7 @@ button {
   margin-left: 40px;
   padding: 6px 12px;
 
-  background: #770000;
+  background: #1d3557; /* blu mare */
   color: white;
 
   border: none;
