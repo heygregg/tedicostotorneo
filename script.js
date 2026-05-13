@@ -50,27 +50,27 @@ function renderMatches() {
         if (!t.goals) { //!goals significa "se il goal non esiste"
           left += `<li><em>Goal non assegnati</em></li>`; //
         } else {
-          t.players.forEach(p => { //per ogni squadra, cicla i giocatori 'p' e dall'array goals prende i goal di ogni p
-            const g = t.goals[p] || 0; //assegna quei goal a una costatne g. Se non ci sono goal inserisce '0'
-            left += `<li>${p} - Gol: ${g}</li>`; //aggiunge alla stringa la riga tipo <li> Greg - Gol: 3 </li>
+          t.players.forEach(p => { // per ogni squadra, cicla i giocatori 'p' e dall'array goals prende i goal di ogni p
+            const g = t.goals[p] || 0; // assegna quei goal a una costatne g. Se non ci sono goal inserisce '0'
+            left += `<li>${p} - Gol: ${g}</li>`; // aggiunge alla stringa la riga tipo <li> Greg - Gol: 3 </li>
           });
         }
 
         left += `</ul>`; //chiude l'elenco dei giocatori
       });
-
+      // costruire la colonna destra con data e descrizione
       const right = `
-        <div class="match-desc">  //costruire la colonna destra con data e descrizione
+        <div class="match-desc">  
           <h4>Analisi partita</h4>
           <p><strong>Data:</strong> ${m.date}</p>
-          <p>${m.description || "Nessuna descrizione disponibile."}</p> // se nel JSON non c'è una descrizione mostra test di default
+          <p>${m.description || "Nessuna descrizione disponibile."}</p> 
         </div>
       `;
-
-      infoBox.innerHTML = ` //innerHTML rappresenta il contenuto interno dell'elemento infoBox. Gli sto assegnando una stringa per dirgli di inserire questo HTML nell'infoBox
+      //innerHTML rappresenta il contenuto interno dell'elemento infoBox. Gli sto assegnando una stringa per dirgli di inserire questo HTML nell'infoBox
+      infoBox.innerHTML = ` 
         <div class="info-grid">
-          <div class="info-left">${left}</div> //inserisce la colonna di sinistra nell'info-box
-          <div class="info-right">${right}</div> //inserisce la colonna di destra nell'info-box
+          <div class="info-left">${left}</div> 
+          <div class="info-right">${right}</div> 
         </div>
       `;
 }
@@ -91,9 +91,9 @@ function renderMatches() {
 
     // Inserisce le informazioni principali della partita nel DIV
     div.innerHTML = `
-      <strong>${m.teams[0].name} vs ${m.teams[1].name}</strong> n//nomi delle squadra in grassetto
-      &nbsp;&nbsp;&nbsp;&nbsp;Data: ${m.date}<br> //creo una piccola distanza prima della data e poi la data
-      Risultato: ${m.score[0]} - ${m.score[1]} //il risultato della partita
+      <strong>${m.teams[0].name} vs ${m.teams[1].name}</strong> <!-- nomi squadre in grassetto -->
+      &nbsp;&nbsp;&nbsp;&nbsp;Data: ${m.date}<br> <!-- creo una piccola distanza prima della data e poi la data -->
+      Risultato: ${m.score[0]} - ${m.score[1]} <!-- il risultato della partita -->
     `;
 
     div.appendChild(btn);     // Aggiunge il pulsante dentro <div class ="match">
