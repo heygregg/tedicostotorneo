@@ -92,7 +92,7 @@ h2, h3 {
   min-width: 300px;
   max-width: 100%;
 
-  background: white;
+  background: #fcbf49; #giallo pastello
   padding: 10px;
   border-radius: 8px;
 
@@ -100,7 +100,7 @@ h2, h3 {
 }
 
 .match {
-  background: white;
+  background: #fcbf49; #giallo pastello
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
