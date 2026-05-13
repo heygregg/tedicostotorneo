@@ -91,8 +91,8 @@ function renderMatches() {
 
     // Inserisce le informazioni principali della partita nel DIV
     div.innerHTML = `
-      <strong>${m.teams[0].name} vs ${m.teams[1].name}</strong> <!-- nomi squadre in grassetto -->
-      &nbsp;&nbsp;&nbsp;&nbsp;Data: ${m.date}<br> <!-- creo una piccola distanza prima della data e poi la data -->
+      <strong>${m.teams[0].name} vs ${m.teams[1].name}</strong><br> <!-- nomi squadre in grassetto -->
+      Data: ${m.date}<br> <!-- creo una piccola distanza prima della data e poi la data -->
       Risultato: ${m.score[0]} - ${m.score[1]} <!-- il risultato della partita -->
     `;
 
