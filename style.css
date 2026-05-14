@@ -244,6 +244,16 @@ button:hover {
 }
 
 /* =========================
+REGOLAMENTO E STORIA
+========================= */
+.storia,
+.regolamento {
+  flex: 1;
+}
+
+
+
+/* =========================
    MOBILE
 ========================= */
 @media (max-width: 768px) {
