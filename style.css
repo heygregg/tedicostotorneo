@@ -189,11 +189,11 @@ h2, h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color:  #EE6A3C;
+  color:  #29005C; /* COLORE FONT CELLE CLASSIFICA */
   padding: 10px;
   margin-bottom: 8px;
 
-  background: #f1faee;
+  background: #F7F6F3; /* SFONDO CELLE CLASSIFICA */
   border-radius: 8px;
 }
 
