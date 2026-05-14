@@ -130,7 +130,7 @@ h2, h3 {
    INFO BOX PARTITA
 ========================= */
 .info-box {
-  background: #457b9d; /* blu chiaro */
+  background: #4A25AA; /* BLU CHIARO --> SFONDO SEZIONE PARTITE */
   border-left: 4px solid #f1faee;
   padding: 10px;
   margin-top: 10px;
@@ -178,7 +178,7 @@ h2, h3 {
   min-width: 280px;
   max-width: 100%;
   color: white;
-  background: #457b9d;
+  background: #4A25AA; /* BLU CHIARO --> SFONDO SEZIONE PARTITE */
   padding: 10px;
   border-radius: 8px;
 }
