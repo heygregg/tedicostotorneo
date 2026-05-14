@@ -257,7 +257,14 @@ REGOLAMENTO E STORIA
   text-align: center;
 }
 
-
+.storia p,
+.regolamento p {
+  color: white;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-bottom: 12px;
+  text-align: left;
+}
 
 /* =========================
    MOBILE
