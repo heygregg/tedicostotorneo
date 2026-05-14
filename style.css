@@ -110,7 +110,7 @@ h2, h3 {
   min-width: 280px;
   max-width: 100%;
   color: white;
-  background: #29005C; /* BLU CHIARO --> SFONDO SEZIONE PARTITE */
+  background: #29005C; /* BLU SCURO --> SFONDO SEZIONE PARTITE */
   padding: 10px;
   border-radius: 8px;
   height: fit-content;
@@ -179,7 +179,7 @@ h2, h3 {
   min-width: 280px;
   max-width: 100%;
   color: white;
-  background: #4A25AA; /* BLU CHIARO --> SFONDO SEZIONE PARTITE */
+  background: #29005C; /* BLU SCURO --> SFONDO SEZIONE PARTITE */
   padding: 10px;
   border-radius: 8px;
   font-size: 34px; /*FONT CLASSIFICA */
