@@ -266,6 +266,13 @@ REGOLAMENTO E STORIA
   text-align: left;
 }
 
+.regolamento ol {
+  text-align: left;
+  padding-left: 20px;
+  color: white;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
 /* =========================
    MOBILE
 ========================= */
