@@ -114,7 +114,7 @@ h2, h3 {
   padding: 10px;
   border-radius: 8px;
   height: fit-content;
-  font-size: 45px;   /* FONT DIMENSION MODIFICATA */
+  font-size: 39px;   /* FONT "Partite Ufficiali" */
 }
 
 .match {
@@ -123,7 +123,7 @@ h2, h3 {
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 8px;
-  font-size: 21px; /* DIMENSIONE FONT MATCH ---------------------------------- CONTROLLO BUG */
+  font-size: 30px; /* FONT elenco partite */
 }
 
 /* =========================
