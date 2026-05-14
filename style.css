@@ -111,7 +111,7 @@ h2, h3 {
   min-width: 300px;
   max-width: 100%;
   color: white;
-  background: #457b9d; /* blu chiaro */
+  background: #4A25AA; /* BLU CHIARO --> SFONDO SEZIONE PARTITE
   padding: 10px;
   border-radius: 8px;
   height: fit-content;
@@ -119,7 +119,7 @@ h2, h3 {
 }
 
 .match {
-  background: #457b9d; /* blu chiaro */
+  background: #4A25AA; /* BLU CHIARO --> SFONDO SEZIONE PARTITE
   color: white;
   padding: 10px;
   margin-bottom: 10px;
