@@ -115,6 +115,7 @@ h2, h3 {
   padding: 10px;
   border-radius: 8px;
   height: fit-content;
+  font-size: 21px;   /* FONT DIMENSION MODIFICATA */
 }
 
 .match {
