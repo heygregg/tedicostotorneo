@@ -32,7 +32,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  background: #29005C; /* BLU SCURO --> SFONDO DELLA PAGINA */
+  background: #29005C; /* BLU SCURO --> SFONDO DELLA BARRA */
   backdrop-filter: blur(8px);
 
   z-index: 1000;
@@ -283,7 +283,7 @@ REGOLAMENTO E STORIA
     height: 75px;
     padding: 0 10px;
     width: 100%;
-    background: #e63946;
+    background: #29005C; /* BLU SCURO --> SFONDO DELLA BARRA */
   }
 
   .logo {
