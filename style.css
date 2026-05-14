@@ -249,6 +249,11 @@ REGOLAMENTO E STORIA
 .storia,
 .regolamento {
   flex: 1;
+  min-height: 300px;
+  background: #457b9d;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
 }
 
 
