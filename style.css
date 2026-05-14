@@ -230,7 +230,7 @@ button {
   margin-left: 40px;
   padding: 6px 12px;
 
-  background: #1d3557; /* blu mare */
+  background: #29005C; /* BLU SCURO --> SFONDO BOTTONE */
   color: white;
 
   border: none;
@@ -242,7 +242,7 @@ button {
 }
 
 button:hover {
-  background-color: #e63946;
+  background-color: #EE6A3C; /* ARANCIONE --> SFONDO BOTTONE QUANDO CI PASSO SOPRA */
 }
 
 /* =========================
