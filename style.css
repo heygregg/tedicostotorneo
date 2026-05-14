@@ -98,7 +98,6 @@ h2, h3 {
   gap: 15px;
   align-items: flex-start;
   justify-content: center;
-
   margin-top: 140px;
   padding: 10px;
 }
@@ -124,7 +123,7 @@ h2, h3 {
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 8px;
-  font-size: 16px; /* DIMENSIONE FONT MATCH */
+  font-size: 35px; /* DIMENSIONE FONT MATCH ---------------------------------- CONTROLLO BUG */
 }
 
 /* =========================
