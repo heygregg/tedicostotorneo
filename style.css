@@ -474,7 +474,7 @@ REGOLAMENTO E STORIA
   display: block;
 }
 
-.player-info {
+.player-info { /* è il riquadro testo sotto la foto. padding: 15px è lo spazio interno tra il testo e i bordi della card. */
   padding: 15px;
 }
 
