@@ -26,4 +26,13 @@
     "caratteristiche": ["Equilibrio", "Velocità", "Resistenza"],
     "qualita": "Esplosività"
   }
+  {
+    "nome": "MORO",
+    "foto": "moro.jpg",
+    "eta": 29,
+    "ruolo": "Portiere",
+    "descrizione": "Portiere affidabile con buoni riflessi e senso della posizione, capace di dare tranquillità alla difesa",
+    "caratteristiche": ["Riflessi", "Posizionamento", "Sicurezza"],
+    "qualita": "Affidabilità."
+  }
 ]
