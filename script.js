@@ -1,5 +1,4 @@
-// Questo script carica i dati delle partite da un file JSON e li visualizza nella pagina.
-// Gestisce: elenco partite, classifica squadre e marcatori.
+// SCRIPT.JS gestisce: elenco partite, classifica squadre e marcatori, galleria foto
 
 let matches = []; // Array che conterrà tutte le partite caricate dal JSON
 
@@ -262,3 +261,8 @@ function renderPlayers() {
     )
     .join("");
 }
+
+/* =========================
+   GALLERIA FOTO
+========================= */
+
