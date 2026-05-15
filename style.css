@@ -252,7 +252,7 @@ REGOLAMENTO E STORIA
 .regolamento {
   flex: 1;
   min-height: 300px;
-  background: #457b9d;
+  background: #4A25AA; /* BLU CHIARO --> SFONDO SEZIONE STORIA E REGOLAMENTO */
   padding: 20px;
   border-radius: 8px;
   color: white;
