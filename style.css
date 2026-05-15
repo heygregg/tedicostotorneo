@@ -453,7 +453,7 @@ REGOLAMENTO E STORIA
 /* =========================
    PLAYERS
 ========================= */
-.players-grid {
+.players-grid {  /* è il contenitore di tutte le card. repeat(4, 1fr) significa 3 colonne di uguale larghezza. gap è lo spazio tra le card. */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
