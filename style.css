@@ -246,7 +246,8 @@ button {
 }
 
 button:hover {
-  background-color: #EE6A3C; /* ARANCIONE --> SFONDO BOTTONE QUANDO CI PASSO SOPRA */
+  color: #29005C;  /* BLU SCURO--> COLORE FONT BOTTONE QUANDO CI PASSO SOPRA */
+  background-color: #F7F6F3;  /* COLORE SFONDO BOTTONE QUANDO CI PASSO SOPRA */
 }
 
 /* =========================
