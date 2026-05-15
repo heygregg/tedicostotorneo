@@ -317,3 +317,32 @@ if (hamburger) {
     sidebarOverlay.classList.remove("active");
   });
 }
+
+/* =========================
+   LIGHTBOX
+========================= */
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const lightboxClose = document.getElementById("lightbox-close");
+
+if (lightbox) {
+  // Apre il lightbox cliccando una foto
+  document.querySelectorAll(".gallery-item img").forEach(img => {
+    img.addEventListener("click", () => {
+      lightboxImg.src = img.src;
+      lightbox.classList.add("active");
+    });
+  });
+
+  // Chiude con il tasto X
+  lightboxClose.addEventListener("click", () => {
+    lightbox.classList.remove("active");
+  });
+
+  // Chiude cliccando fuori dalla foto
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) {
+      lightbox.classList.remove("active");
+    }
+  });
+}
