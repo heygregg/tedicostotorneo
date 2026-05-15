@@ -166,7 +166,7 @@ function renderRanking() {
 }
 
 /* =========================
-   MARCATORI
+   CLASSIFICA MARCATORI
 ========================= */
 
 // Funzione che calcola e mostra i marcatori
@@ -210,7 +210,9 @@ function renderScorers() {
   `)
   .join("");
 }
-
+/* =========================
+   CLASSIFICA GIOCATORI
+========================= */
 function renderPlayers() {
   const players = {};
 
@@ -255,7 +257,7 @@ function renderPlayers() {
           <div class="team">${name}</div>
           <div class="sub">${stats.played} partite giocate</div>
         </div>
-        <div class="points">${stats.points} pt</div>
+        <div class="points">${stats.points}</div>
       </div>`
     )
     .join("");
