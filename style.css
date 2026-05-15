@@ -460,14 +460,14 @@ REGOLAMENTO E STORIA
   width: 100%;
 }
 
-.player-card {
+.player-card { /* è la singola card del giocatore. overflow: hidden serve per far sì che la foto non esca fuori dai bordi arrotondati (border-radius: 8px). */
   background: #4A25AA;
   border-radius: 8px;
   overflow: hidden;
   color: white;
 }
 
-.player-card img {
+.player-card img { /* è la foto del giocatore. aspect-ratio: 1/1 la rende quadrata. object-fit: cover fa sì che la foto riempia lo spazio senza deformarsi. */
   width: 100%;
   aspect-ratio: 1/1;
   object-fit: cover;
