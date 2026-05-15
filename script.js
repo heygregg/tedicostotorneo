@@ -265,4 +265,27 @@ function renderPlayers() {
 /* =========================
    GALLERIA FOTO
 ========================= */
+// Array che contiene tutte le foto: per aggiungerne una nuova basta aggiungere una riga
+const foto = [
+  { src: "foto1.jpg", alt: "Partita 1" },
+  { src: "foto2.jpg", alt: "Partita 1" },
+  { src: "foto3.jpg", alt: "Partita 2" },
+  { src: "foto4.jpg", alt: "Partita 2" },
+];
 
+// Prende dal file HTML l'elemento con id="gallery-grid" (il contenitore della griglia)
+const grid = document.getElementById("gallery-grid");
+// Controlla che gallery-grid esista nella pagina (evita errori su home.html, info.html ecc.)
+if (grid) {
+  // Per ogni foto nell'array, esegue il codice dentro le parentesi graffe
+  foto.forEach(f => {
+    // Crea un nuovo elemento <div> vuoto
+    const item = document.createElement("div");
+    // Gli assegna la classe "gallery-item" (quella del CSS)
+    item.className = "gallery-item";
+    // Ci mette dentro un <img> con src e alt presi dall'oggetto foto
+    item.innerHTML = `<img src="${f.src}" alt="${f.alt}">`;
+    // Aggiunge il div appena creato dentro gallery-grid nel HTML
+    grid.appendChild(item);
+  });
+}
