@@ -348,3 +348,57 @@ if (lightbox) {
     }
   });
 }
+
+// =========================
+// LIGHTBOX ZOOM
+// =========================
+let scale = 1;
+
+// SCROLL MOUSE (desktop)
+lightboxImg.addEventListener("wheel", (e) => {
+  e.preventDefault();
+  scale += e.deltaY * -0.01;
+  scale = Math.min(Math.max(scale, 1), 4); // min 1x, max 4x
+  lightboxImg.style.transform = `scale(${scale})`;
+});
+
+// PINCH TO ZOOM (mobile)
+let initialDistance = 0;
+
+lightbox.addEventListener("touchstart", (e) => {
+  if (e.touches.length === 2) {
+    initialDistance = Math.hypot(
+      e.touches[0].clientX - e.touches[1].clientX,
+      e.touches[0].clientY - e.touches[1].clientY
+    );
+  }
+});
+
+lightbox.addEventListener("touchmove", (e) => {
+  if (e.touches.length === 2) {
+    e.preventDefault();
+    const currentDistance = Math.hypot(
+      e.touches[0].clientX - e.touches[1].clientX,
+      e.touches[0].clientY - e.touches[1].clientY
+    );
+    scale *= currentDistance / initialDistance;
+    scale = Math.min(Math.max(scale, 1), 4);
+    lightboxImg.style.transform = `scale(${scale})`;
+    initialDistance = currentDistance;
+  }
+}, { passive: false });
+
+// Reset zoom quando chiudi il lightbox
+lightboxClose.addEventListener("click", () => {
+  scale = 1;
+  lightboxImg.style.transform = "scale(1)";
+  lightbox.classList.remove("active");
+});
+
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox) {
+    scale = 1;
+    lightboxImg.style.transform = "scale(1)";
+    lightbox.classList.remove("active");
+  }
+});
