@@ -469,7 +469,7 @@ REGOLAMENTO E STORIA
 
 .player-card img { /* è la foto del giocatore. aspect-ratio: 1/1 la rende quadrata. object-fit: cover fa sì che la foto riempia lo spazio senza deformarsi. */
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 3/4; /* verticale invece di quadrato */
   object-fit: cover;
   display: block;
 }
