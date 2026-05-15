@@ -17,4 +17,13 @@
     "caratteristiche": ["Semplicità di gioco", "Poca incisività", "Rendimento altanelante"],
     "qualita": "Adattabilità"
   }
+  {
+    "nome": "PRES",
+    "foto": "pres.jpg",
+    "eta": 28,
+    "ruolo": "Esterno Sx",
+    "descrizione": "Giocatore molto veloce e dinamico, con tecnica discreta ma capace a volte di segnare goal inaspettati.",
+    "caratteristiche": ["Equilibrio", "Velocità", "Resistenza"],
+    "qualita": "Esplosività"
+  }
 ]
