@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+  <title>TE DICO STO TORNEO</title>
+  
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- CSS DEL SITO -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-bar">
+        <a href="index.html" class="logo">
+          <img src="logo_torneo.png" alt="Logo Torneo">
+        </a>
+        <h1>TE DICO STO TORNEO</h1>
+        <nav class="topbar-nav">
+            <a href="index.html">HOME</a>
+            <a href="info.html">INFO</a>
+            <a href="galleria.html">GALLERIA</a>
+            <a href="players.html">PLAYERS</a>
+        </nav>
+
+        <!-- HAMBURGER SOLO MOBILE -->
+        <button class="hamburger" id="hamburger">☰</button>
+        
+        <!-- MENU LATERALE -->
+        <div class="sidebar" id="sidebar">
+          <button class="sidebar-close" id="sidebar-close">✕</button>
+          <a href="index.html">HOME</a>
+          <a href="info.html">INFO</a>
+          <a href="galleria.html">GALLERIA</a>
+          <a href="players.html">PLAYERS</a>
+        </div>
+        <div class="sidebar-overlay" id="sidebar-overlay"></div>
+    </header>
+    <div class="page">
+       <div class="page">
+          <div class="players-grid" id="players-grid"></div>
+      </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
