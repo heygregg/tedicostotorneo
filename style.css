@@ -450,7 +450,74 @@ REGOLAMENTO E STORIA
 .sidebar.active {
   right: 0;
 }
+/* =========================
+   PLAYERS
+========================= */
+.players-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+}
 
+.player-card {
+  background: #4A25AA;
+  border-radius: 8px;
+  overflow: hidden;
+  color: white;
+}
+
+.player-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  display: block;
+}
+
+.player-info {
+  padding: 15px;
+}
+
+.player-info h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  margin: 0 0 6px;
+}
+
+.player-meta {
+  font-size: 0.85rem;
+  color: #c9b8ff;
+  margin: 0 0 10px;
+}
+
+.player-desc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 12px;
+}
+
+.player-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  background: #29005C;
+  color: white;
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.player-qualita {
+  font-size: 0.85rem;
+  color: #e8ff00;
+  margin: 0;
+  font-weight: bold;
+}
 /* =========================
    MOBILE
 ========================= */
