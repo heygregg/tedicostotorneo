@@ -248,6 +248,12 @@ button:hover {
 /* =========================
 REGOLAMENTO E STORIA
 ========================= */
+.info-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
 .storia,
 .regolamento {
   flex: 1;
