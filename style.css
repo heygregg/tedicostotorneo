@@ -478,32 +478,32 @@ REGOLAMENTO E STORIA
   padding: 15px;
 }
 
-.player-info h3 {
+.player-info h3 { /* nome del giocatore */
   font-family: 'Orbitron', sans-serif;
   font-size: 1.1rem;
   margin: 0 0 6px;
 }
 
-.player-meta {
+.player-meta { /* riga con età e ruolo. colore viola */
   font-size: 1rem;
   color: #c9b8ff;
   margin: 0 0 10px;
 }
 
-.player-desc {
+.player-desc { /* descrizione del giocaotre */
   font-size: 1rem;
   line-height: 1.5;
   margin: 0 0 12px;
 }
 
-.player-tags {
+.player-tags { /* è il contenitore dei tag carattestistiche */
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
   margin-bottom: 10px;
 }
 
-.tag {
+.tag { /* è il singolo tag (es: veloce). forma a pillola grazie a border-radius */
   background: #29005C;
   color: white;
   font-size: 1rem;
@@ -512,7 +512,7 @@ REGOLAMENTO E STORIA
   font-family: 'Orbitron', sans-serif;
 }
 
-.player-qualita {
+.player-qualita { /* è la riga della qualità principale evidenziata in giallo */
   font-size: 1rem;
   color: #e8ff00;
   margin: 0;
