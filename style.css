@@ -126,6 +126,10 @@ h2, h3 {
   font-size: 28px; /* FONT elenco partite */
 }
 
+.match:hover{
+   background-color: #EE6A3C; /* ARANCIONE --> SFONDO SEZIONE QUANDO CI PASSO SOPRA */
+}
+
 /* =========================
    INFO BOX PARTITA
 ========================= */
