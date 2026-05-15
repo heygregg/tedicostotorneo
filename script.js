@@ -347,9 +347,7 @@ if (lightbox && lightboxImg && lightboxClose) {
       lightbox.classList.remove("active");
     }
   });
-}
-
-// =========================
+  // =========================
 // LIGHTBOX ZOOM
 // =========================
 let scale = 1;
@@ -402,6 +400,10 @@ lightbox.addEventListener("click", (e) => {
     lightbox.classList.remove("active");
   }
 });
+
+}
+
+
 
 // =========================
 // PLAYERS LIST
