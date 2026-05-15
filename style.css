@@ -261,6 +261,10 @@ REGOLAMENTO E STORIA
   gap: 24px;
   width: 100%;
 }
+.info-sections h2 {
+  font-size: 2.15rem;
+}
+
 .storia,
 .regolamento {
   min-height: 300px;
