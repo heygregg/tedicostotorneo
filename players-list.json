@@ -1,11 +1,11 @@
 [
   {
-    "nome": "Alpo",
-    "foto": "foto/mario.jpg",
-    "eta": 25,
-    "ruolo": "Attaccante",
-    "descrizione": "Giocatore esplosivo, sempre pronto a fare la differenza nei momenti chiave.",
-    "caratteristiche": ["Veloce", "Finalizzatore", "Leader"],
+    "nome": "PARDO",
+    "foto": "pardo.jpg",
+    "eta": 29,
+    "ruolo": "Esterno Sx",
+    "descrizione": "Giocatore dotato di buona tecnica, veloce e abile negli inserimenti. Discreta qualità sotto porta. Ottima mentalità.",
+    "caratteristiche": ["Agilità", "Disciplina", "Mentalità vincente"],
     "qualita": "Senso del gol"
   },
   {
