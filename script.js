@@ -289,3 +289,28 @@ if (grid) {
     grid.appendChild(item);
   });
 }
+
+/* =========================
+   MENU' HAMBURGER MOBILE
+========================= */
+const hamburger = document.getElementById("hamburger");
+const sidebar = document.getElementById("sidebar");
+const sidebarClose = document.getElementById("sidebar-close");
+const sidebarOverlay = document.getElementById("sidebar-overlay");
+
+if (hamburger) {
+  hamburger.addEventListener("click", () => {
+    sidebar.classList.add("active");
+    sidebarOverlay.classList.add("active");
+  });
+
+  sidebarClose.addEventListener("click", () => {
+    sidebar.classList.remove("active");
+    sidebarOverlay.classList.remove("active");
+  });
+
+  sidebarOverlay.addEventListener("click", () => {
+    sidebar.classList.remove("active");
+    sidebarOverlay.classList.remove("active");
+  });
+}
