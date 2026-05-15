@@ -1,1 +1,20 @@
-
+[
+  {
+    "nome": "Mario Rossi",
+    "foto": "foto/mario.jpg",
+    "eta": 25,
+    "ruolo": "Attaccante",
+    "descrizione": "Giocatore esplosivo, sempre pronto a fare la differenza nei momenti chiave.",
+    "caratteristiche": ["Veloce", "Finalizzatore", "Leader"],
+    "qualita": "Senso del gol"
+  },
+  {
+    "nome": "Luca Bianchi",
+    "foto": "foto/luca.jpg",
+    "eta": 28,
+    "ruolo": "Centrocampista",
+    "descrizione": "Regia precisa e visione di gioco superiore alla media.",
+    "caratteristiche": ["Tecnico", "Preciso", "Resistente"],
+    "qualita": "Visione di gioco"
+  }
+]
