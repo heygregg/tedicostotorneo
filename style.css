@@ -451,7 +451,7 @@ REGOLAMENTO E STORIA
   right: 0;
 }
 /* =========================
-   PLAYERS
+   PLAYERS CARDS
 ========================= */
 .players-grid {  /* è il contenitore di tutte le card. repeat(4, 1fr) significa 3 colonne di uguale larghezza. gap è lo spazio tra le card. */
   display: grid;
@@ -480,18 +480,18 @@ REGOLAMENTO E STORIA
 
 .player-info h3 {
   font-family: 'Orbitron', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 0 0 6px;
 }
 
 .player-meta {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: #c9b8ff;
   margin: 0 0 10px;
 }
 
 .player-desc {
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.5;
   margin: 0 0 12px;
 }
@@ -506,14 +506,14 @@ REGOLAMENTO E STORIA
 .tag {
   background: #29005C;
   color: white;
-  font-size: 0.75rem;
+  font-size: 1rem;
   padding: 3px 10px;
   border-radius: 20px;
   font-family: 'Orbitron', sans-serif;
 }
 
 .player-qualita {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: #e8ff00;
   margin: 0;
   font-weight: bold;
