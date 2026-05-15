@@ -402,3 +402,32 @@ lightbox.addEventListener("click", (e) => {
     lightbox.classList.remove("active");
   }
 });
+
+// =========================
+// PLAYERS LIST
+// =========================
+const playersGrid = document.getElementById("players-grid");
+
+if (playersGrid) {
+  fetch("players-list.json")
+    .then(res => res.json())
+    .then(players => {
+      players.forEach(p => {
+        const card = document.createElement("div");
+        card.className = "player-card";
+        card.innerHTML = `
+          <img src="${p.foto}" alt="${p.nome}">
+          <div class="player-info">
+            <h3>${p.nome}</h3>
+            <p class="player-meta">${p.eta} anni · ${p.ruolo}</p>
+            <p class="player-desc">${p.descrizione}</p>
+            <div class="player-tags">
+              ${p.caratteristiche.map(c => `<span class="tag">${c}</span>`).join("")}
+            </div>
+            <p class="player-qualita">⭐ ${p.qualita}</p>
+          </div>
+        `;
+        playersGrid.appendChild(card);
+      });
+    });
+}
