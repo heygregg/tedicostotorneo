@@ -267,10 +267,13 @@ function renderPlayers() {
 ========================= */
 // Array che contiene tutte le foto: per aggiungerne una nuova basta aggiungere una riga
 const foto = [
-  { src: "Kaltakgirone-Citano.jpg", alt: "Partita 1" },
-  { src: "foto2.jpg", alt: "Partita 1" },
-  { src: "foto3.jpg", alt: "Partita 2" },
-  { src: "foto4.jpg", alt: "Partita 2" },
+  { src: "2026-05-05_locandina.jpg", alt: "Locandina1" },
+  { src: "2026-06-12_locandina.jpg", alt: "Locandina2" },
+  { src: "2026-05-12_match.jpg", alt: "Match2" },
+  { src: "2026-05-12_match2.jpg", alt: "Match2-1" },
+  { src: "Kaltakgirone-Citano.jpg", alt: "Locandina2" },
+  { src: "Intervista_Cita.jpg", alt: "Intervista_Cita" },
+  { src: "Intervista_Vehab.jpg", alt: "Intervista_Vehab" }
 ];
 
 // Prende dal file HTML l'elemento con id="gallery-grid" (il contenitore della griglia)
