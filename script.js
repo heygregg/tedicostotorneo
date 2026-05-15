@@ -267,7 +267,7 @@ function renderPlayers() {
 ========================= */
 // Array che contiene tutte le foto: per aggiungerne una nuova basta aggiungere una riga
 const foto = [
-  { src: "foto1.jpg", alt: "Partita 1" },
+  { src: "Kaltakgirone-Citano.jpg", alt: "Partita 1" },
   { src: "foto2.jpg", alt: "Partita 1" },
   { src: "foto3.jpg", alt: "Partita 2" },
   { src: "foto4.jpg", alt: "Partita 2" },
