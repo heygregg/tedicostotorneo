@@ -330,12 +330,6 @@ REGOLAMENTO E STORIA
   transform: scale(1.06);
 }
 
-/* mobile: 2 colonne */
-@media (max-width: 768px) {
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 /* HAMBURGER */
 .hamburger {
   display: none;
@@ -462,5 +456,8 @@ REGOLAMENTO E STORIA
   }
   button {
     margin: 8px 0 0 0;
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
