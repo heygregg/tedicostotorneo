@@ -366,6 +366,13 @@ REGOLAMENTO E STORIA
   margin: 0;
   line-height: 1;
 }
+.lightbox img {
+  max-width: 90%;
+  max-height: 90vh;
+  border-radius: 8px;
+  object-fit: contain;
+  transition: transform 0.1s ease;
+}
 /* =========================
    HAMBURGER
 ========================= */
