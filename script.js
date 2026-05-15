@@ -275,7 +275,7 @@ const foto = [
   { src: "2026-05-12_match2.jpg", alt: "Match2-1" },
   { src: "Kaltakgirone-Citano.jpg", alt: "Locandina2" },
   { src: "Intervista_Cita.jpg", alt: "Intervista_Cita" },
-  { src: "Intervista_Vehab.jpg", alt: "Intervista_Vehab" }
+ /* { src: "Intervista_Vehab.jpg", alt: "Intervista_Vehab" } */
 ];
 
 // Prende dal file HTML l'elemento con id="gallery-grid" (il contenitore della griglia)
