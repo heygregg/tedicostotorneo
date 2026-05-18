@@ -60,15 +60,15 @@
     "foto": "dimoz.jpg",
     "eta": 28,
     "ruolo": "Difensore",
-    "descrizione": "",
+    "descrizione": "Difensore fisico e dominante nei duelli, solido in marcatura e pericoloso anche in progressione e nelle azioni personali",
     "caratteristiche": ["Intensità", "Tiro", "Aggressività"],
   },
   {
-    "nome": "BURA",
-    "foto": "bura.jpg",
-    "eta": 22,
-    "ruolo": "Difensore",
-    "descrizione": "",
-    "caratteristiche": ["Intensità", "Tiro", "Aggressività"],
+    "nome": "HAMZA",
+    "foto": "hamza.jpg",
+    "eta": 27,
+    "ruolo": "Attaccante",
+    "descrizione": "Giocatore completo, attivo in entrambe le fasi, con grande tecnica e capacità di gestire il ritmo e le transizioni.",
+    "caratteristiche": ["Inserimento", "Duttilità", "Tecnica"],
   }
 ]
