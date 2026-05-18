@@ -424,7 +424,6 @@ if (playersGrid) {
             <div class="player-tags">
               ${p.caratteristiche.map(c => `<span class="tag">${c}</span>`).join("")}
             </div>
-            <p class="player-qualita">⭐ ${p.qualita}</p>
           </div>
         `;
         playersGrid.appendChild(card);
