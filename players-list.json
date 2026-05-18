@@ -43,7 +43,7 @@
     "descrizione": "Difensore fisico e aggressivo, abile nei contrasti ma anche capace di inserirsi sull’esterno e rendersi pericoloso trovando il gol",
     "caratteristiche": ["Fisicità", "Inserimento", "Finalizzazione"],
     "qualita": "Disciplina"
-  }
+  },
   {
     "nome": "SERA",
     "foto": "sera.jpg",
@@ -52,7 +52,7 @@
     "descrizione": "Difensore elegante affidabile, mancino naturale, capace di impostare e di tentare il dribbling in uscita per superare la prima pressione avversaria",
     "caratteristiche": ["Mancino", "Dribbling", "Impostazione"],
     "qualita": "Eleganza"
-  }
+  },
   {
     "nome": "CITA",
     "foto": "cita.jpg",
