@@ -150,7 +150,7 @@ function renderRanking() {
     })
     .map(([team, stats], index) => //trasforma ogni squadra in una stringa HTML
       // Genera la card HTML della squadra
-      `<div class="ranking-card">
+      `<div class="ranking-card ${index < 3 ? 'top-three' : ''}">
         <div class="rank">${index + 1}</div>
         <div class="info">
           <div class="team">${team}</div>
