@@ -403,8 +403,6 @@ lightbox.addEventListener("click", (e) => {
 
 }
 
-
-
 // =========================
 // PLAYERS LIST
 // =========================
