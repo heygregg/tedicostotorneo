@@ -250,7 +250,7 @@ function renderPlayers() {
         return a.played - b.played; // A parità di punti, meno partite = più in alto
     })
     .map(([name, stats], index) =>
-      `<div class="ranking-card">
+      `<div class="ranking-card ${index < 3 ? 'top-three' : ''}">
         <div class="rank">${index + 1}</div>
         <div class="info">
           <div class="team">${name}</div>
