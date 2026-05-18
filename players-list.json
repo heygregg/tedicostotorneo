@@ -49,7 +49,7 @@
     "foto": "sera.jpg",
     "eta": 22,
     "ruolo": "Difensore",
-    "descrizione": "Difensore elegante affidabile, mancino naturale, capace di impostare e di tentare il dribbling in uscita per superare la prima pressione avversaria",
+    "descrizione": "Difensore elegante e affidabile, mancino naturale, capace di impostare e di tentare il dribbling in uscita per superare la prima pressione avversaria",
     "caratteristiche": ["Mancino", "Dribbling", "Impostazione"],
     "qualita": "Eleganza"
   },
@@ -58,7 +58,7 @@
     "foto": "cita.jpg",
     "eta": 32,
     "ruolo": "Difensore",
-    "descrizione": "Difensore esperto e intelligente tatticamente, compensa la struttura fisica minuta con ottimo anticipo, lettura del gioco e grande posizionamento.",
+    "descrizione": "Difensore esperto e intelligente tatticamente, compensa la struttura fisica minuta con ottimo anticipo, lettura del gioco e grande posizionamento",
     "caratteristiche": ["Posizionamento", "Anticipo", "Lettura"],
     "qualita": "Esperienza"
   }
