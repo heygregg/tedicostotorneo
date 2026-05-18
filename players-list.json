@@ -5,7 +5,7 @@
     "eta": 29,
     "ruolo": "Esterno Sx",
     "descrizione": "Giocatore dotato di buona tecnica, veloce e abile negli inserimenti. Discreta qualità sotto porta. Ottima mentalità e spirito di sacrificio",
-    "caratteristiche": ["Agilità", "Disciplina", "Tenacia"],
+    "caratteristiche": ["Agilità", "Disciplina", "Tenacia"]
   },
   {
     "nome": "ALPO",
@@ -13,7 +13,7 @@
     "eta": 29,
     "ruolo": "Esterno Dx",
     "descrizione": "Giocatore ordinato, svolge il proprio compito senza particolari spunti. Utile alla squadra ma spesso incostante",
-    "caratteristiche": ["Imprecisione", "Passaggio", "Rendimento"],
+    "caratteristiche": ["Imprecisione", "Passaggio", "Rendimento"]
   },
   {
     "nome": "PRES",
@@ -21,7 +21,7 @@
     "eta": 28,
     "ruolo": "Esterno Sx",
     "descrizione": "Giocatore molto veloce e dinamico, con tecnica discreta ma capace a volte di segnare goal inaspettati",
-    "caratteristiche": ["Impulsività", "Velocità", "Resistenza"],
+    "caratteristiche": ["Impulsività", "Velocità", "Resistenza"]
   },
   {
     "nome": "MORO",
@@ -29,7 +29,7 @@
     "eta": 29,
     "ruolo": "Portiere",
     "descrizione": "Portiere affidabile con buoni riflessi e senso della posizione, capace di dare tranquillità alla difesa",
-    "caratteristiche": ["Riflessi", "Posizionamento", "Sicurezza"],
+    "caratteristiche": ["Riflessi", "Posizionamento", "Sicurezza"]
   },
   {
     "nome": "LUCHEZIO",
@@ -37,15 +37,15 @@
     "eta": 22,
     "ruolo": "Difensore",
     "descrizione": "Difensore fisico e aggressivo, abile nei contrasti ma anche capace di inserirsi sull’esterno e rendersi pericoloso trovando il gol",
-    "caratteristiche": ["Fisicità", "Inserimento", "Finalizzazione"],
-  },
+    "caratteristiche": ["Fisicità", "Inserimento", "Finalizzazione"]
+  }
   {
     "nome": "SERA",
     "foto": "sera.jpg",
     "eta": 22,
     "ruolo": "Difensore",
     "descrizione": "Difensore elegante e affidabile, mancino naturale, capace di impostare e di tentare il dribbling in uscita per superare la prima pressione avversaria",
-    "caratteristiche": ["Mancino", "Dribbling", "Impostazione"],
+    "caratteristiche": ["Mancino", "Dribbling", "Impostazione"]
   },
   {
     "nome": "CITA",
@@ -53,7 +53,7 @@
     "eta": 32,
     "ruolo": "Difensore",
     "descrizione": "Difensore esperto e intelligente tatticamente, compensa la struttura fisica minuta con ottimo anticipo, lettura del gioco e grande posizionamento",
-    "caratteristiche": ["Posizionamento", "Anticipo", "Lettura"],
+    "caratteristiche": ["Posizionamento", "Anticipo", "Lettura"]
   },
   {
     "nome": "DIMOZ",
@@ -61,7 +61,7 @@
     "eta": 28,
     "ruolo": "Difensore",
     "descrizione": "Difensore fisico e dominante nei duelli, solido in marcatura e pericoloso anche in progressione e nelle azioni personali",
-    "caratteristiche": ["Intensità", "Tiro", "Aggressività"],
+    "caratteristiche": ["Intensità", "Tiro", "Aggressività"]
   },
   {
     "nome": "HAMZA",
@@ -69,7 +69,7 @@
     "eta": 27,
     "ruolo": "Attaccante",
     "descrizione": "Giocatore completo, attivo in entrambe le fasi, con grande tecnica e capacità di gestire il ritmo e le transizioni",
-    "caratteristiche": ["Inserimento", "Duttilità", "Tecnica"],
+    "caratteristiche": ["Inserimento", "Duttilità", "Tecnica"]
   },
   {
     "nome": "BURA",
@@ -77,6 +77,6 @@
     "eta": 22,
     "ruolo": "Attaccante",
     "descrizione": "Attaccante tecnico e creativo, abile nel dribbling e nel tiro, capace di creare superiorità numerica e tirare",
-    "caratteristiche": ["Finalizzazione", "Potenza", "Robustezza"],
+    "caratteristiche": ["Finalizzazione", "Potenza", "Robustezza"]
   }
 ]
