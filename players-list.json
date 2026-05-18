@@ -53,4 +53,13 @@
     "caratteristiche": ["Mancino", "Dribbling", "Impostazione"],
     "qualita": "Eleganza"
   }
+  {
+    "nome": "CITA",
+    "foto": "cita.jpg",
+    "eta": 32,
+    "ruolo": "Difensore",
+    "descrizione": "Difensore esperto e intelligente tatticamente, compensa la struttura fisica minuta con ottimo anticipo, lettura del gioco e grande posizionamento.",
+    "caratteristiche": ["Posizionamento", "Anticipo", "Lettura"],
+    "qualita": "Esperienza"
+  }
 ]
