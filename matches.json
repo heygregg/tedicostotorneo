@@ -67,22 +67,22 @@
         "name": "Kaltakgirone",
         "players": ["Gioi", "Greg", "Sera", "Vehab", "Bura"],
         "goals": {
-            "Gioi": ,
-            "Greg": ,
-            "Sera": ,
-            "Vehab": ,
-            "Bura": 
+            "Gioi": 0,
+            "Greg": 0,
+            "Sera": 0,
+            "Vehab": 0,
+            "Bura": 0
         }
       },
       {
         "name": "Citanò",
         "players": ["Pres", "Cita", "Alpo", "Hamza", "Pardo"],
         "goals":{
-            "Pres": ,
-            "Cita": ,
-            "Alpo": ,
-            "Hamza": ,
-            "Pardo":
+            "Pres": 0,
+            "Cita": 0,
+            "Alpo": 0,
+            "Hamza": 0,
+            "Pardo": 0
         }
       }
     ],
