@@ -38,11 +38,11 @@
   {
     "nome": "LUCHEZIO",
     "foto": "luchezio.jpg",
-    "eta" 22: ,
+    "eta" 22,
     "ruolo": "Difensore",
-    "descrizione": "",
-    "caratteristiche": ["", "", ""],
-    "qualita": ""
+    "descrizione": "Difensore fisico e aggressivo, abile nei contrasti ma anche capace di inserirsi sull’esterno e rendersi pericoloso trovando il gol.",
+    "caratteristiche": ["Fisicità", "Inserimento", "Finalizzazione"],
+    "qualita": "Disciplina"
   }
 
 ]
