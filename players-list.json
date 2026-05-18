@@ -68,7 +68,15 @@
     "foto": "hamza.jpg",
     "eta": 27,
     "ruolo": "Attaccante",
-    "descrizione": "Giocatore completo, attivo in entrambe le fasi, con grande tecnica e capacità di gestire il ritmo e le transizioni.",
+    "descrizione": "Giocatore completo, attivo in entrambe le fasi, con grande tecnica e capacità di gestire il ritmo e le transizioni",
     "caratteristiche": ["Inserimento", "Duttilità", "Tecnica"],
+  }
+  {
+    "nome": "BURA",
+    "foto": "bura.jpg",
+    "eta": 22,
+    "ruolo": "Attaccante",
+    "descrizione": "Attaccante tecnico e creativo, abile nel dribbling e nel tiro, capace di creare superiorità numerica e tirare",
+    "caratteristiche": ["Finalizzazione", "Potenza", "Robustezza"],
   }
 ]
