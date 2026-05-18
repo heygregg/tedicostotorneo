@@ -61,5 +61,15 @@
     "descrizione": "Difensore esperto e intelligente tatticamente, compensa la struttura fisica minuta con ottimo anticipo, lettura del gioco e grande posizionamento",
     "caratteristiche": ["Posizionamento", "Anticipo", "Lettura"],
     "qualita": "Esperienza"
-  }
+  },
+  {
+    "nome": "DIMOZ",
+    "foto": "dimoz.jpg",
+    "eta": 28,
+    "ruolo": "Difensore",
+    "descrizione": "",
+    "caratteristiche": ["Posizionamento", "Anticipo", "Lettura"],
+    "qualita": "Esperienza"
+  },
+    
 ]
