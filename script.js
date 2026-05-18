@@ -196,7 +196,7 @@ function renderScorers() {
  el.innerHTML = entries
   .sort((a, b) => b[1] - a[1])
   .map((s, index) => `
-    <div class="ranking-card">
+    <div class="ranking-card ${index < 3 ? 'top-three' : ''}">
       <div class="rank">${index + 1}</div>
 
       <div class="info">
