@@ -70,7 +70,7 @@
     "ruolo": "Attaccante",
     "descrizione": "Giocatore completo, attivo in entrambe le fasi, con grande tecnica e capacità di gestire il ritmo e le transizioni",
     "caratteristiche": ["Inserimento", "Duttilità", "Tecnica"],
-  }
+  },
   {
     "nome": "BURA",
     "foto": "bura.jpg",
