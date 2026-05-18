@@ -4,7 +4,7 @@
     "foto": "pardo.jpg",
     "eta": 29,
     "ruolo": "Esterno Sx",
-    "descrizione": "Giocatore dotato di buona tecnica, veloce e abile negli inserimenti. Discreta qualità sotto porta. Ottima mentalità e spirito di sacrificio.",
+    "descrizione": "Giocatore dotato di buona tecnica, veloce e abile negli inserimenti. Discreta qualità sotto porta. Ottima mentalità e spirito di sacrificio",
     "caratteristiche": ["Agilità", "Disciplina", "Mentalità vincente"],
     "qualita": "Sacrificio"
   },
@@ -13,7 +13,7 @@
     "foto": "alpo.jpg",
     "eta": 29,
     "ruolo": "Esterno Dx",
-    "descrizione": "Giocatore ordinato, svolge il proprio compito senza particolari spunti. Utile alla squadra ma spesso incostante.",
+    "descrizione": "Giocatore ordinato, svolge il proprio compito senza particolari spunti. Utile alla squadra ma spesso incostante",
     "caratteristiche": ["Semplicità di gioco", "Poca incisività", "Rendimento"],
     "qualita": "Adattabilità"
   },
@@ -22,7 +22,7 @@
     "foto": "pres.jpg",
     "eta": 28,
     "ruolo": "Esterno Sx",
-    "descrizione": "Giocatore molto veloce e dinamico, con tecnica discreta ma capace a volte di segnare goal inaspettati.",
+    "descrizione": "Giocatore molto veloce e dinamico, con tecnica discreta ma capace a volte di segnare goal inaspettati",
     "caratteristiche": ["Equilibrio", "Velocità", "Resistenza"],
     "qualita": "Esplosività"
   },
@@ -40,7 +40,7 @@
     "foto": "luchezio.jpg",
     "eta" 22,
     "ruolo": "Difensore",
-    "descrizione": "Difensore fisico e aggressivo, abile nei contrasti ma anche capace di inserirsi sull’esterno e rendersi pericoloso trovando il gol.",
+    "descrizione": "Difensore fisico e aggressivo, abile nei contrasti ma anche capace di inserirsi sull’esterno e rendersi pericoloso trovando il gol",
     "caratteristiche": ["Fisicità", "Inserimento", "Finalizzazione"],
     "qualita": "Disciplina"
   }
