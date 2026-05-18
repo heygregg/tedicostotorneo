@@ -58,5 +58,34 @@
     ],
     "score": [9, 10]
   }
-  
+  {
+    "id": "3",
+    "date": "19/05/2026",
+    "description": "",
+    "teams": [
+      {
+        "name": "Kaltakgirone",
+        "players": ["Gioi", "Greg", "Sera", "Vehab", "Bura"],
+        "goals": {
+            "Gioi": ,
+            "Greg": ,
+            "Sera": ,
+            "Vehab": ,
+            "Bura": 
+        }
+      },
+      {
+        "name": "Citanò",
+        "players": ["Pres", "Cita", "Alpo", "Hamza", "Pardo"],
+        "goals":{
+            "Pres": ,
+            "Cita": ,
+            "Gioi": ,
+            "Hamza": ,
+            "Pardo":
+        }
+      }
+    ],
+    "score": [0, 0]
+  }
 ]
