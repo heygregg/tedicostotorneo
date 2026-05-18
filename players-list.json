@@ -62,5 +62,13 @@
     "ruolo": "Difensore",
     "descrizione": "",
     "caratteristiche": ["Intensità", "Tiro", "Aggressività"],
+  },
+  {
+    "nome": "BURA",
+    "foto": "bura.jpg",
+    "eta": 22,
+    "ruolo": "Difensore",
+    "descrizione": "",
+    "caratteristiche": ["Intensità", "Tiro", "Aggressività"],
   }
 ]
