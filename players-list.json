@@ -38,7 +38,7 @@
     "ruolo": "Difensore",
     "descrizione": "Difensore fisico e aggressivo, abile nei contrasti ma anche capace di inserirsi sull’esterno e rendersi pericoloso trovando il gol",
     "caratteristiche": ["Fisicità", "Inserimento", "Finalizzazione"]
-  }
+  },
   {
     "nome": "SERA",
     "foto": "sera.jpg",
