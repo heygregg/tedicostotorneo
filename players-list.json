@@ -78,5 +78,13 @@
     "ruolo": "Attaccante",
     "descrizione": "Attaccante tecnico e creativo, abile nel dribbling e nel tiro, capace di creare superiorità numerica e tirare",
     "caratteristiche": ["Finalizzazione", "Potenza", "Robustezza"]
+  },
+  {
+    "nome": "WILLO",
+    "foto": "willo.jpg",
+    "eta": 28,
+    "ruolo": "Esterno Sx",
+    "descrizione": "Giocatore affidabile e generoso, sempre al servizio della squadra, capace di mettere spirito di gruppo in ogni fase del gioco",
+    "caratteristiche": ["Affidabilità", "Altruismo", "Intelligenza"]
   }
 ]
