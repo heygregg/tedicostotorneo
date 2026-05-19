@@ -110,5 +110,21 @@
     "ruolo": "Attaccante",
     "descrizione": "Attaccante dal buon fisico e con grande fiuto del gol, capace di proteggere palla, reggere i duelli e finalizzare",
     "caratteristiche": ["Fisicità", "Finalizzazione", "Potenza"]
+  },
+  {
+    "nome": "GIOI",
+    "foto": "gioi.jpg",
+    "eta": 27,
+    "ruolo": "Difensore",
+    "descrizione": "Difensore affidabile e ordinato, dotato di buon potente mancino che sfrutta anche nella parte più avanzata del campo",
+    "caratteristiche": ["Solidità", "Potenza", "Impostazione"]
+  },
+  {
+    "nome": "GREG",
+    "foto": "greg.jpg",
+    "eta": 27,
+    "ruolo": "Attaccante",
+    "descrizione": "Attaccante creativo e imprevedibile, con buon fiuto del gol, capace di inventare giocate decisive negli ultimi metri",
+    "caratteristiche": ["Fantasia", "Imprevedibilità", "Finalizzazione"]
   }
 ]
