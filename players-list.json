@@ -102,5 +102,13 @@
     "ruolo": "Esterno Dx",
     "descrizione": "Giocatore duttile e affidabile, capace di ricoprire più ruoli con intelligenza tattica e di garantire sempre equilibrio alla squadra.",
     "caratteristiche": ["Solidità", "Posizione", "Passaggio"]
+  },
+  {
+    "nome": "SPRE",
+    "foto": "spre.jpg",
+    "eta": 27,
+    "ruolo": "Esterno Dx",
+    "descrizione": "Giocatore duttile e affidabile, capace di ricoprire più ruoli con intelligenza tattica e di garantire sempre equilibrio alla squadra.",
+    "caratteristiche": ["Solidità", "Posizione", "Passaggio"]
   }
 ]
