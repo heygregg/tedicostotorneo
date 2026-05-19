@@ -3,19 +3,21 @@
 let matches = []; // Array che conterrà tutte le partite caricate dal JSON
 
 // Carica i dati dal file matches.json
-fetch("matches.json")
-  .then(res => res.json()) // Converte la risposta in JSON
-  .then(data => {
-    matches = data; // Salva i dati nel nostro array
+Promise.all([
+  fetch("matches.json").then(res => res.json()),
+  fetch("players-list.json").then(res => res.json())
+])
+.then(([matchData, playerData]) => {
+  matches = matchData;
 
-    renderMatches();  // Mostra le partite
-    renderRanking();  // Calcola e mostra la classifica
-    renderScorers();  // Calcola e mostra i marcatori
-    renderPlayers();
-  })
-  .catch(err => {
-    console.error("Errore caricamento JSON:", err); // Gestione errori
-  });
+  renderMatches();
+  renderRanking();
+  renderScorers();
+  renderPlayers(playerData);
+})
+.catch(err => {
+  console.error("Errore caricamento JSON:", err);
+});
 
 /* =========================
    PARTITE
