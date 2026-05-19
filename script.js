@@ -270,11 +270,12 @@ const foto = [
   { src: "2026-05-05_locandina.jpg", alt: "Locandina1" },
   { src: "2026-05-05_match.jpg", alt: "Match1" },
   { src: "2026-05-05_match2.jpg", alt: "Match1-1"},
-  { src: "2026-06-12_locandina.jpg", alt: "Locandina2" },
+  { src: "2026-05-12_locandina.jpg", alt: "Locandina2" },
   { src: "2026-05-12_match.jpg", alt: "Match2" },
   { src: "2026-05-12_match2.jpg", alt: "Match2-1" },
   { src: "Kaltakgirone-Citano.jpg", alt: "Locandina2" },
   { src: "Intervista_Cita.jpg", alt: "Intervista_Cita" },
+  { src: "2026-05-19_locandina.jpg", alt: "Locandina3" }
  /* { src: "Intervista_Vehab.jpg", alt: "Intervista_Vehab" } */
 ];
 
