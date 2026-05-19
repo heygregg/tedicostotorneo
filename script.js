@@ -276,7 +276,7 @@ const foto = [
   { src: "Kaltakgirone-Citano.jpg", alt: "Locandina2" },
   { src: "Intervista_Cita.jpg", alt: "Intervista_Cita" },
   { src: "2026-05-19_news1.jpg", alt: "News1" },
-  { src: "2026-05-19_news2.jpg", alt: "News2" }
+  { src: "2026-05-19_news3.jpg", alt: "News3" }
  /* { src: "Intervista_Vehab.jpg", alt: "Intervista_Vehab" } */
 ];
 
