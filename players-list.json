@@ -100,15 +100,15 @@
     "foto": "vehab.jpg",
     "eta": 27,
     "ruolo": "Esterno Dx",
-    "descrizione": "Giocatore duttile e affidabile, capace di ricoprire più ruoli con intelligenza tattica e di garantire sempre equilibrio alla squadra.",
+    "descrizione": "Giocatore duttile e affidabile, capace di ricoprire più ruoli con intelligenza tattica e di garantire sempre equilibrio alla squadra",
     "caratteristiche": ["Solidità", "Posizione", "Passaggio"]
   },
   {
     "nome": "SPRE",
     "foto": "spre.jpg",
-    "eta": 27,
-    "ruolo": "Esterno Dx",
-    "descrizione": "Giocatore duttile e affidabile, capace di ricoprire più ruoli con intelligenza tattica e di garantire sempre equilibrio alla squadra.",
-    "caratteristiche": ["Solidità", "Posizione", "Passaggio"]
+    "eta": 29,
+    "ruolo": "Attaccante",
+    "descrizione": "Attaccante dal buon fisico e con grande fiuto del gol, capace di proteggere palla, reggere i duelli e finalizzare",
+    "caratteristiche": ["Fisicità", "Finalizzazione", "Potenza"]
   }
 ]
