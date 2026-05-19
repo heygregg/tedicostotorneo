@@ -1,23 +1,21 @@
-// SCRIPT.JS gestisce: elenco partite, classifica squadre e marcatori, galleria foto
+/ SCRIPT.JS gestisce: elenco partite, classifica squadre e marcatori, galleria foto
 
 let matches = []; // Array che conterrà tutte le partite caricate dal JSON
 
 // Carica i dati dal file matches.json
-Promise.all([
-  fetch("matches.json").then(res => res.json()),
-  fetch("players-list.json").then(res => res.json())
-])
-.then(([matchData, playerData]) => {
-  matches = matchData;
+fetch("matches.json")
+  .then(res => res.json()) // Converte la risposta in JSON
+  .then(data => {
+    matches = data; // Salva i dati nel nostro array
 
-  renderMatches();
-  renderRanking();
-  renderScorers();
-  renderPlayers(playerData);
-})
-.catch(err => {
-  console.error("Errore caricamento JSON:", err);
-});
+    renderMatches();  // Mostra le partite
+    renderRanking();  // Calcola e mostra la classifica
+    renderScorers();  // Calcola e mostra i marcatori
+    renderPlayers();
+  })
+  .catch(err => {
+    console.error("Errore caricamento JSON:", err); // Gestione errori
+  });
 
 /* =========================
    PARTITE
@@ -214,7 +212,7 @@ function renderScorers() {
 /* =========================
    CLASSIFICA GIOCATORI
 ========================= */
-function renderPlayers(playerData) {
+function renderPlayers() {
   const players = {};
 
   matches.forEach(m => {
@@ -229,6 +227,7 @@ function renderPlayers(playerData) {
 
     m.teams.forEach((t, index) => {
       const teamPoints = index === 0 ? pointsA : pointsB;
+
       t.players.forEach(p => {
         if (!players[p]) players[p] = { played: 0, points: 0 };
         players[p].played++;
@@ -247,31 +246,19 @@ function renderPlayers(playerData) {
 
   el.innerHTML = entries
     .sort(([, a], [, b]) => {
-      if (b.points !== a.points) return b.points - a.points;
-      return a.played - b.played;
+        if (b.points !== a.points) return b.points - a.points; // Prima per punti (desc)
+        return a.played - b.played; // A parità di punti, meno partite = più in alto
     })
-    .map(([name, stats], index) => {
-      // Cerca il giocatore nel JSON players-list
-      const info = playerData.find(p => p.nome === name);
-      const tooltip = info ? `
-        <div class="tooltip">
-          <div class="t-nome">${info.nome}</div>
-          <div class="t-row">Ruolo: <span>${info.ruolo}</span></div>
-          <div class="t-row">Età: <span>${info.eta} anni</span></div>
-          <div class="t-desc">${info.descrizione}</div>
-        </div>` : "";
-
-      return `
-        <div class="ranking-card ${index < 3 ? 'top-three' : ''}">
-          <div class="rank">${index + 1}</div>
-          <div class="info">
-            <div class="team">${name}</div>
-            <div class="sub">${stats.played} partite giocate</div>
-          </div>
-          <div class="points">${stats.points}</div>
-          ${tooltip}
-        </div>`;
-    })
+    .map(([name, stats], index) =>
+      `<div class="ranking-card ${index < 3 ? 'top-three' : ''}">
+        <div class="rank">${index + 1}</div>
+        <div class="info">
+          <div class="team">${name}</div>
+          <div class="sub">${stats.played} partite giocate</div>
+        </div>
+        <div class="points">${stats.points}</div>
+      </div>`
+    )
     .join("");
 }
 
