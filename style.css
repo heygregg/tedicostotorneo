@@ -189,7 +189,6 @@ h2, h3 {
   padding: 10px;
   border-radius: 8px;
   font-size: 34px; /*FONT CLASSIFICA */
-  overflow: visible;
 }
 
 .ranking-card {
@@ -199,7 +198,6 @@ h2, h3 {
   color:  #29005C; /* COLORE FONT CELLE CLASSIFICA */
   padding: 10px;
   margin-bottom: 8px;
-  overflow: visible;
 
   background: #F7F6F3; /* SFONDO CELLE CLASSIFICA */
   border-radius: 8px;
@@ -522,61 +520,6 @@ REGOLAMENTO E STORIA
   color: #e8ff00;
   margin: 0;
   font-weight: bold;
-}
-/* =========================
-   TOOLTIP CLASSIFICA GIOCATORI
-========================= */
-#players .ranking-card {
-  position: relative;
-}
-
-#players .ranking-card .tooltip {
-  display: none;
-  position: absolute;
-  right: 105%;
-  left: auto;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #29005C;
-  color: white;
-  border: 1px solid #4A25AA;
-  border-radius: 8px;
-  padding: 10px 14px;
-  min-width: 210px;
-  z-index: 100;
-  font-size: 14px;
-  line-height: 1.6;
-  pointer-events: none;
-}
-
-#players .ranking-card:hover .tooltip {
-  display: block;
-}
-
-#players .ranking-card .tooltip .t-nome {
-  font-family: 'Orbitron', sans-serif;
-  font-weight: 800;
-  font-size: 13px;
-  margin-bottom: 6px;
-}
-
-#players .ranking-card .tooltip .t-row {
-  font-size: 13px;
-  margin-bottom: 3px;
-  color: #c9b8ff;
-}
-
-#players .ranking-card .tooltip .t-row span {
-  color: white;
-}
-
-#players .ranking-card .tooltip .t-desc {
-  font-size: 12px;
-  color: #c9b8ff;
-  margin-top: 8px;
-  padding-top: 8px;
-  border-top: 1px solid #4A25AA;
-  line-height: 1.5;
 }
 /* =========================
    MOBILE
