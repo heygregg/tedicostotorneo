@@ -86,5 +86,13 @@
     "ruolo": "Esterno Sx",
     "descrizione": "Giocatore affidabile e generoso, sempre al servizio della squadra, capace di mettere spirito di gruppo in ogni fase del gioco",
     "caratteristiche": ["Affidabilità", "Altruismo", "Intelligenza"]
+  },
+  {
+    "nome": "SIMO",
+    "foto": "simo.jpg",
+    "eta": 27,
+    "ruolo": "Attaccante",
+    "descrizione": "Giocatore tecnicamente molto dotato, efficace sia in fase offensiva che difensiva, capace di adattarsi al gioco e incidere in entrambe le metà campo",
+    "caratteristiche": ["Efficacia", "Affidabilità", "Tiro"]
   }
 ]
