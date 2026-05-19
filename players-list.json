@@ -94,5 +94,13 @@
     "ruolo": "Attaccante",
     "descrizione": "Giocatore tecnicamente molto dotato, efficace sia in fase offensiva che difensiva, capace di adattarsi al gioco e incidere in entrambe le metà campo",
     "caratteristiche": ["Efficacia", "Affidabilità", "Tiro"]
+  },
+  {
+    "nome": "VEHAB",
+    "foto": "vehab.jpg",
+    "eta": 27,
+    "ruolo": "Esterno Dx",
+    "descrizione": "Giocatore duttile e affidabile, capace di ricoprire più ruoli con intelligenza tattica e di garantire sempre equilibrio alla squadra.",
+    "caratteristiche": ["Solidità", "Posizione", "Passaggio"]
   }
 ]
