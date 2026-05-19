@@ -214,7 +214,7 @@ function renderScorers() {
 /* =========================
    CLASSIFICA GIOCATORI
 ========================= */
-function renderPlayers() {
+function renderPlayers(playerData) {
   const players = {};
 
   matches.forEach(m => {
@@ -229,7 +229,6 @@ function renderPlayers() {
 
     m.teams.forEach((t, index) => {
       const teamPoints = index === 0 ? pointsA : pointsB;
-
       t.players.forEach(p => {
         if (!players[p]) players[p] = { played: 0, points: 0 };
         players[p].played++;
@@ -248,19 +247,31 @@ function renderPlayers() {
 
   el.innerHTML = entries
     .sort(([, a], [, b]) => {
-        if (b.points !== a.points) return b.points - a.points; // Prima per punti (desc)
-        return a.played - b.played; // A parità di punti, meno partite = più in alto
+      if (b.points !== a.points) return b.points - a.points;
+      return a.played - b.played;
     })
-    .map(([name, stats], index) =>
-      `<div class="ranking-card ${index < 3 ? 'top-three' : ''}">
-        <div class="rank">${index + 1}</div>
-        <div class="info">
-          <div class="team">${name}</div>
-          <div class="sub">${stats.played} partite giocate</div>
-        </div>
-        <div class="points">${stats.points}</div>
-      </div>`
-    )
+    .map(([name, stats], index) => {
+      // Cerca il giocatore nel JSON players-list
+      const info = playerData.find(p => p.nome === name);
+      const tooltip = info ? `
+        <div class="tooltip">
+          <div class="t-nome">${info.nome}</div>
+          <div class="t-row">Ruolo: <span>${info.ruolo}</span></div>
+          <div class="t-row">Età: <span>${info.eta} anni</span></div>
+          <div class="t-desc">${info.descrizione}</div>
+        </div>` : "";
+
+      return `
+        <div class="ranking-card ${index < 3 ? 'top-three' : ''}">
+          <div class="rank">${index + 1}</div>
+          <div class="info">
+            <div class="team">${name}</div>
+            <div class="sub">${stats.played} partite giocate</div>
+          </div>
+          <div class="points">${stats.points}</div>
+          ${tooltip}
+        </div>`;
+    })
     .join("");
 }
 
