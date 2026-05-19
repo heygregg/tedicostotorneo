@@ -1,4 +1,4 @@
-/ SCRIPT.JS gestisce: elenco partite, classifica squadre e marcatori, galleria foto
+// SCRIPT.JS gestisce: elenco partite, classifica squadre e marcatori, galleria foto
 
 let matches = []; // Array che conterrà tutte le partite caricate dal JSON
 
