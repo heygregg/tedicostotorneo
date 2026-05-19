@@ -533,7 +533,8 @@ REGOLAMENTO E STORIA
 #players .ranking-card .tooltip {
   display: none;
   position: absolute;
-  left: 105%;
+  right: 105%;
+  left: auto;
   top: 50%;
   transform: translateY(-50%);
   background: #29005C;
