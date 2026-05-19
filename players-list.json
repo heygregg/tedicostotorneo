@@ -1,13 +1,5 @@
 [
   {
-    "nome": "PARDO",
-    "foto": "pardo.jpg",
-    "eta": 29,
-    "ruolo": "Esterno Sx",
-    "descrizione": "Giocatore dotato di buona tecnica, veloce e abile negli inserimenti. Discreta qualità sotto porta. Ottima mentalità e spirito di sacrificio",
-    "caratteristiche": ["Agilità", "Disciplina", "Tenacia"]
-  },
-  {
     "nome": "ALPO",
     "foto": "alpo.jpg",
     "eta": 29,
@@ -16,36 +8,12 @@
     "caratteristiche": ["Imprecisione", "Passaggio", "Rendimento"]
   },
   {
-    "nome": "PRES",
-    "foto": "pres.jpg",
-    "eta": 28,
-    "ruolo": "Esterno Sx",
-    "descrizione": "Giocatore molto veloce e dinamico, con tecnica discreta ma capace a volte di segnare goal inaspettati",
-    "caratteristiche": ["Impulsività", "Velocità", "Resistenza"]
-  },
-  {
-    "nome": "MORO",
-    "foto": "moro.jpg",
-    "eta": 29,
-    "ruolo": "Portiere",
-    "descrizione": "Portiere affidabile con buoni riflessi e senso della posizione, capace di dare tranquillità alla difesa",
-    "caratteristiche": ["Riflessi", "Posizionamento", "Sicurezza"]
-  },
-  {
-    "nome": "LUCHEZIO",
-    "foto": "luchezio.jpg",
+    "nome": "BURA",
+    "foto": "bura.jpg",
     "eta": 22,
-    "ruolo": "Difensore",
-    "descrizione": "Difensore fisico e aggressivo, abile nei contrasti ma anche capace di inserirsi sull’esterno e rendersi pericoloso trovando il gol",
-    "caratteristiche": ["Fisicità", "Inserimento", "Finalizzazione"]
-  },
-  {
-    "nome": "SERA",
-    "foto": "sera.jpg",
-    "eta": 22,
-    "ruolo": "Difensore",
-    "descrizione": "Difensore elegante e affidabile, mancino naturale, capace di impostare e di tentare il dribbling in uscita per superare la prima pressione avversaria",
-    "caratteristiche": ["Mancino", "Dribbling", "Impostazione"]
+    "ruolo": "Attaccante",
+    "descrizione": "Attaccante tecnico e creativo, abile nel dribbling e nel tiro, capace di creare superiorità numerica e tirare",
+    "caratteristiche": ["Finalizzazione", "Potenza", "Robustezza"]
   },
   {
     "nome": "CITA",
@@ -64,54 +32,6 @@
     "caratteristiche": ["Intensità", "Tiro", "Aggressività"]
   },
   {
-    "nome": "HAMZA",
-    "foto": "hamza.jpg",
-    "eta": 27,
-    "ruolo": "Attaccante",
-    "descrizione": "Giocatore completo, attivo in entrambe le fasi, con grande tecnica e capacità di gestire il ritmo e le transizioni",
-    "caratteristiche": ["Inserimento", "Duttilità", "Tecnica"]
-  },
-  {
-    "nome": "BURA",
-    "foto": "bura.jpg",
-    "eta": 22,
-    "ruolo": "Attaccante",
-    "descrizione": "Attaccante tecnico e creativo, abile nel dribbling e nel tiro, capace di creare superiorità numerica e tirare",
-    "caratteristiche": ["Finalizzazione", "Potenza", "Robustezza"]
-  },
-  {
-    "nome": "WILLO",
-    "foto": "willo.jpg",
-    "eta": 28,
-    "ruolo": "Esterno Sx",
-    "descrizione": "Giocatore affidabile e generoso, sempre al servizio della squadra, capace di mettere spirito di gruppo in ogni fase del gioco",
-    "caratteristiche": ["Affidabilità", "Altruismo", "Intelligenza"]
-  },
-  {
-    "nome": "SIMO",
-    "foto": "simo.jpg",
-    "eta": 27,
-    "ruolo": "Attaccante",
-    "descrizione": "Giocatore tecnicamente molto dotato, efficace sia in fase offensiva che difensiva, capace di adattarsi al gioco e incidere in entrambe le metà campo",
-    "caratteristiche": ["Efficacia", "Affidabilità", "Tiro"]
-  },
-  {
-    "nome": "VEHAB",
-    "foto": "vehab.jpg",
-    "eta": 27,
-    "ruolo": "Esterno Dx",
-    "descrizione": "Giocatore duttile e affidabile, capace di ricoprire più ruoli con intelligenza tattica e di garantire sempre equilibrio alla squadra",
-    "caratteristiche": ["Solidità", "Posizione", "Passaggio"]
-  },
-  {
-    "nome": "SPRE",
-    "foto": "spre.jpg",
-    "eta": 29,
-    "ruolo": "Attaccante",
-    "descrizione": "Attaccante dal buon fisico e con grande fiuto del gol, capace di proteggere palla, reggere i duelli e finalizzare",
-    "caratteristiche": ["Fisicità", "Finalizzazione", "Potenza"]
-  },
-  {
     "nome": "GIOI",
     "foto": "gioi.jpg",
     "eta": 27,
@@ -126,5 +46,85 @@
     "ruolo": "Attaccante",
     "descrizione": "Attaccante creativo e imprevedibile, con buon fiuto del gol, capace di inventare giocate decisive negli ultimi metri",
     "caratteristiche": ["Fantasia", "Imprevedibilità", "Finalizzazione"]
+  },
+   {
+    "nome": "HAMZA",
+    "foto": "hamza.jpg",
+    "eta": 27,
+    "ruolo": "Attaccante",
+    "descrizione": "Giocatore completo, attivo in entrambe le fasi, con grande tecnica e capacità di gestire il ritmo e le transizioni",
+    "caratteristiche": ["Inserimento", "Duttilità", "Tecnica"]
+  },
+  {
+    "nome": "LUCHEZIO",
+    "foto": "luchezio.jpg",
+    "eta": 22,
+    "ruolo": "Difensore",
+    "descrizione": "Difensore fisico e aggressivo, abile nei contrasti ma anche capace di inserirsi sull’esterno e rendersi pericoloso trovando il gol",
+    "caratteristiche": ["Fisicità", "Inserimento", "Finalizzazione"]
+  },
+  {
+    "nome": "MORO",
+    "foto": "moro.jpg",
+    "eta": 29,
+    "ruolo": "Portiere",
+    "descrizione": "Portiere affidabile con buoni riflessi e senso della posizione, capace di dare tranquillità alla difesa",
+    "caratteristiche": ["Riflessi", "Posizionamento", "Sicurezza"]
+  },
+  {
+    "nome": "PARDO",
+    "foto": "pardo.jpg",
+    "eta": 29,
+    "ruolo": "Esterno Sx",
+    "descrizione": "Giocatore dotato di buona tecnica, veloce e abile negli inserimenti. Discreta qualità sotto porta. Ottima mentalità e spirito di sacrificio",
+    "caratteristiche": ["Agilità", "Disciplina", "Tenacia"]
+  },
+  {
+    "nome": "PRES",
+    "foto": "pres.jpg",
+    "eta": 28,
+    "ruolo": "Esterno Sx",
+    "descrizione": "Giocatore molto veloce e dinamico, con tecnica discreta ma capace a volte di segnare goal inaspettati",
+    "caratteristiche": ["Impulsività", "Velocità", "Resistenza"]
+  },
+  {
+    "nome": "SERA",
+    "foto": "sera.jpg",
+    "eta": 22,
+    "ruolo": "Difensore",
+    "descrizione": "Difensore elegante e affidabile, mancino naturale, capace di impostare e di tentare il dribbling in uscita per superare la prima pressione avversaria",
+    "caratteristiche": ["Mancino", "Dribbling", "Impostazione"]
+  },
+   {
+    "nome": "SIMO",
+    "foto": "simo.jpg",
+    "eta": 27,
+    "ruolo": "Attaccante",
+    "descrizione": "Giocatore tecnicamente molto dotato, efficace sia in fase offensiva che difensiva, capace di adattarsi al gioco e incidere in entrambe le metà campo",
+    "caratteristiche": ["Efficacia", "Affidabilità", "Tiro"]
+  },
+  {
+    "nome": "SPRE",
+    "foto": "spre.jpg",
+    "eta": 29,
+    "ruolo": "Attaccante",
+    "descrizione": "Attaccante dal buon fisico e con grande fiuto del gol, capace di proteggere palla, reggere i duelli e finalizzare",
+    "caratteristiche": ["Fisicità", "Finalizzazione", "Potenza"]
+  },
+ {
+    "nome": "VEHAB",
+    "foto": "vehab.jpg",
+    "eta": 27,
+    "ruolo": "Esterno Dx",
+    "descrizione": "Giocatore duttile e affidabile, capace di ricoprire più ruoli con intelligenza tattica e di garantire sempre equilibrio alla squadra",
+    "caratteristiche": ["Solidità", "Posizione", "Passaggio"]
+  },
+  {
+    "nome": "WILLO",
+    "foto": "willo.jpg",
+    "eta": 28,
+    "ruolo": "Esterno Sx",
+    "descrizione": "Giocatore affidabile e generoso, sempre al servizio della squadra, capace di mettere spirito di gruppo in ogni fase del gioco",
+    "caratteristiche": ["Affidabilità", "Altruismo", "Intelligenza"]
   }
 ]
