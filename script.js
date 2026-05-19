@@ -275,7 +275,8 @@ const foto = [
   { src: "2026-05-12_match2.jpg", alt: "Match2-1" },
   { src: "Kaltakgirone-Citano.jpg", alt: "Locandina2" },
   { src: "Intervista_Cita.jpg", alt: "Intervista_Cita" },
-  { src: "2026-05-19_locandina.jpg", alt: "Locandina3" }
+  { src: "2026-05-19_news1.jpg", alt: "News1" },
+  { src: "2026-05-19_news2.jpg", alt: "News2" }
  /* { src: "Intervista_Vehab.jpg", alt: "Intervista_Vehab" } */
 ];
 
