@@ -189,6 +189,7 @@ h2, h3 {
   padding: 10px;
   border-radius: 8px;
   font-size: 34px; /*FONT CLASSIFICA */
+  overflow: visible;
 }
 
 .ranking-card {
@@ -198,6 +199,7 @@ h2, h3 {
   color:  #29005C; /* COLORE FONT CELLE CLASSIFICA */
   padding: 10px;
   margin-bottom: 8px;
+  overflow: visible;
 
   background: #F7F6F3; /* SFONDO CELLE CLASSIFICA */
   border-radius: 8px;
