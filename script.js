@@ -10,8 +10,9 @@ fetch("matches.json")
 
     renderMatches();  // Mostra le partite
     renderRanking();  // Calcola e mostra la classifica
-    renderScorers();  // Calcola e mostra i marcatori
     renderPlayers();
+    renderScorers();  // Calcola e mostra i marcatori
+    
   })
   .catch(err => {
     console.error("Errore caricamento JSON:", err); // Gestione errori
