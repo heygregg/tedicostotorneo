@@ -1,7 +1,7 @@
 // SCRIPT.JS gestisce: elenco partite, classifica squadre e marcatori, galleria foto
 
 let matches = []; // Array che conterrà tutte le partite caricate dal JSON
-
+let players = {}; // variabile esterna
 // Carica i dati dal file matches.json
 fetch("matches.json")
   .then(res => res.json()) // Converte la risposta in JSON
@@ -232,7 +232,7 @@ function renderScorers() {
    CLASSIFICA GIOCATORI
 ========================= */
 function renderPlayers() {
-  const players = {};
+  players = {}; // ← assegni quella esterna, non ne crei una nuova
 
   matches.forEach(m => {
     let pointsA, pointsB;
