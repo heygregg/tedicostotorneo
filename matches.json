@@ -91,31 +91,31 @@
   {
     "id": "4",
     "date": "26/05/2026",
-    "description": "ne sono costretti a dare il 101% per tutti i 60 minuti di gioco. Un Pardo in grande forma mette a segno una bella serie di gol, ben servito da un ottimo Hamza. Sottotono invece Alpo, che non riesce a concretizzare le occasioni avute a disposizione. La partita resta tiratissima da entrambe le parti e, proprio allo scadere, il Kaltakgirone riesce a trovare il gol del pareggio. Sul 12-12 i ragazzi del Kaltakgirone reclamano la fine del tempo regolamentare, ma l’arbitro decide di concedere ancora qualche secondo. Proprio su un errore in uscita di Bura, il Citanò ne approfitta, trova il gol decisivo e porta a casa la vittoria. Complimenti a tutti i giocatori per l’ottima partita.",
+    "description": "",
     "teams": [
       {
-        "name": "Kaltakgirone",
-        "players": ["Gioi", "Greg", "Pres", "Vehab", "Bura"],
+        "name": "Spresim Lisbona",
+        "players": ["", "", "", "", ""],
         "goals": {
-            "Gioi": 0,
-            "Greg": 5,
-            "Pres": 0,
-            "Vehab": 1,
-            "Bura": 6
+            "Gioi": ,
+            "Greg": ,
+            "Pres": ,
+            "Vehab": ,
+            "Bura": 
         }
       },
       {
-        "name": "Citanò",
-        "players": ["Sera", "Cita", "Alpo", "Hamza", "Pardo"],
+        "name": "Sparta Pardo",
+        "players": ["", "", "", "", ""],
         "goals":{
-            "Sera": 1,
-            "Cita": 4,
-            "Alpo": 0,
-            "Hamza": 2,
-            "Pardo": 6
+            "Sera": ,
+            "Cita": ,
+            "Alpo": ,
+            "Hamza": ,
+            "Pardo": 
         }
       }
     ],
-    "score": [12, 13]
+    "score": [, ]
   }
 ]
