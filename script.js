@@ -27,9 +27,28 @@ function renderMatches() {
   container.innerHTML = ""; // Pulisce eventuali contenuti precedenti
 
   matches.forEach(m => { // Cicla ogni partita
-    const div = document.createElement("div"); // Crea un blocco per la partita
-    div.className = "match"; // Applica la classe CSS
+  //calcolo se la partita è futura
+  // Calcola se la partita è futura
+    const [day, month, year] = m.date.split("/");
+    const matchDate = new Date(year, month - 1, day);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const isFuture = matchDate > today;
 
+    const div = document.createElement("div");
+    div.className = "match";
+
+    // Se futura: box semplice senza pulsante né dettagli
+    if (isFuture) {
+      div.innerHTML = `
+        <strong>${m.teams[0].name} vs ${m.teams[1].name}</strong><br>
+        Data: ${m.date}<br>
+        <em>NEXT MATCH</em>
+      `;
+      container.appendChild(div);
+      return; // Salta tutto il resto per questa partita
+    }
+    
     let isOpen = false; // Stato per mostrare/nascondere i dettagli
 
     const infoBox = document.createElement("div"); // Box con i dettagli della partita
@@ -41,21 +60,6 @@ function renderMatches() {
 
     // Funzione che genera l'HTML dei dettagli della partita
     function renderInfo(m) {
-      // Converte "DD/MM/YYYY" in un oggetto Date valido
-      const [day, month, year] = m.date.split("/");
-      const matchDate = new Date(year, month - 1, day); // month - 1 perché i mesi in JS partono da 0
-      const today = new Date();
-      today.setHours(0, 0, 0, 0);
-      if (matchDate > today) {
-          infoBox.innerHTML = `
-            <div class="info-grid next-match">
-              <h2>🗓️ NEXT MATCH</h2>
-              <p><strong>${m.teams[0].name} vs ${m.teams[1].name}</strong></p>
-              <p>Data: ${m.date}</p>
-            </div>
-          `;
-          return;
-      }
       let left = `<h4>${m.teams[0].name} vs ${m.teams[1].name}</h4>`; 
 
       m.teams.forEach(t => {
