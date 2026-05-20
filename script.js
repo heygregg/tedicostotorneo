@@ -41,6 +41,21 @@ function renderMatches() {
 
     // Funzione che genera l'HTML dei dettagli della partita
     function renderInfo(m) {
+      // Converte "DD/MM/YYYY" in un oggetto Date valido
+      const [day, month, year] = m.date.split("/");
+      const matchDate = new Date(year, month - 1, day); // month - 1 perché i mesi in JS partono da 0
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      if (matchDate > today) {
+          infoBox.innerHTML = `
+            <div class="info-grid next-match">
+              <h2>🗓️ NEXT MATCH</h2>
+              <p><strong>${m.teams[0].name} vs ${m.teams[1].name}</strong></p>
+              <p>Data: ${m.date}</p>
+            </div>
+          `;
+          return;
+      }
       let left = `<h4>${m.teams[0].name} vs ${m.teams[1].name}</h4>`; 
 
       m.teams.forEach(t => {
