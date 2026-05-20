@@ -95,27 +95,15 @@
     "teams": [
       {
         "name": "Spresim Lisbona",
-        "players": ["", "", "", "", ""],
-        "goals": {
-            "Gioi": ,
-            "Greg": ,
-            "Pres": ,
-            "Vehab": ,
-            "Bura": 
-        }
+        "players": [],
+        "goals": {}
       },
       {
         "name": "Sparta Pardo",
-        "players": ["", "", "", "", ""],
-        "goals":{
-            "Sera": ,
-            "Cita": ,
-            "Alpo": ,
-            "Hamza": ,
-            "Pardo": 
-        }
+        "players": [],
+        "goals":{ }
       }
     ],
-    "score": []
+    "score": [0,0]
   }
 ]
