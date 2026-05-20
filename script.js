@@ -89,7 +89,7 @@ function renderMatches() {
       `;
 }
 
-    // Gestisce il click del pulsante INFO ogni votla che viene cliccato
+    // Gestisce il click del pulsante INFO ogni voLta che viene cliccato
     btn.onclick = () => {
       isOpen = !isOpen; // Inverte lo stato (aperto/chiuso) 
 
