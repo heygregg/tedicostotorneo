@@ -56,6 +56,14 @@
     "caratteristiche": ["Inserimento", "Duttilità", "Tecnica"]
   },
   {
+    "nome": "JAKI",
+    "foto": ".jpg",
+    "eta": 30,
+    "ruolo": "Difensore",
+    "descrizione": "Giocatore intenso, capace di imporsi con personalità e di accompagnare l’azione offensiva quando necessario",
+    "caratteristiche": ["Fisicità", "Aggressività", "Anticipo"]
+  },
+  {
     "nome": "LUCHEZIO",
     "foto": "luchezio.jpg",
     "eta": 22,
