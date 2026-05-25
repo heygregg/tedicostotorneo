@@ -95,12 +95,12 @@
     "teams": [
       {
         "name": "Spresim Lisbona",
-        "players": [],
+        "players": ["Spre","Alpo","Sera","Simo","Cita"],
         "goals": {}
       },
       {
         "name": "Sparta Pardo",
-        "players": [],
+        "players": ["Pardo","Greg","Bura","Jaki","Dimoz"],
         "goals":{ }
       }
     ],
