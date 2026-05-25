@@ -96,12 +96,24 @@
       {
         "name": "Spresim Lisbona",
         "players": ["Spre","Alpo","Sera","Simo","Cita"],
-        "goals": {}
+        "goals": {
+          "Cita": 0,
+          "Spre": 0,
+          "Alpo": 0,
+          "Sera": 0,
+          "Simo": 0
+        }
       },
       {
         "name": "Sparta Pardo",
         "players": ["Pardo","Greg","Bura","Jaki","Dimoz"],
-        "goals":{ }
+        "goals":{
+          "Pardo": 0,
+          "Greg": 0,
+          "Bura": 0,
+          "Jaki": 0,
+          "Dimoz": 0
+        }
       }
     ],
     "score": [0,0]
