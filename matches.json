@@ -91,31 +91,31 @@
   {
     "id": "4",
     "date": "26/05/2026",
-    "description": "",
+    "description": "Parte forte lo Sparta Praga, che trova subito il vantaggio. La partita però cambia rapidamente: lo Spresim Lisbona ribalta il risultato e resta avanti di tre reti per gran parte dell’incontro. Gli ospiti giocano di ripartenza, sfruttando al meglio le occasioni create, mentre lo Sparta Pardo arriva con continuità nell’area avversaria senza però riuscire a concretizzare.Nel finale arriva una clamorosa rimonta dello Sparta Pardo, capace addirittura di portarsi in vantaggio. La stanchezza però si fa sentire: prima subisce il goal del pareggio e poi, nei minuti conclusivi, viene nuovamente superata da una splendida rete di Simo. Resta da capire se, anche in questa occasione, il match non fosse già terminato prima del goal decisivo. Prestazione sotto le aspettative per Bura e Spre, che non riescono a confermare le ottime prove a cui avevano abituato. Ottima invece la prova di Simo, fondamentale in fase difensiva, e di Sera, autore di ben quattro goal. Dall’altra parte si mettono in evidenza Greg e Pardo, che realizzano complessivamente sette reti, mentre Jaki e Dimoz, nonostante l’impegno, non riescono a trovare la via del goal.",
     "teams": [
       {
         "name": "Spresim Lisbona",
         "players": ["Spre","Alpo","Sera","Simo","Cita"],
         "goals": {
-          "Cita": 0,
+          "Cita": 1,
           "Spre": 0,
-          "Alpo": 0,
-          "Sera": 0,
-          "Simo": 0
+          "Alpo": 1,
+          "Sera": 4,
+          "Simo": 4
         }
       },
       {
         "name": "Sparta Pardo",
         "players": ["Pardo","Greg","Bura","Jaki","Dimoz"],
         "goals":{
-          "Pardo": 0,
-          "Greg": 0,
-          "Bura": 0,
+          "Pardo": 2,
+          "Greg": 5,
+          "Bura": 2,
           "Jaki": 0,
           "Dimoz": 0
         }
       }
     ],
-    "score": [0,0]
+    "score": [10,9]
   }
 ]
