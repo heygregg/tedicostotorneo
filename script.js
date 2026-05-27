@@ -222,8 +222,10 @@ function renderScorers() {
       <div class="info">
         <div class="team">${s[0]}</div>
         <div class="sub">
-            ${players[s[0]]?.played ?? 0} partite giocate • 
-            1 gol ogni ${Math.round((players[s[0]]?.played ?? 0) * 60 / s[1])} min
+              ${players[s[0]]?.played ?? 0} partite giocate •
+              ${s[1] > 0 
+                ? `1 gol ogni ${Math.round((players[s[0]]?.played ?? 0) * 60 / s[1])} min` 
+                : 'nessun gol'}
         </div>
       </div>
 
