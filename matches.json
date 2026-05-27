@@ -119,22 +119,21 @@
     "score": [10,9]
   },
   {
-    "id": "5",
-    "date": "03/06/2026",
-    "description": "",
-    "teams": [
-      {
-        "name": "DA DEFINIRE",
-        "players": [],
-        "goals": {
-      }
-      },
-      {
-        "name": "DA DEFINIRE",
-        "players": [,
-        "goals":{
-      }
-    ],
-    "score": []
-  }
+  "id": "5",
+  "date": "03/06/2026",
+  "description": "",
+  "teams": [
+    {
+      "name": "DA DEFINIRE",
+      "players": [],
+      "goals": {}
+    },
+    {
+      "name": "DA DEFINIRE",
+      "players": [],
+      "goals": {}
+    }
+  ],
+  "score": []
+}
 ]
