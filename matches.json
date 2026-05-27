@@ -117,5 +117,35 @@
       }
     ],
     "score": [10,9]
+  },
+  {
+    "id": "5",
+    "date": "03/06/2026",
+    "description": "",
+    "teams": [
+      {
+        "name": "Spresim Lisbona",
+        "players": ["Spre","Alpo","Sera","Simo","Cita"],
+        "goals": {
+          "Cita": 1,
+          "Spre": 0,
+          "Alpo": 1,
+          "Sera": 4,
+          "Simo": 4
+        }
+      },
+      {
+        "name": "Sparta Pardo",
+        "players": ["Pardo","Greg","Bura","Jaki","Dimoz"],
+        "goals":{
+          "Pardo": 2,
+          "Greg": 5,
+          "Bura": 2,
+          "Jaki": 0,
+          "Dimoz": 0
+        }
+      }
+    ],
+    "score": [10,9]
   }
 ]
