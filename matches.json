@@ -127,25 +127,14 @@
         "name": "DA DEFINIRE",
         "players": [],
         "goals": {
-          "Cita": 1,
-          "Spre": 0,
-          "Alpo": 1,
-          "Sera": 4,
-          "Simo": 4
-        }
+      }
       },
       {
-        "name": "Sparta Pardo",
-        "players": ["Pardo","Greg","Bura","Jaki","Dimoz"],
+        "name": "DA DEFINIRE",
+        "players": [,
         "goals":{
-          "Pardo": 2,
-          "Greg": 5,
-          "Bura": 2,
-          "Jaki": 0,
-          "Dimoz": 0
-        }
       }
     ],
-    "score": [10,9]
+    "score": []
   }
 ]
