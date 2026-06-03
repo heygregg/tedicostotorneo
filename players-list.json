@@ -32,6 +32,14 @@
     "caratteristiche": ["Intensità", "Tiro", "Aggressività"]
   },
   {
+    "nome": "ELIA",
+    "foto": "",
+    "eta": ,
+    "ruolo": "",
+    "descrizione": "",
+    "caratteristiche": ["", "", ""]
+  },
+  {
     "nome": "GIOI",
     "foto": "gioi.jpg",
     "eta": 27,
