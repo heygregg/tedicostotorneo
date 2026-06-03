@@ -40,6 +40,14 @@
     "caratteristiche": ["", "", ""]
   },
   {
+    "nome": "GIAMMI",
+    "foto": "",
+    "eta": 30,
+    "ruolo": "Difensore",
+    "descrizione": "",
+    "caratteristiche": ["", "", ""]
+  },
+  {
     "nome": "GIOI",
     "foto": "gioi.jpg",
     "eta": 27,
