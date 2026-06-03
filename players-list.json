@@ -23,6 +23,14 @@
     "descrizione": "Difensore esperto e intelligente tatticamente, compensa la struttura fisica minuta con ottimo anticipo, lettura del gioco e grande posizionamento",
     "caratteristiche": ["Posizionamento", "Anticipo", "Lettura"]
   },
+   {
+    "nome": "DAVID",
+    "foto": "",
+    "eta": ,
+    "ruolo": "",
+    "descrizione": "",
+    "caratteristiche": ["", "", ""]
+  },
   {
     "nome": "DIMOZ",
     "foto": "dimoz.jpg",
@@ -38,6 +46,14 @@
     "ruolo": "",
     "descrizione": "",
     "caratteristiche": ["", "", ""]
+  },
+   {
+    "nome": "GABBA",
+    "foto": "",
+    "eta": 27,
+    "ruolo": "Esterno Sx",
+    "descrizione": "",
+    "caratteristiche": ["Esperienza", "Tiro", "Tattica"]
   },
   {
     "nome": "GIAMMI",
@@ -110,6 +126,14 @@
     "ruolo": "Esterno Sx",
     "descrizione": "Giocatore molto veloce e dinamico, con tecnica discreta ma capace a volte di segnare goal inaspettati",
     "caratteristiche": ["Impulsività", "Velocità", "Resistenza"]
+  },
+   {
+    "nome": "SANTI",
+    "foto": "",
+    "eta": 27,
+    "ruolo": "Attaccante",
+    "descrizione": "",
+    "caratteristiche": ["", "", ""]
   },
   {
     "nome": "SERA",
