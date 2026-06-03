@@ -125,12 +125,12 @@
   "teams": [
     {
       "name": "MORO GLIMT",
-      "players": [],
+      "players": ["Moro", "Gabba", "Santi", "Greg", "David"],
       "goals": {}
     },
     {
       "name": "SS IMONI",
-      "players": [],
+      "players": ["Simo", "Giammi", "Elia", "Alpo", "Spre"],
       "goals": {}
     }
   ],
