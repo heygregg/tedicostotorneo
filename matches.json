@@ -124,12 +124,12 @@
   "description": "",
   "teams": [
     {
-      "name": "MORO GLIMT",
+      "name": "Moro Glimt",
       "players": ["Moro", "Gabba", "Santi", "Greg", "David"],
       "goals": {}
     },
     {
-      "name": "SS IMONI",
+      "name": "SS Imoni",
       "players": ["Simo", "Giammi", "Elia", "Alpo", "Spre"],
       "goals": {}
     }
