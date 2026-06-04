@@ -26,10 +26,10 @@
    {
     "nome": "DAVID",
     "foto": "",
-    "eta": ,
-    "ruolo": "",
-    "descrizione": "",
-    "caratteristiche": ["", "", ""]
+    "eta": 20,
+    "ruolo": "Difensore",
+    "descrizione": "Difensore con buon fisico, abile nell'intercettazione della palla e nella ripartenza",
+    "caratteristiche": ["Fisicità", "Ripartenza", "Generosità"]
   },
   {
     "nome": "DIMOZ",
