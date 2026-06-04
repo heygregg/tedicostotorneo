@@ -51,9 +51,9 @@
     "nome": "GABBA",
     "foto": "",
     "eta": 27,
-    "ruolo": "Esterno Sx",
-    "descrizione": "",
-    "caratteristiche": ["Esperienza", "Tiro", "Tattica"]
+    "ruolo": "Esterno Dx",
+    "descrizione": "Giocatore esperto e affidabile, bravo a recuperare palla e a gestire con lucidità i ritmi della squadra.",
+    "caratteristiche": ["Affidabilità", "Contrasto", "Gestione"]
   },
   {
     "nome": "GIAMMI",
