@@ -132,8 +132,8 @@
     "foto": "",
     "eta": 27,
     "ruolo": "Attaccante",
-    "descrizione": "",
-    "caratteristiche": ["", "", ""]
+    "descrizione": "Rapido e intelligente negli inserimenti, legge bene le situazioni ed è freddo sotto porta nel finalizzare",
+    "caratteristiche": ["Intelligenza", "Rapidità", "Finalizzazione"]
   },
   {
     "nome": "SERA",
