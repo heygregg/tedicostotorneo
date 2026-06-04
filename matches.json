@@ -121,19 +121,31 @@
   {
   "id": "5",
   "date": "03/06/2026",
-  "description": "",
+  "description": "Partita a senso unico fin dalle prime battute, con il Moro Glimt che prende immediatamente il controllo del gioco, stabilendosi stabilmente nella metà campo avversaria. La squadra riesce a trovare con continuità gli spazi giusti per innescare gli attaccanti, che sotto porta si dimostrano estremamente concreti. Il risultato finale appare forse un po’ eccessivo rispetto a quanto visto per larghi tratti della gara, ma nel finale l’SS Imoni si sfalda completamente, concedendo campo e iniziativa agli avversari, che ne approfittano senza pietà. La difesa, ormai disunita, non riesce più a contenere le avanzate avversarie. Spicca la grande prestazione di Santi, capace di creare superiorità e mettere in costante difficoltà la retroguardia avversaria con le sue giocate. Ottima anche la prova del capitano Moro, protagonista assoluto con una tripletta che indirizza e chiude di fatto il match. Molto positive anche le prestazioni di Gabba, Greg e David, tutti efficaci nel contribuire in modo concreto al risultato finale. Sul fronte opposto, da sottolineare la prestazione di Spre, autore di un poker che rappresenta la nota più luminosa per l’SS Imoni. Giornata invece amara per Simo, che spreca diverse occasioni importanti a tu per tu con il portiere, che avrebbero potuto cambiare l’inerzia della gara. Per l’SS Imoni resta ora una domanda inevitabile: cosa è realmente mancato per evitare un passivo così pesante?",
   "teams": [
     {
       "name": "Moro Glimt",
       "players": ["Moro", "Gabba", "Santi", "Greg", "David"],
-      "goals": {}
+      "goals": {
+        "Moro": 3,
+        "Gabba": 3,
+        "Greg": 4,
+        "David": 1,
+        "Santi": 4
+      }
     },
     {
       "name": "SS Imoni",
       "players": ["Simo", "Giammi", "Elia", "Alpo", "Spre"],
-      "goals": {}
+      "goals": {
+        "Simo": 1,
+        "Alpo": 0,
+        "Giammi": 0,
+        "Elia": 0,
+        "Spre": 4
+      }
     }
   ],
-  "score": []
+  "score": [15,5]
 }
 ]
