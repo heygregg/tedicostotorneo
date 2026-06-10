@@ -88,6 +88,14 @@
     "caratteristiche": ["Inserimento", "Duttilità", "Tecnica"]
   },
   {
+    "nome": "JACK",
+    "foto": "",
+    "eta": 23,
+    "ruolo": "Difensore",
+    "descrizione": "",
+    "caratteristiche": ["", "", ""]
+  },
+  {
     "nome": "JAKI",
     "foto": ".jpg",
     "eta": 30,
