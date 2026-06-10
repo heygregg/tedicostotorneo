@@ -148,4 +148,34 @@
   ],
   "score": [15,5]
 }
+  {
+  "id": "6",
+  "date": "11/06/2026",
+  "description": "",
+  "teams": [
+    {
+      "name": "Sparta Pardo",
+      "players": ["Pardo", "Bura", "Sera", "Moro", "Damio"],
+      "goals": {
+        "Pardo": 0,
+        "Bura": 0,
+        "Sera": 0,
+        "Moro": 0,
+        "Damio": 0
+      }
+    },
+    {
+      "name": "Grêmio Porto Alegre",
+      "players": ["Greg", "Cita", "Jack", "Alpo", "Bruno"],
+      "goals": {
+        "Greg": 0,
+        "Cita": 0,
+        "Jack": 0,
+        "Alpo": 0,
+        "Bruno": 0
+      }
+    }
+  ],
+  "score": [15,5]
+}
 ]
