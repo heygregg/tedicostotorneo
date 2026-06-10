@@ -8,6 +8,14 @@
     "caratteristiche": ["Imprecisione", "Passaggio", "Rendimento"]
   },
   {
+    "nome": "BRUNO",
+    "foto": "",
+    "eta": 27,
+    "ruolo": "Attaccante",
+    "descrizione": "",
+    "caratteristiche": ["Fisicità", "Attaccamento", "Dedizione"]
+  },
+  {
     "nome": "BURA",
     "foto": "bura.jpg",
     "eta": 22,
