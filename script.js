@@ -302,7 +302,8 @@ const foto = [
   { src: "Intervista_Cita.jpg", alt: "Intervista_Cita" },
   { src: "2026-05-19_news1.jpg", alt: "News1" },
   { src: "2026-05-19_news3.jpg", alt: "News3" },
-  { src: "2026-05-26_news1.jpg", alt: "News4" }
+  { src: "2026-05-26_news1.jpg", alt: "News4" },
+  { src: "2026-06-11_news1.jpg", alt: "News5" }
  /* { src: "Intervista_Vehab.jpg", alt: "Intervista_Vehab" } */
 ];
 
