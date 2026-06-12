@@ -151,31 +151,31 @@
   {
   "id": "6",
   "date": "11/06/2026",
-  "description": "",
+  "description": "Una sfida combattuta e ricca di emozioni quella tra Sparta Pardo e Gremio, con entrambe le squadre protagoniste di una partita intensa fino all'ultimo secondo. Lo Sparta Pardo conduce praticamente per tutta la gara, ma è il Gremio a costruire gran parte del gioco, nonostante l'infortunio di Cita nei primi minuti privi la squadra di uno dei suoi uomini più importanti. I ragazzi in casacca bianca continuano comunque a lottare, mentre dall'altra parte il tridente formato da Bura, Sera e Pardo crea costanti pericoli, supportato dal prezioso lavoro difensivo di Dimoz. Tra i migliori in campo anche Moro, autore di diversi interventi decisivi che tengono avanti i suoi. Il Gremio, sempre costretto a rincorrere, non smette però di crederci: Alpo spreca diverse occasioni sotto porta, mentre Greg e Jack cercano in tutti i modi di scardinare la difesa avversaria. Quando il match sembra ormai destinato a concludersi con la vittoria dello Sparta Pardo, ecco il colpo di scena: in pieno recupero arriva l'insperato gol del pareggio del Gremio, che riaccende una partita già spettacolare e rende giustizia all'equilibrio visto in campo. La lega fissa il risultato sul pareggio, ma si giocherò anche il Golden Goal, dove il destino sorride proprio al Gremio. A decidere la sfida è capitan Greg, bravo ad approfittare di un raro errore di Pardo, fino a quel momento impeccabile in fase difensiva, regalando ai suoi una vittoria tanto sofferta quanto emozionante.",
   "teams": [
     {
       "name": "Sparta Pardo",
       "players": ["Pardo", "Bura", "Sera", "Moro", "Damio"],
       "goals": {
-        "Pardo": 0,
-        "Bura": 0,
-        "Sera": 0,
-        "Moro": 0,
-        "Damio": 0
+        "Pardo": 3,
+        "Bura": 4,
+        "Sera": 4,
+        "Moro": 1,
+        "Damio": 2
       }
     },
     {
       "name": "Gremio Porto Alegre",
       "players": ["Greg", "Cita", "Jack", "Alpo", "Bruno"],
       "goals": {
-        "Greg": 0,
-        "Cita": 0,
-        "Jack": 0,
-        "Alpo": 0,
-        "Bruno": 0
+        "Greg": 6,
+        "Cita": 2,
+        "Jack": 1,
+        "Alpo": 3,
+        "Bruno": 2
       }
     }
   ],
-  "score": [0,0]
+  "score": [14,14]
 }
 ]
