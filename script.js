@@ -298,12 +298,12 @@ const foto = [
   { src: "2026-05-12_locandina.jpg", alt: "Locandina2" },
   { src: "2026-05-12_match.jpg", alt: "Match2" },
   { src: "2026-05-12_match2.jpg", alt: "Match2-1" },
-  { src: "Kaltakgirone-Citano.jpg", alt: "Locandina2" },
+  { src: "Kaltakgirone-Citano.jpg", alt: "Locandina3" },
   { src: "Intervista_Cita.jpg", alt: "Intervista_Cita" },
   { src: "2026-05-19_news1.jpg", alt: "News1" },
-  { src: "2026-05-19_news3.jpg", alt: "News3" },
-  { src: "2026-05-26_news1.jpg", alt: "News4" },
-  { src: "2026-06-11_news1.jpg", alt: "News5" }
+  { src: "2026-05-19_news3.jpg", alt: "News2" },
+  { src: "2026-05-26_news1.jpg", alt: "News3" },
+  { src: "2026-06-11_news1.jpg", alt: "News4" }
 ];
 
 // Prende dal file HTML l'elemento con id="gallery-grid" (il contenitore della griglia)
