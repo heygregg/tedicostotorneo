@@ -178,4 +178,34 @@
   ],
   "score": [14,14]
 }
+  {
+  "id": "7",
+  "date": "16/06/2026",
+  "description": "",
+  "teams": [
+    {
+      "name": "Moro Glimt",
+      "players": ["Moro", "Dillo", "Devis", "Piatto", "Greg"],
+      "goals": {
+        "Pardo": ,
+        "Bura": ,
+        "Sera": ,
+        "Moro": ,
+        "Damio": 
+      }
+    },
+    {
+      "name": "Citanò",
+      "players": ["Cita", "Simo", "Pino", "Bura", "Ion"],
+      "goals": {
+        "Greg": ,
+        "Cita": ,
+        "Jack": ,
+        "Alpo": ,
+        "Bruno": 
+      }
+    }
+  ],
+  "score": [,]
+}
 ]
