@@ -187,25 +187,25 @@
       "name": "Moro Glimt",
       "players": ["Moro", "Dillo", "Devis", "Piatto", "Greg"],
       "goals": {
-        "Pardo": ,
-        "Bura": ,
-        "Sera": ,
-        "Moro": ,
-        "Damio": 
+        "Moro": 0,
+        "Dillo": 0,
+        "Devis": 0,
+        "Piatto": 0,
+        "Greg": 0
       }
     },
     {
       "name": "Citanò",
       "players": ["Cita", "Simo", "Pino", "Bura", "Ion"],
       "goals": {
-        "Greg": ,
-        "Cita": ,
-        "Jack": ,
-        "Alpo": ,
-        "Bruno": 
+        "Cita": 0,
+        "Simo": 0,
+        "Pino": 0,
+        "Bura": 0,
+        "Ion": 0
       }
     }
   ],
-  "score": ["",""]
+  "score": [0,0]
 }
 ]
