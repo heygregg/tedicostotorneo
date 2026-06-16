@@ -155,13 +155,13 @@
   "teams": [
     {
       "name": "Sparta Pardo",
-      "players": ["Pardo", "Bura", "Sera", "Moro", "Damio"],
+      "players": ["Pardo", "Bura", "Sera", "Moro", "Dimoz"],
       "goals": {
         "Pardo": 3,
         "Bura": 4,
         "Sera": 4,
         "Moro": 1,
-        "Damio": 2
+        "Dimoz": 2
       }
     },
     {
