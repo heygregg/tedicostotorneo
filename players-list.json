@@ -9,7 +9,7 @@
   },
   {
     "nome": "BRUNO",
-    "foto": "",
+    "foto": "not_in_database.png",
     "eta": 27,
     "ruolo": "Attaccante",
     "descrizione": "",
@@ -33,7 +33,7 @@
   },
    {
     "nome": "DAVID",
-    "foto": "",
+    "foto": "not_in_database.png",
     "eta": 20,
     "ruolo": "Difensore",
     "descrizione": "Difensore con buon fisico, abile nell'intercettazione della palla e nella ripartenza",
@@ -49,7 +49,7 @@
   },
   {
     "nome": "ELIA",
-    "foto": "",
+    "foto": "not_in_database.png",
     "eta": ,
     "ruolo": "",
     "descrizione": "",
@@ -57,7 +57,7 @@
   },
    {
     "nome": "GABBA",
-    "foto": "",
+    "foto": "not_in_database.png",
     "eta": 27,
     "ruolo": "Esterno Dx",
     "descrizione": "Giocatore esperto e affidabile, bravo a recuperare palla e a gestire con lucidità i ritmi della squadra.",
@@ -65,7 +65,7 @@
   },
   {
     "nome": "GIAMMI",
-    "foto": "",
+    "foto": "not_in_database.png",
     "eta": 30,
     "ruolo": "Difensore",
     "descrizione": "",
@@ -97,7 +97,7 @@
   },
   {
     "nome": "JACK",
-    "foto": "",
+    "foto": "not_in_database.png",
     "eta": 23,
     "ruolo": "Difensore",
     "descrizione": "",
@@ -105,7 +105,7 @@
   },
   {
     "nome": "JAKI",
-    "foto": ".jpg",
+    "foto": "not_in_database.png",
     "eta": 30,
     "ruolo": "Difensore",
     "descrizione": "Giocatore intenso, capace di imporsi con personalità e di accompagnare l’azione offensiva quando necessario",
@@ -145,7 +145,7 @@
   },
    {
     "nome": "SANTI",
-    "foto": "",
+    "foto": "not_in_database.png",
     "eta": 27,
     "ruolo": "Attaccante",
     "descrizione": "Rapido e intelligente negli inserimenti, legge bene le situazioni ed è freddo sotto porta nel finalizzare",
