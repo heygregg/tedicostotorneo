@@ -12,7 +12,7 @@
     "foto": "not_in_database.png",
     "eta": 27,
     "ruolo": "Attaccante",
-    "descrizione": "",
+    "descrizione": "Punta fisica e dominante, usa il corpo per proteggere palla e creare spazi, pericoloso in area",
     "caratteristiche": ["Fisicità", "Attaccamento", "Dedizione"]
   },
   {
@@ -42,18 +42,18 @@
   {
     "nome": "DEVIS",
     "foto": "not_in_database.png",
-    "eta": 20,
-    "ruolo": "Difensore",
-    "descrizione": "Difensore con buon fisico, abile nell'intercettazione della palla e nella ripartenza",
-    "caratteristiche": ["Fisicità", "Ripartenza", "Generosità"]
+    "eta": 24,
+    "ruolo": "Centrocampista",
+    "descrizione": "Centrocampista fisico e dinamico, unisce forza e dribbling per guidare le ripartenze",
+    "caratteristiche": ["Progressione", "Resistenza", "Strappo"]
   },
   {
     "nome": "DILLO",
     "foto": "not_in_database.png",
-    "eta": 20,
-    "ruolo": "Difensore",
-    "descrizione": "Difensore con buon fisico, abile nell'intercettazione della palla e nella ripartenza",
-    "caratteristiche": ["Fisicità", "Ripartenza", "Generosità"]
+    "eta": 27,
+    "ruolo": "Centrocampista",
+    "descrizione": "Centrocampista tecnico e di esperienza, detta i temp con qualità in mezzo al campo",
+    "caratteristiche": ["Visione", "Controllo", "Costruzione"]
   },
   {
     "nome": "DIMOZ",
@@ -67,9 +67,9 @@
     "nome": "ELIA",
     "foto": "not_in_database.png",
     "eta": 22,
-    "ruolo": "",
-    "descrizione": "",
-    "caratteristiche": ["", "", ""]
+    "ruolo": "Centrocampista",
+    "descrizione": "Giocatore affidabile e generoso, dà tutto per la squadra con grande sacrificio e intensità",
+    "caratteristiche": ["Sacrificio", "Intensità", "Affidabilità"]
   },
    {
     "nome": "GABBA",
@@ -84,8 +84,8 @@
     "foto": "not_in_database.png",
     "eta": 30,
     "ruolo": "Difensore",
-    "descrizione": "",
-    "caratteristiche": ["", "", ""]
+    "descrizione": "Difensore solido e attento, affidabile nei duelli e concentrato in fase difensaiva",
+    "caratteristiche": ["Marcatura", "Anticipo", "Concentrazione"]
   },
   {
     "nome": "GIOI",
@@ -116,24 +116,24 @@
     "foto": "not_in_database.png",
     "eta": 20,
     "ruolo": "Difensore",
-    "descrizione": "Difensore con buon fisico, abile nell'intercettazione della palla e nella ripartenza",
-    "caratteristiche": ["Fisicità", "Ripartenza", "Generosità"]
+    "descrizione": "Difensore imponente, domina fisicamente e si rende pericoloso grazie al suo tiro molto potente",
+    "caratteristiche": ["Fisicità", "Potenza", "Corsa"]
   },
   {
     "nome": "JACK",
     "foto": "not_in_database.png",
     "eta": 23,
     "ruolo": "Difensore",
-    "descrizione": "",
-    "caratteristiche": ["", "", ""]
+    "descrizione": "Difensore tecnico e moderno, bravo nell'impostazione e nel superare la pressione con qualità",
+    "caratteristiche": ["Tecnica", "Dribbling", "Visione"]
   },
   {
     "nome": "JAKI",
     "foto": "not_in_database.png",
     "eta": 30,
     "ruolo": "Difensore",
-    "descrizione": "Giocatore intenso, capace di imporsi con personalità e di accompagnare l’azione offensiva quando necessario",
-    "caratteristiche": ["Fisicità", "Aggressività", "Anticipo"]
+    "descrizione": "Difensore tecnico e propositivo, sa impostare e spingere in avanti contribuendo alla manovra offensiva",
+    "caratteristiche": ["Tecnica", "Spinta", "Inserimenti"]
   },
   {
     "nome": "LUCHEZIO",
@@ -162,10 +162,10 @@
   {
     "nome": "PIATTO",
     "foto": "not_in_database.png",
-    "eta": 20,
-    "ruolo": "Difensore",
-    "descrizione": "Difensore con buon fisico, abile nell'intercettazione della palla e nella ripartenza",
-    "caratteristiche": ["Fisicità", "Ripartenza", "Generosità"]
+    "eta": 22,
+    "ruolo": "Centrocampista",
+    "descrizione": "Centrocampista solido e affidabile, garantisce equilibrio e protezione alla difesa con grande disciplina tattica",
+    "caratteristiche": ["Equilibrio", "Recupero", "Disciplina"]
   },
   {
     "nome": "PRES",
