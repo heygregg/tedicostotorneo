@@ -40,6 +40,22 @@
     "caratteristiche": ["Fisicità", "Ripartenza", "Generosità"]
   },
   {
+    "nome": "DEVIS",
+    "foto": "not_in_database.png",
+    "eta": 20,
+    "ruolo": "Difensore",
+    "descrizione": "Difensore con buon fisico, abile nell'intercettazione della palla e nella ripartenza",
+    "caratteristiche": ["Fisicità", "Ripartenza", "Generosità"]
+  },
+  {
+    "nome": "DILLO",
+    "foto": "not_in_database.png",
+    "eta": 20,
+    "ruolo": "Difensore",
+    "descrizione": "Difensore con buon fisico, abile nell'intercettazione della palla e nella ripartenza",
+    "caratteristiche": ["Fisicità", "Ripartenza", "Generosità"]
+  },
+  {
     "nome": "DIMOZ",
     "foto": "dimoz.jpg",
     "eta": 28,
@@ -96,6 +112,14 @@
     "caratteristiche": ["Inserimento", "Duttilità", "Tecnica"]
   },
   {
+    "nome": "ION",
+    "foto": "not_in_database.png",
+    "eta": 20,
+    "ruolo": "Difensore",
+    "descrizione": "Difensore con buon fisico, abile nell'intercettazione della palla e nella ripartenza",
+    "caratteristiche": ["Fisicità", "Ripartenza", "Generosità"]
+  },
+  {
     "nome": "JACK",
     "foto": "not_in_database.png",
     "eta": 23,
@@ -134,6 +158,14 @@
     "ruolo": "Esterno Sx",
     "descrizione": "Giocatore dotato di buona tecnica, veloce e abile negli inserimenti. Discreta qualità sotto porta. Ottima mentalità e spirito di sacrificio",
     "caratteristiche": ["Agilità", "Disciplina", "Tenacia"]
+  },
+  {
+    "nome": "PIATTO",
+    "foto": "not_in_database.png",
+    "eta": 20,
+    "ruolo": "Difensore",
+    "descrizione": "Difensore con buon fisico, abile nell'intercettazione della palla e nella ripartenza",
+    "caratteristiche": ["Fisicità", "Ripartenza", "Generosità"]
   },
   {
     "nome": "PRES",
