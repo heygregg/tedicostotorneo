@@ -196,11 +196,11 @@
     },
     {
       "name": "Citanò",
-      "players": ["Cita", "Simo", "Pino", "Bura", "Ion"],
+      "players": ["Cita", "Simo", "Alpo", "Bura", "Ion"],
       "goals": {
         "Cita": 0,
         "Simo": 0,
-        "Pino": 0,
+        "Alpo": 0,
         "Bura": 0,
         "Ion": 0
       }
