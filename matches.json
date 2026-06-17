@@ -181,31 +181,31 @@
   {
   "id": "7",
   "date": "16/06/2026",
-  "description": "",
+  "description": "Partenza equilibrata, con le due squadre che si rispondono colpo su colpo: un gol da una parte, uno dall’altra, in un botta e risposta che tiene tutti con il fiato sospeso. Ma col passare dei minuti la fatica inizia a farsi sentire tra le fila del Citanò, e gli uomini in casacca bianca ne approfittano, trovando sempre più spazi dove infilarsi. Sugli scudi un incontenibile Piatto, in stato di grazia, capace di segnare praticamente da ogni posizione. Dietro, Dillo guida la difesa con autorità, distribuendo indicazioni come un vero regista arretrato, mentre Davis e Greg pungono con le loro incursioni e Moro blinda la porta. Dall’altra parte, le stelle Simo e Bura provano a inventare qualcosa là davanti, ma trovano pochi varchi. Ci pensa allora Ion a regalare un lampo di qualità, con un gol splendido dalla distanza. L’Alpo sfiora il sogno, ma la traversa spegne l’entusiasmo sul più bello. Nel finale non c’è più storia: il Moro Glimt prende il largo, mentre il Citanò, ormai alle corde, aspetta soltanto il triplice fischio.",
   "teams": [
     {
       "name": "Moro Glimt",
       "players": ["Moro", "Dillo", "Devis", "Piatto", "Greg"],
       "goals": {
-        "Moro": 0,
-        "Dillo": 0,
-        "Devis": 0,
-        "Piatto": 0,
-        "Greg": 0
+        "Moro": 1,
+        "Dillo": 4,
+        "Devis": 1,
+        "Piatto": 7,
+        "Greg": 6
       }
     },
     {
       "name": "Citanò",
       "players": ["Cita", "Simo", "Alpo", "Bura", "Ion"],
       "goals": {
-        "Cita": 0,
-        "Simo": 0,
+        "Cita": 1,
+        "Simo": 1,
         "Alpo": 0,
-        "Bura": 0,
-        "Ion": 0
+        "Bura": 3,
+        "Ion": 1
       }
     }
   ],
-  "score": [0,0]
+  "score": [19,6]
 }
 ]
