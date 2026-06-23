@@ -79,6 +79,14 @@
     "descrizione": "Giocatore affidabile e generoso, dà tutto per la squadra con grande sacrificio e intensità",
     "caratteristiche": ["Sacrificio", "Intensità", "Affidabilità"]
   },
+  {
+    "nome": "FOGGIANO",
+    "foto": "not_in_database.png",
+    "eta": 27,
+    "ruolo": "Esterno Dx",
+    "descrizione": "Giocatore leggero, rapido e propositivo, bravo nel creare gioco e muoversi tra le linee con dinamismo",
+    "caratteristiche": ["Rapidità", "Agilità", "Leggerezza"]
+  },
    {
     "nome": "GABBA",
     "foto": "not_in_database.png",
