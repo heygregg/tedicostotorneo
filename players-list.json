@@ -1,5 +1,13 @@
 [
   {
+    "nome": "AGO",
+    "foto": "not_in_database.png",
+    "eta": 27,
+    "ruolo": "Attaccante",
+    "descrizione": "Attaccante forte e fisico, domina i duelli, protegge palla e si impone in area, pericoloso di testa e nelle conclusioni ravvicinate",
+    "caratteristiche": ["Forza", "Fisicità", "Elevazione"]
+  },
+  {
     "nome": "ALPO",
     "foto": "alpo.jpg",
     "eta": 29,
