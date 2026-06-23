@@ -168,6 +168,14 @@
     "caratteristiche": ["Riflessi", "Posizionamento", "Sicurezza"]
   },
   {
+    "nome": "NIXON",
+    "foto": "not_in_database.png",
+    "eta": 31,
+    "ruolo": "Difensore",
+    "descrizione": "Difensore fisico ed esperto, solido nei duelli, guida la linea con sicurezza e legge bene le situazioni di gioco",
+    "caratteristiche": ["Forza", "Posizione", "Leadership"]
+  },
+  {
     "nome": "PARDO",
     "foto": "pardo.jpg",
     "eta": 29,
