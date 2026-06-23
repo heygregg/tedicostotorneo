@@ -207,5 +207,35 @@
     }
   ],
   "score": [19,6]
+},
+  {
+  "id": "8",
+  "date": "23/06/2026",
+  "description": "",
+  "teams": [
+    {
+      "name": "Gioventù Alpina",
+      "players": ["Alpo", "Dillo", "Ago", "Gioi", "Ion"],
+      "goals": {
+        "Moro": 1,
+        "Dillo": 4,
+        "Devis": 1,
+        "Piatto": 7,
+        "Greg": 6
+      }
+    },
+    {
+      "name": "SS Simoni",
+      "players": ["Simo", "Bura", "Devis", "Nixon", "Foggiano"],
+      "goals": {
+        "Cita": 1,
+        "Simo": 1,
+        "Alpo": 0,
+        "Bura": 3,
+        "Ion": 1
+      }
+    }
+  ],
+  "score": [19,6]
 }
 ]
