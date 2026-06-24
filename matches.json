@@ -217,25 +217,25 @@
       "name": "Gioventù Alpina",
       "players": ["Alpo", "Dillo", "Ago", "Gioi", "Ion"],
       "goals": {
-        "Alpo": 0,
-        "Dillo": 0,
-        "Ago": 0,
+        "Alpo": 2,
+        "Dillo": 1,
+        "Ago": 3,
         "Gioi": 0,
-        "Ion": 0
+        "Ion": 4
       }
     },
     {
       "name": "SS Imoni",
       "players": ["Simo", "Bura", "Devis", "Nixon", "Foggiano"],
       "goals": {
-        "Simo": 0,
-        "Bura": 0,
-        "Devis": 0,
-        "Nixon": 0,
-        "Foggiano": 0
+        "Simo": 3,
+        "Bura": 2,
+        "Devis": 1,
+        "Nixon": 2,
+        "Foggiano": 1
       }
     }
   ],
-  "score": [0,0]
+  "score": [10,9]
 }
 ]
