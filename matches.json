@@ -247,22 +247,22 @@
       "name": "Moro Glimt",
       "players": ["Moro", "Alpo", "Piatto", "Aldo", "Foggiano"],
       "goals": {
-        "Alpo": 2,
-        "Dillo": 1,
-        "Ago": 3,
-        "Gioi": 0,
-        "Ion": 4
+        "Moro": 0,
+        "Alpo": 0,
+        "Piatto": 0,
+        "Aldo": 0,
+        "Foggiano": 0
       }
     },
     {
       "name": "Sparta Pardo",
       "players": ["Pardo", "Dimoz", "Simo", "Vehab", "Ion"],
       "goals": {
-        "Simo": 3,
-        "Bura": 2,
-        "Devis": 1,
-        "Nixon": 2,
-        "Foggiano": 1
+        "Pardo": 0,
+        "Dimoz": 0,
+        "Simo": 0,
+        "Vehab": 0,
+        "Ion": 0
       }
     }
   ],
