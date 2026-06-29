@@ -211,7 +211,7 @@
   {
   "id": "8",
   "date": "23/06/2026",
-  "description": "",
+  "description": "Informazioni non disponibili per questo incontro.",
   "teams": [
     {
       "name": "Gioventù Alpina",
@@ -237,5 +237,35 @@
     }
   ],
   "score": [10,9]
+},
+  {
+  "id": "0",
+  "date": "30/06/2026",
+  "description": "",
+  "teams": [
+    {
+      "name": "Moro Glimt",
+      "players": ["Moro", "Alpo", "Piatto", "Aldo", "Foggiano"],
+      "goals": {
+        "Alpo": 2,
+        "Dillo": 1,
+        "Ago": 3,
+        "Gioi": 0,
+        "Ion": 4
+      }
+    },
+    {
+      "name": "Sparta Pardo",
+      "players": ["Pardo", "Dimoz", "Simo", "Vehab", "Ion"],
+      "goals": {
+        "Simo": 3,
+        "Bura": 2,
+        "Devis": 1,
+        "Nixon": 2,
+        "Foggiano": 1
+      }
+    }
+  ],
+  "score": [0,0]
 }
 ]
