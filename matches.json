@@ -267,5 +267,35 @@
     }
   ],
   "score": [15,16]
+},
+  {
+  "id": "10",
+  "date": "07/07/2026",
+  "description": "Informazioni non disponibili per questo incontro.",
+  "teams": [
+    {
+      "name": "Spresim Lisbona",
+      "players": ["Spre", "Pardo", "Ion", "Dimoz", "Moro"],
+      "goals": {
+        "Spre": 0,
+        "Pardo": 0,
+        "Ion": 0,
+        "Dimoz": 0,
+        "Moro": 0
+      }
+    },
+    {
+      "name": "Gremio Porto Alegre",
+      "players": ["Greg", "Simo", "Gioi", "Foggiano", "Alpo"],
+      "goals": {
+        "Greg": 0,
+        "Simo": 0,
+        "Gioi": 0,
+        "Foggiano": 0,
+        "Alpo": 0
+      }
+    }
+  ],
+  "score": [0,0]
 }
 ]
