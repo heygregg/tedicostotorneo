@@ -275,9 +275,9 @@
   "teams": [
     {
       "name": "Spresim Lisbona",
-      "players": ["Spre", "Pardo", "Ion", "Dimoz", "Moro"],
+      "players": ["Gabri", "Pardo", "Ion", "Dimoz", "Moro"],
       "goals": {
-        "Spre": 0,
+        "Gabri": 0,
         "Pardo": 0,
         "Ion": 0,
         "Dimoz": 0,
