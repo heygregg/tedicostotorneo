@@ -92,9 +92,15 @@
     "foto": "not_in_database.png",
     "eta": 27,
     "ruolo": "Esterno Dx",
-    "descrizione": "Giocatore esperto e affidabile, bravo a recuperare palla e a gestire con lucidità i ritmi della squadra.",
+    "descrizione": "Giocatore esperto e affidabile, bravo a recuperare palla e a gestire con lucidità i ritmi della squadra",
     "caratteristiche": ["Affidabilità", "Contrasto", "Gestione"]
   },
+    "nome": "GABRI",
+    "foto": "not_in_database.png",
+    "eta": 29,
+    "ruolo": "Attaccante",
+    "descrizione": "Giocatore rapido e potente con un ottimo mancino e un fisico che gli permette di prevalere nei contrasti",
+    "caratteristiche": ["Rapidità", "Fisico", "Potenza"]
   {
     "nome": "GIAMMI",
     "foto": "not_in_database.png",
