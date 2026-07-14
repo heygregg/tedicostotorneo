@@ -319,13 +319,13 @@
     },
     {
       "name": "Gremio Porto Alegre",
-      "players": ["Greg", "Farzo", "Cita", "Ion", "Ale", "Bruno", "Moro", "Bura"],
+      "players": ["Greg", "Farzo", "Cita", "Ion", "Santi", "Bruno", "Moro", "Bura"],
       "goals": {
         "Greg": 0,
         "Farzo": 0,
         "Cita": 0,
         "Ion": 0,
-        "Ale": 0,
+        "Santi": 0,
         "Bruno": 0,
         "Moro": 0,
         "Bura": 0
