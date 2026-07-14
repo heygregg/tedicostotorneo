@@ -80,6 +80,14 @@
     "caratteristiche": ["Sacrificio", "Intensità", "Affidabilità"]
   },
   {
+    "nome": "FARZO",
+    "foto": "not_in_database.png",
+    "eta": 31,
+    "ruolo": "Centrocampista",
+    "descrizione": "Centrocampista veloce e potente, con un ottimo tiro anche delle lunghe distanze e una corsa inesauribile",
+    "caratteristiche": ["Velocità", "Tiro", "Esperienza"]
+  },
+  {
     "nome": "FOGGIANO",
     "foto": "not_in_database.png",
     "eta": 27,
