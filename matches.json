@@ -297,5 +297,41 @@
     }
   ],
   "score": [20,15]
+},
+   {
+  "id": "11",
+  "date": "16/07/2026",
+  "description":
+  "teams": [
+    {
+      "name": "Kaltakgirone",
+      "players": ["Dillo", "Pardo", "Piatto", "Gioi", "Vehab", "Dimoz", "Alpo", "Willo"],
+      "goals": {
+        "Dillo": 0,
+        "Pardo": 0,
+        "Piatto": 0,
+        "Gioi": 0,
+        "Vehab": 0,
+        "Dimoz": 0,
+        "Alpo": 0,
+        "Willo": 0
+      }
+    },
+    {
+      "name": "Gremio Porto Alegre",
+      "players": ["Greg", "Farzo", "Cita", "Ion", "Ale", "Bruno", "Moro", "Bura"],
+      "goals": {
+        "Greg": 0,
+        "Farzo": 0,
+        "Cita": 0,
+        "Ion": 0,
+        "Ale": 0,
+        "Bruno": 0,
+        "Moro": 0,
+        "Bura": 0
+      }
+    }
+  ],
+  "score": [0,0]
 }
 ]
