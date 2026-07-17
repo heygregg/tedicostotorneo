@@ -307,13 +307,13 @@
       "name": "Kaltakgirone",
       "players": ["Dillo", "Pardo", "Piatto", "Gioi", "Vehab", "Dimoz", "Alpo", "Willo"],
       "goals": {
-        "Dillo": 0,
-        "Pardo": 0,
+        "Dillo": 2,
+        "Pardo": 1,
         "Piatto": 0,
         "Gioi": 0,
-        "Vehab": 0,
-        "Dimoz": 0,
-        "Alpo": 0,
+        "Vehab": 1,
+        "Dimoz": 1,
+        "Alpo": 1,
         "Willo": 0
       }
     },
@@ -324,14 +324,14 @@
         "Greg": 0,
         "Farzo": 0,
         "Cita": 0,
-        "Ion": 0,
+        "Edo": 1,
         "Santi": 0,
-        "Bruno": 0,
+        "Bruno": 1,
         "Moro": 0,
-        "Bura": 0
+        "Bura": 4
       }
     }
   ],
-  "score": [0,0]
+  "score": [6,6]
 }
 ]
