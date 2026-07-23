@@ -333,5 +333,41 @@
     }
   ],
   "score": [6,6]
+},
+  {
+  "id": "12",
+  "date": "23/07/2026",
+  "description":
+  "teams": [
+    {
+      "name": "Gremio Porto Alegre",
+      "players": ["Greg", "Dimoz", "Gere", "Cita", "Rena", "Hamza", "Spre", "XXX1"],
+      "goals": {
+        "Greg": 0,
+        "Dimoz": 0,
+        "Gere": 0,
+        "Cita": 0,
+        "Rena": 0,
+        "Hamza": 0,
+        "Spre": 0,
+        "XXX1": 0
+      }
+    },
+    {
+      "name": "Brigata Luchezio",
+      "players": ["Luchezio", "Piatto", "Bura", "Bruno", "Giacchi", "Ion", "Edo", "XXX2"],
+      "goals": {
+        "Luchezio": 0,
+        "Piatto": 0,
+        "Bura": 0,
+        "Bruno": 0,
+        "Giacchi": 0,
+        "Ion": 0,
+        "Edo": 0,
+        "XXX2": 0
+      }
+    }
+  ],
+  "score": [0,0]
 }
 ]
