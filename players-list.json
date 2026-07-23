@@ -112,6 +112,14 @@
     "caratteristiche": ["Rapidità", "Fisico", "Potenza"]
   },
   {
+    "nome": "GERE",
+    "foto": "not_in_database.png",
+    "eta": 26,
+    "ruolo": "Difensore",
+    "descrizione": "Difensore di esperienza, veloce e bravo ad impostare e inserirsi negli spazi",
+    "caratteristiche": ["Diffidati", "Con", "Noi"]
+  },
+  {
     "nome": "GIAMMI",
     "foto": "not_in_database.png",
     "eta": 30,
