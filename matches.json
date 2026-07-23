@@ -26,348 +26,348 @@
             "Hamza": 4
         }
       }
-    ],
-    "score": [14, 18]
-  },
-  {
-    "id": "2",
-    "date": "12/05/2026",
-    "description": "Partita semplice sulla carta per Gioventù Alpina, che però deve lasciare i 3 punti ai ragazzi di River Pres. Da segnalare un'ottima partita da parte di Spre, e di Cita tra i pali. Tra i peggiori da sottolineare Sera, che non riesce a iscrivere il suo nome al tabellino dei marcatori. Un momento no per Gioventù Alpina che perde la seconda partita consecutiva.",
+      ],
+      "score": [14, 18]
+    },
+    {
+      "id": "2",
+      "date": "12/05/2026",
+      "description": "Partita semplice sulla carta per Gioventù Alpina, che però deve lasciare i 3 punti ai ragazzi di River Pres. Da segnalare un'ottima partita da parte di Spre, e di Cita tra i pali. Tra i peggiori da sottolineare Sera, che non riesce a iscrivere il suo nome al tabellino dei marcatori. Un momento no per Gioventù Alpina che perde la seconda partita consecutiva.",
+      "teams": [
+        {
+          "name": "Gioventù Alpina",
+          "players": ["Alpo", "Greg", "Bura", "Pardo", "Sera"],
+          "goals": {
+              "Alpo": 1,
+              "Greg": 2,
+              "Bura": 5,
+              "Pardo": 1,
+              "Sera": 0
+          }
+        },
+        {
+          "name": "River Pres",
+          "players": ["Pres", "Cita", "Gioi", "Simo", "Spre"],
+          "goals":{
+              "Spre": 4,
+              "Gioi": 3,
+              "Pres": 1,
+              "Simo": 2
+          }
+        }
+      ],
+      "score": [9, 10]
+    },
+    {
+      "id": "3",
+      "date": "19/05/2026",
+      "description": "Partita che vedeva favorita il Citanò, squadra composta da ottimi giocatori, contro un Kaltakgirone chiamato a dare tutto per conquistare i tre punti. Parte meglio il Kaltakgirone, che riesce a portarsi più volte in vantaggio grazie ai gol di Bura e Greg. Complice l’infortunio di Gioi, i giocatori del Kaltakgirone sono costretti a dare il 101% per tutti i 60 minuti di gioco. Un Pardo in grande forma mette a segno una bella serie di gol, ben servito da un ottimo Hamza. Sottotono invece Alpo, che non riesce a concretizzare le occasioni avute a disposizione. La partita resta tiratissima da entrambe le parti e, proprio allo scadere, il Kaltakgirone riesce a trovare il gol del pareggio. Sul 12-12 i ragazzi del Kaltakgirone reclamano la fine del tempo regolamentare, ma l’arbitro decide di concedere ancora qualche secondo. Proprio su un errore in uscita di Bura, il Citanò ne approfitta, trova il gol decisivo e porta a casa la vittoria. Complimenti a tutti i giocatori per l’ottima partita.",
+      "teams": [
+        {
+          "name": "Kaltakgirone",
+          "players": ["Gioi", "Greg", "Pres", "Vehab", "Bura"],
+          "goals": {
+              "Gioi": 0,
+              "Greg": 5,
+              "Pres": 0,
+              "Vehab": 1,
+              "Bura": 6
+          }
+        },
+        {
+          "name": "Citanò",
+          "players": ["Sera", "Cita", "Alpo", "Hamza", "Pardo"],
+          "goals":{
+              "Sera": 1,
+              "Cita": 4,
+              "Alpo": 0,
+              "Hamza": 2,
+              "Pardo": 6
+          }
+        }
+      ],
+      "score": [12, 13]
+    },
+    {
+      "id": "4",
+      "date": "26/05/2026",
+      "description": "Parte forte lo Sparta Praga, che trova subito il vantaggio. La partita però cambia rapidamente: lo Spresim Lisbona ribalta il risultato e resta avanti di tre reti per gran parte dell’incontro. Gli ospiti giocano di ripartenza, sfruttando al meglio le occasioni create, mentre lo Sparta Pardo arriva con continuità nell’area avversaria senza però riuscire a concretizzare.Nel finale arriva una clamorosa rimonta dello Sparta Pardo, capace addirittura di portarsi in vantaggio. La stanchezza però si fa sentire: prima subisce il goal del pareggio e poi, nei minuti conclusivi, viene nuovamente superata da una splendida rete di Simo. Resta da capire se, anche in questa occasione, il match non fosse già terminato prima del goal decisivo. Prestazione sotto le aspettative per Bura e Spre, che non riescono a confermare le ottime prove a cui avevano abituato. Ottima invece la prova di Simo, fondamentale in fase difensiva, e di Sera, autore di ben quattro goal. Dall’altra parte si mettono in evidenza Greg e Pardo, che realizzano complessivamente sette reti, mentre Jaki e Dimoz, nonostante l’impegno, non riescono a trovare la via del goal.",
+      "teams": [
+        {
+          "name": "Spresim Lisbona",
+          "players": ["Spre","Alpo","Sera","Simo","Cita"],
+          "goals": {
+            "Cita": 1,
+            "Spre": 0,
+            "Alpo": 1,
+            "Sera": 4,
+            "Simo": 4
+          }
+        },
+        {
+          "name": "Sparta Pardo",
+          "players": ["Pardo","Greg","Bura","Jaki","Dimoz"],
+          "goals":{
+            "Pardo": 2,
+            "Greg": 5,
+            "Bura": 2,
+            "Jaki": 0,
+            "Dimoz": 0
+          }
+        }
+      ],
+      "score": [10,9]
+    },
+    {
+    "id": "5",
+    "date": "03/06/2026",
+    "description": "Partita a senso unico fin dalle prime battute, con il Moro Glimt che prende immediatamente il controllo del gioco, stabilendosi stabilmente nella metà campo avversaria. La squadra riesce a trovare con continuità gli spazi giusti per innescare gli attaccanti, che sotto porta si dimostrano estremamente concreti. Il risultato finale appare forse un po’ eccessivo rispetto a quanto visto per larghi tratti della gara, ma nel finale l’SS Imoni si sfalda completamente, concedendo campo e iniziativa agli avversari, che ne approfittano senza pietà. La difesa, ormai disunita, non riesce più a contenere le avanzate avversarie. Spicca la grande prestazione di Santi, capace di creare superiorità e mettere in costante difficoltà la retroguardia avversaria con le sue giocate. Ottima anche la prova del capitano Moro, protagonista assoluto con una tripletta che indirizza e chiude di fatto il match. Molto positive anche le prestazioni di Gabba, Greg e David, tutti efficaci nel contribuire in modo concreto al risultato finale. Sul fronte opposto, da sottolineare la prestazione di Spre, autore di un poker che rappresenta la nota più luminosa per l’SS Imoni. Giornata invece amara per Simo, che spreca diverse occasioni importanti a tu per tu con il portiere, che avrebbero potuto cambiare l’inerzia della gara. Per l’SS Imoni resta ora una domanda inevitabile: cosa è realmente mancato per evitare un passivo così pesante?",
     "teams": [
       {
-        "name": "Gioventù Alpina",
-        "players": ["Alpo", "Greg", "Bura", "Pardo", "Sera"],
+        "name": "Moro Glimt",
+        "players": ["Moro", "Gabba", "Santi", "Greg", "David"],
         "goals": {
-            "Alpo": 1,
-            "Greg": 2,
-            "Bura": 5,
-            "Pardo": 1,
-            "Sera": 0
+          "Moro": 3,
+          "Gabba": 3,
+          "Greg": 4,
+          "David": 1,
+          "Santi": 4
         }
       },
       {
-        "name": "River Pres",
-        "players": ["Pres", "Cita", "Gioi", "Simo", "Spre"],
-        "goals":{
-            "Spre": 4,
-            "Gioi": 3,
-            "Pres": 1,
-            "Simo": 2
+        "name": "SS Imoni",
+        "players": ["Simo", "Giammi", "Elia", "Alpo", "Spre"],
+        "goals": {
+          "Simo": 1,
+          "Alpo": 0,
+          "Giammi": 0,
+          "Elia": 0,
+          "Spre": 4
         }
       }
     ],
-    "score": [9, 10]
-  },
-  {
-    "id": "3",
-    "date": "19/05/2026",
-    "description": "Partita che vedeva favorita il Citanò, squadra composta da ottimi giocatori, contro un Kaltakgirone chiamato a dare tutto per conquistare i tre punti. Parte meglio il Kaltakgirone, che riesce a portarsi più volte in vantaggio grazie ai gol di Bura e Greg. Complice l’infortunio di Gioi, i giocatori del Kaltakgirone sono costretti a dare il 101% per tutti i 60 minuti di gioco. Un Pardo in grande forma mette a segno una bella serie di gol, ben servito da un ottimo Hamza. Sottotono invece Alpo, che non riesce a concretizzare le occasioni avute a disposizione. La partita resta tiratissima da entrambe le parti e, proprio allo scadere, il Kaltakgirone riesce a trovare il gol del pareggio. Sul 12-12 i ragazzi del Kaltakgirone reclamano la fine del tempo regolamentare, ma l’arbitro decide di concedere ancora qualche secondo. Proprio su un errore in uscita di Bura, il Citanò ne approfitta, trova il gol decisivo e porta a casa la vittoria. Complimenti a tutti i giocatori per l’ottima partita.",
+    "score": [15,5]
+    },
+    {
+      "id": "6",
+      "date": "11/06/2026",
+      "description": "Una sfida combattuta e ricca di emozioni quella tra Sparta Pardo e Gremio, con entrambe le squadre protagoniste di una partita intensa fino all'ultimo secondo. Lo Sparta Pardo conduce praticamente per tutta la gara, ma è il Gremio a costruire gran parte del gioco, nonostante l'infortunio di Cita nei primi minuti privi la squadra di uno dei suoi uomini più importanti. I ragazzi in casacca bianca continuano comunque a lottare, mentre dall'altra parte il tridente formato da Bura, Sera e Pardo crea costanti pericoli, supportato dal prezioso lavoro difensivo di Dimoz. Tra i migliori in campo anche Moro, autore di diversi interventi decisivi che tengono avanti i suoi. Il Gremio, sempre costretto a rincorrere, non smette però di crederci: Alpo spreca diverse occasioni sotto porta, mentre Greg e Jack cercano in tutti i modi di scardinare la difesa avversaria. Quando il match sembra ormai destinato a concludersi con la vittoria dello Sparta Pardo, ecco il colpo di scena: in pieno recupero arriva l'insperato gol del pareggio del Gremio, che riaccende una partita già spettacolare e rende giustizia all'equilibrio visto in campo. La lega fissa il risultato sul pareggio, ma si giocherò anche il Golden Goal, dove il destino sorride proprio al Gremio. A decidere la sfida è capitan Greg, bravo ad approfittare di un raro errore di Pardo, fino a quel momento impeccabile in fase difensiva, regalando ai suoi una vittoria tanto sofferta quanto emozionante.",
+      "teams": [
+        {
+          "name": "Sparta Pardo",
+          "players": ["Pardo", "Bura", "Sera", "Moro", "Dimoz"],
+          "goals": {
+            "Pardo": 3,
+            "Bura": 4,
+            "Sera": 4,
+            "Moro": 1,
+            "Dimoz": 2
+          }
+        },
+        {
+          "name": "Gremio Porto Alegre",
+          "players": ["Greg", "Cita", "Jack", "Alpo", "Bruno"],
+          "goals": {
+            "Greg": 6,
+            "Cita": 2,
+            "Jack": 1,
+            "Alpo": 3,
+            "Bruno": 2
+          }
+        }
+      ],
+      "score": [14,14]
+    },
+    {
+    "id": "7",
+    "date": "16/06/2026",
+    "description": "Partenza equilibrata, con le due squadre che si rispondono colpo su colpo: un gol da una parte, uno dall’altra, in un botta e risposta che tiene tutti con il fiato sospeso. Ma col passare dei minuti la fatica inizia a farsi sentire tra le fila del Citanò, e gli uomini in casacca bianca ne approfittano, trovando sempre più spazi dove infilarsi. Sugli scudi un incontenibile Piatto, in stato di grazia, capace di segnare praticamente da ogni posizione. Dietro, Dillo guida la difesa con autorità, distribuendo indicazioni come un vero regista arretrato, mentre Davis e Greg pungono con le loro incursioni e Moro blinda la porta. Dall’altra parte, le stelle Simo e Bura provano a inventare qualcosa là davanti, ma trovano pochi varchi. Ci pensa allora Ion a regalare un lampo di qualità, con un gol splendido dalla distanza. L’Alpo sfiora il sogno, ma la traversa spegne l’entusiasmo sul più bello. Nel finale non c’è più storia: il Moro Glimt prende il largo, mentre il Citanò, ormai alle corde, aspetta soltanto il triplice fischio.",
     "teams": [
       {
-        "name": "Kaltakgirone",
-        "players": ["Gioi", "Greg", "Pres", "Vehab", "Bura"],
+        "name": "Moro Glimt",
+        "players": ["Moro", "Dillo", "Devis", "Piatto", "Greg"],
         "goals": {
-            "Gioi": 0,
-            "Greg": 5,
-            "Pres": 0,
-            "Vehab": 1,
-            "Bura": 6
+          "Moro": 1,
+          "Dillo": 4,
+          "Devis": 1,
+          "Piatto": 7,
+          "Greg": 6
         }
       },
       {
         "name": "Citanò",
-        "players": ["Sera", "Cita", "Alpo", "Hamza", "Pardo"],
-        "goals":{
-            "Sera": 1,
-            "Cita": 4,
-            "Alpo": 0,
-            "Hamza": 2,
-            "Pardo": 6
-        }
-      }
-    ],
-    "score": [12, 13]
-  },
-  {
-    "id": "4",
-    "date": "26/05/2026",
-    "description": "Parte forte lo Sparta Praga, che trova subito il vantaggio. La partita però cambia rapidamente: lo Spresim Lisbona ribalta il risultato e resta avanti di tre reti per gran parte dell’incontro. Gli ospiti giocano di ripartenza, sfruttando al meglio le occasioni create, mentre lo Sparta Pardo arriva con continuità nell’area avversaria senza però riuscire a concretizzare.Nel finale arriva una clamorosa rimonta dello Sparta Pardo, capace addirittura di portarsi in vantaggio. La stanchezza però si fa sentire: prima subisce il goal del pareggio e poi, nei minuti conclusivi, viene nuovamente superata da una splendida rete di Simo. Resta da capire se, anche in questa occasione, il match non fosse già terminato prima del goal decisivo. Prestazione sotto le aspettative per Bura e Spre, che non riescono a confermare le ottime prove a cui avevano abituato. Ottima invece la prova di Simo, fondamentale in fase difensiva, e di Sera, autore di ben quattro goal. Dall’altra parte si mettono in evidenza Greg e Pardo, che realizzano complessivamente sette reti, mentre Jaki e Dimoz, nonostante l’impegno, non riescono a trovare la via del goal.",
-    "teams": [
-      {
-        "name": "Spresim Lisbona",
-        "players": ["Spre","Alpo","Sera","Simo","Cita"],
+        "players": ["Cita", "Simo", "Alpo", "Bura", "Ion"],
         "goals": {
           "Cita": 1,
-          "Spre": 0,
-          "Alpo": 1,
-          "Sera": 4,
-          "Simo": 4
+          "Simo": 1,
+          "Alpo": 0,
+          "Bura": 3,
+          "Ion": 1
         }
+      }
+      ],
+      "score": [19,6]
+    },
+    {
+      "id": "8",
+      "date": "23/06/2026",
+      "description": "Informazioni non disponibili per questo incontro.",
+      "teams": [
+        {
+          "name": "Gioventù Alpina",
+          "players": ["Alpo", "Dillo", "Ago", "Gioi", "Ion"],
+          "goals": {
+            "Alpo": 2,
+            "Dillo": 1,
+            "Ago": 3,
+            "Gioi": 0,
+            "Ion": 4
+          }
+        },
+        {
+          "name": "SS Imoni",
+          "players": ["Simo", "Bura", "Devis", "Nixon", "Foggiano"],
+          "goals": {
+            "Simo": 3,
+            "Bura": 2,
+            "Devis": 1,
+            "Nixon": 2,
+            "Foggiano": 1
+          }
+        }
+        ],
+        "score": [10,9]
       },
       {
-        "name": "Sparta Pardo",
-        "players": ["Pardo","Greg","Bura","Jaki","Dimoz"],
-        "goals":{
-          "Pardo": 2,
-          "Greg": 5,
-          "Bura": 2,
-          "Jaki": 0,
-          "Dimoz": 0
+        "id": "9",
+        "date": "30/06/2026",
+        "description": "Informazioni non disponibili per questo incontro.",
+        "teams": [
+          {
+            "name": "Moro Glimt",
+            "players": ["Moro", "Alpo", "Piatto", "Aldo", "Foggiano"],
+            "goals": {
+              "Moro": 4,
+              "Alpo": 4,
+              "Piatto": 4,
+              "Aldo": 0,
+              "Foggiano": 3
+            }
+          },
+          {
+            "name": "Sparta Pardo",
+            "players": ["Pardo", "Dimoz", "Simo", "Vehab", "Ion"],
+            "goals": {
+              "Pardo": 5,
+              "Dimoz": 0,
+              "Simo": 5,
+              "Vehab": 1,
+              "Ion":5
+            }
+          }
+        ],
+        "score": [15,16]
+      },
+      {
+        "id": "10",
+        "date": "07/07/2026",
+        "description": "Il Gremio non riesce a trovare il gol del pareggio al termine di una partita in cui lo Spresim Lisbona, pur privo del proprio capitano, sfodera una prestazione ben al di sopra delle aspettative. Sugli esterni Pardo e Gabri spingono con continuità, mentre Dimoz vive una giornata di grazia e si dimostra implacabile sotto porta. Ottima anche la prova di Ion, capace di rendersi pericoloso e di trovare la via del gol. Lo Spresim Lisbona imposta la gara sulle ripartenze, sfruttando al meglio gli spazi concessi dagli avversari. Il Gremio, invece, prova a fare la partita con un lungo possesso palla e una manovra ragionata, ma paga le numerose disattenzioni difensive, che finiscono per compromettere il risultato.",
+        "teams": [
+          {
+            "name": "Spresim Lisbona",
+            "players": ["Gabri", "Pardo", "Ion", "Dimoz", "Moro"],
+            "goals": {
+              "Gabri": 2,
+              "Pardo": 9,
+              "Ion": 4,
+              "Dimoz": 5,
+              "Moro": 0
+            }
+          },
+          {
+            "name": "Gremio Porto Alegre",
+            "players": ["Greg", "Simo", "Gioi", "Foggiano", "Alpo"],
+            "goals": {
+              "Greg": 7,
+              "Simo": 3,
+              "Gioi": 1,
+              "Foggiano": 1,
+              "Alpo": 3
+            }
+          }
+        ],
+        "score": [20,15]
+    },
+    {
+      "id": "11",
+      "date": "16/07/2026",
+      "description": "Dopo 90 minuti di pura battaglia il tabellone recita un incredibile 6-6: un pareggio spettacolare che regala un punto a entrambe le formazioni, senza che nessuna delle due riesca a piazzare il colpo decisivo. A dominare il gioco è il Gremio, padrone del possesso e costantemente alla ricerca della vittoria, ma Kaltakgirone si dimostra cinico e letale, riuscendo in più occasioni a portarsi avanti e a difendere il vantaggio grazie a splendide conclusioni dalla distanza. Il Gremio, pur faticando maggiormente a trovare la via del gol, non perde mai il controllo della partita e continua a spingere con determinazione. La squadra riesce più volte a ricucire lo svantaggio e a riportare il risultato in equilibrio, dimostrando carattere e grande spirito combattivo. Neanche i 10 minuti di recupero concessi dall’arbitro bastano a regalare il gol della vittoria: entrambe le squadre ci provano fino all’ultimo istante, ma il risultato resta inchiodato sul 6-6 al termine di una sfida emozionante, ricca di gol, ribaltamenti e spettacolo.",
+      "teams": [
+        {
+          "name": "Kaltakgirone",
+          "players": ["Dillo", "Pardo", "Piatto", "Gioi", "Vehab", "Dimoz", "Alpo", "Willo"],
+          "goals": {
+            "Dillo": 2,
+            "Pardo": 1,
+            "Piatto": 0,
+            "Gioi": 0,
+            "Vehab": 1,
+            "Dimoz": 1,
+            "Alpo": 1,
+            "Willo": 0
+          }
+        },
+        {
+          "name": "Gremio Porto Alegre",
+          "players": ["Greg", "Farzo", "Cita", "Edo", "Santi", "Bruno", "Moro", "Bura"],
+          "goals": {
+            "Greg": 0,
+            "Farzo": 0,
+            "Cita": 0,
+            "Edo": 1,
+            "Santi": 0,
+            "Bruno": 1,
+            "Moro": 0,
+            "Bura": 4
+          }
         }
+      ],
+      "score": [6,6]
+       },
+      {
+        "id": "12",
+        "date": "23/07/2026",
+        "description": ,
+        "teams": [
+          {
+            "name": "Gremio Porto Alegre",
+            "players": ["Greg", "Dimoz", "Gere", "Cita", "Rena", "Hamza", "Spre", "XXX1"],
+            "goals": {
+              "Greg": 0,
+              "Dimoz": 0,
+              "Gere": 0,
+              "Cita": 0,
+              "Rena": 0,
+              "Hamza": 0,
+              "Spre": 0,
+              "XXX1": 0
+            }
+          },
+          {
+            "name": "Brigata Luchezio",
+            "players": ["Luchezio", "Piatto", "Bura", "Bruno", "Giacchi", "Ion", "Edo", "XXX2"],
+            "goals": {
+              "Luchezio": 0,
+              "Piatto": 0,
+              "Bura": 0,
+              "Bruno": 0,
+              "Giacchi": 0,
+              "Ion": 0,
+              "Edo": 0,
+              "XXX2": 0
+            }
+          }
+        ],
+        "score": [0,0]
       }
-    ],
-    "score": [10,9]
-  },
-  {
-  "id": "5",
-  "date": "03/06/2026",
-  "description": "Partita a senso unico fin dalle prime battute, con il Moro Glimt che prende immediatamente il controllo del gioco, stabilendosi stabilmente nella metà campo avversaria. La squadra riesce a trovare con continuità gli spazi giusti per innescare gli attaccanti, che sotto porta si dimostrano estremamente concreti. Il risultato finale appare forse un po’ eccessivo rispetto a quanto visto per larghi tratti della gara, ma nel finale l’SS Imoni si sfalda completamente, concedendo campo e iniziativa agli avversari, che ne approfittano senza pietà. La difesa, ormai disunita, non riesce più a contenere le avanzate avversarie. Spicca la grande prestazione di Santi, capace di creare superiorità e mettere in costante difficoltà la retroguardia avversaria con le sue giocate. Ottima anche la prova del capitano Moro, protagonista assoluto con una tripletta che indirizza e chiude di fatto il match. Molto positive anche le prestazioni di Gabba, Greg e David, tutti efficaci nel contribuire in modo concreto al risultato finale. Sul fronte opposto, da sottolineare la prestazione di Spre, autore di un poker che rappresenta la nota più luminosa per l’SS Imoni. Giornata invece amara per Simo, che spreca diverse occasioni importanti a tu per tu con il portiere, che avrebbero potuto cambiare l’inerzia della gara. Per l’SS Imoni resta ora una domanda inevitabile: cosa è realmente mancato per evitare un passivo così pesante?",
-  "teams": [
-    {
-      "name": "Moro Glimt",
-      "players": ["Moro", "Gabba", "Santi", "Greg", "David"],
-      "goals": {
-        "Moro": 3,
-        "Gabba": 3,
-        "Greg": 4,
-        "David": 1,
-        "Santi": 4
-      }
-    },
-    {
-      "name": "SS Imoni",
-      "players": ["Simo", "Giammi", "Elia", "Alpo", "Spre"],
-      "goals": {
-        "Simo": 1,
-        "Alpo": 0,
-        "Giammi": 0,
-        "Elia": 0,
-        "Spre": 4
-      }
-    }
-  ],
-  "score": [15,5]
-},
-  {
-  "id": "6",
-  "date": "11/06/2026",
-  "description": "Una sfida combattuta e ricca di emozioni quella tra Sparta Pardo e Gremio, con entrambe le squadre protagoniste di una partita intensa fino all'ultimo secondo. Lo Sparta Pardo conduce praticamente per tutta la gara, ma è il Gremio a costruire gran parte del gioco, nonostante l'infortunio di Cita nei primi minuti privi la squadra di uno dei suoi uomini più importanti. I ragazzi in casacca bianca continuano comunque a lottare, mentre dall'altra parte il tridente formato da Bura, Sera e Pardo crea costanti pericoli, supportato dal prezioso lavoro difensivo di Dimoz. Tra i migliori in campo anche Moro, autore di diversi interventi decisivi che tengono avanti i suoi. Il Gremio, sempre costretto a rincorrere, non smette però di crederci: Alpo spreca diverse occasioni sotto porta, mentre Greg e Jack cercano in tutti i modi di scardinare la difesa avversaria. Quando il match sembra ormai destinato a concludersi con la vittoria dello Sparta Pardo, ecco il colpo di scena: in pieno recupero arriva l'insperato gol del pareggio del Gremio, che riaccende una partita già spettacolare e rende giustizia all'equilibrio visto in campo. La lega fissa il risultato sul pareggio, ma si giocherò anche il Golden Goal, dove il destino sorride proprio al Gremio. A decidere la sfida è capitan Greg, bravo ad approfittare di un raro errore di Pardo, fino a quel momento impeccabile in fase difensiva, regalando ai suoi una vittoria tanto sofferta quanto emozionante.",
-  "teams": [
-    {
-      "name": "Sparta Pardo",
-      "players": ["Pardo", "Bura", "Sera", "Moro", "Dimoz"],
-      "goals": {
-        "Pardo": 3,
-        "Bura": 4,
-        "Sera": 4,
-        "Moro": 1,
-        "Dimoz": 2
-      }
-    },
-    {
-      "name": "Gremio Porto Alegre",
-      "players": ["Greg", "Cita", "Jack", "Alpo", "Bruno"],
-      "goals": {
-        "Greg": 6,
-        "Cita": 2,
-        "Jack": 1,
-        "Alpo": 3,
-        "Bruno": 2
-      }
-    }
-  ],
-  "score": [14,14]
-},
-  {
-  "id": "7",
-  "date": "16/06/2026",
-  "description": "Partenza equilibrata, con le due squadre che si rispondono colpo su colpo: un gol da una parte, uno dall’altra, in un botta e risposta che tiene tutti con il fiato sospeso. Ma col passare dei minuti la fatica inizia a farsi sentire tra le fila del Citanò, e gli uomini in casacca bianca ne approfittano, trovando sempre più spazi dove infilarsi. Sugli scudi un incontenibile Piatto, in stato di grazia, capace di segnare praticamente da ogni posizione. Dietro, Dillo guida la difesa con autorità, distribuendo indicazioni come un vero regista arretrato, mentre Davis e Greg pungono con le loro incursioni e Moro blinda la porta. Dall’altra parte, le stelle Simo e Bura provano a inventare qualcosa là davanti, ma trovano pochi varchi. Ci pensa allora Ion a regalare un lampo di qualità, con un gol splendido dalla distanza. L’Alpo sfiora il sogno, ma la traversa spegne l’entusiasmo sul più bello. Nel finale non c’è più storia: il Moro Glimt prende il largo, mentre il Citanò, ormai alle corde, aspetta soltanto il triplice fischio.",
-  "teams": [
-    {
-      "name": "Moro Glimt",
-      "players": ["Moro", "Dillo", "Devis", "Piatto", "Greg"],
-      "goals": {
-        "Moro": 1,
-        "Dillo": 4,
-        "Devis": 1,
-        "Piatto": 7,
-        "Greg": 6
-      }
-    },
-    {
-      "name": "Citanò",
-      "players": ["Cita", "Simo", "Alpo", "Bura", "Ion"],
-      "goals": {
-        "Cita": 1,
-        "Simo": 1,
-        "Alpo": 0,
-        "Bura": 3,
-        "Ion": 1
-      }
-    }
-  ],
-  "score": [19,6]
-},
-  {
-  "id": "8",
-  "date": "23/06/2026",
-  "description": "Informazioni non disponibili per questo incontro.",
-  "teams": [
-    {
-      "name": "Gioventù Alpina",
-      "players": ["Alpo", "Dillo", "Ago", "Gioi", "Ion"],
-      "goals": {
-        "Alpo": 2,
-        "Dillo": 1,
-        "Ago": 3,
-        "Gioi": 0,
-        "Ion": 4
-      }
-    },
-    {
-      "name": "SS Imoni",
-      "players": ["Simo", "Bura", "Devis", "Nixon", "Foggiano"],
-      "goals": {
-        "Simo": 3,
-        "Bura": 2,
-        "Devis": 1,
-        "Nixon": 2,
-        "Foggiano": 1
-      }
-    }
-  ],
-  "score": [10,9]
-},
-  {
-  "id": "9",
-  "date": "30/06/2026",
-  "description": "Informazioni non disponibili per questo incontro.",
-  "teams": [
-    {
-      "name": "Moro Glimt",
-      "players": ["Moro", "Alpo", "Piatto", "Aldo", "Foggiano"],
-      "goals": {
-        "Moro": 4,
-        "Alpo": 4,
-        "Piatto": 4,
-        "Aldo": 0,
-        "Foggiano": 3
-      }
-    },
-    {
-      "name": "Sparta Pardo",
-      "players": ["Pardo", "Dimoz", "Simo", "Vehab", "Ion"],
-      "goals": {
-        "Pardo": 5,
-        "Dimoz": 0,
-        "Simo": 5,
-        "Vehab": 1,
-        "Ion":5
-      }
-    }
-  ],
-  "score": [15,16]
-},
-  {
-  "id": "10",
-  "date": "07/07/2026",
-  "description": "Il Gremio non riesce a trovare il gol del pareggio al termine di una partita in cui lo Spresim Lisbona, pur privo del proprio capitano, sfodera una prestazione ben al di sopra delle aspettative. Sugli esterni Pardo e Gabri spingono con continuità, mentre Dimoz vive una giornata di grazia e si dimostra implacabile sotto porta. Ottima anche la prova di Ion, capace di rendersi pericoloso e di trovare la via del gol. Lo Spresim Lisbona imposta la gara sulle ripartenze, sfruttando al meglio gli spazi concessi dagli avversari. Il Gremio, invece, prova a fare la partita con un lungo possesso palla e una manovra ragionata, ma paga le numerose disattenzioni difensive, che finiscono per compromettere il risultato.",
-  "teams": [
-    {
-      "name": "Spresim Lisbona",
-      "players": ["Gabri", "Pardo", "Ion", "Dimoz", "Moro"],
-      "goals": {
-        "Gabri": 2,
-        "Pardo": 9,
-        "Ion": 4,
-        "Dimoz": 5,
-        "Moro": 0
-      }
-    },
-    {
-      "name": "Gremio Porto Alegre",
-      "players": ["Greg", "Simo", "Gioi", "Foggiano", "Alpo"],
-      "goals": {
-        "Greg": 7,
-        "Simo": 3,
-        "Gioi": 1,
-        "Foggiano": 1,
-        "Alpo": 3
-      }
-    }
-  ],
-  "score": [20,15]
-},
-   {
-  "id": "11",
-  "date": "16/07/2026",
-  "description": "Dopo 90 minuti di pura battaglia il tabellone recita un incredibile 6-6: un pareggio spettacolare che regala un punto a entrambe le formazioni, senza che nessuna delle due riesca a piazzare il colpo decisivo. A dominare il gioco è il Gremio, padrone del possesso e costantemente alla ricerca della vittoria, ma Kaltakgirone si dimostra cinico e letale, riuscendo in più occasioni a portarsi avanti e a difendere il vantaggio grazie a splendide conclusioni dalla distanza. Il Gremio, pur faticando maggiormente a trovare la via del gol, non perde mai il controllo della partita e continua a spingere con determinazione. La squadra riesce più volte a ricucire lo svantaggio e a riportare il risultato in equilibrio, dimostrando carattere e grande spirito combattivo. Neanche i 10 minuti di recupero concessi dall’arbitro bastano a regalare il gol della vittoria: entrambe le squadre ci provano fino all’ultimo istante, ma il risultato resta inchiodato sul 6-6 al termine di una sfida emozionante, ricca di gol, ribaltamenti e spettacolo.",
-  "teams": [
-    {
-      "name": "Kaltakgirone",
-      "players": ["Dillo", "Pardo", "Piatto", "Gioi", "Vehab", "Dimoz", "Alpo", "Willo"],
-      "goals": {
-        "Dillo": 2,
-        "Pardo": 1,
-        "Piatto": 0,
-        "Gioi": 0,
-        "Vehab": 1,
-        "Dimoz": 1,
-        "Alpo": 1,
-        "Willo": 0
-      }
-    },
-    {
-      "name": "Gremio Porto Alegre",
-      "players": ["Greg", "Farzo", "Cita", "Edo", "Santi", "Bruno", "Moro", "Bura"],
-      "goals": {
-        "Greg": 0,
-        "Farzo": 0,
-        "Cita": 0,
-        "Edo": 1,
-        "Santi": 0,
-        "Bruno": 1,
-        "Moro": 0,
-        "Bura": 4
-      }
-    }
-  ],
-  "score": [6,6]
-},
-  {
-  "id": "12",
-  "date": "23/07/2026",
-  "description":
-  "teams": [
-    {
-      "name": "Gremio Porto Alegre",
-      "players": ["Greg", "Dimoz", "Gere", "Cita", "Rena", "Hamza", "Spre", "XXX1"],
-      "goals": {
-        "Greg": 0,
-        "Dimoz": 0,
-        "Gere": 0,
-        "Cita": 0,
-        "Rena": 0,
-        "Hamza": 0,
-        "Spre": 0,
-        "XXX1": 0
-      }
-    },
-    {
-      "name": "Brigata Luchezio",
-      "players": ["Luchezio", "Piatto", "Bura", "Bruno", "Giacchi", "Ion", "Edo", "XXX2"],
-      "goals": {
-        "Luchezio": 0,
-        "Piatto": 0,
-        "Bura": 0,
-        "Bruno": 0,
-        "Giacchi": 0,
-        "Ion": 0,
-        "Edo": 0,
-        "XXX2": 0
-      }
-    }
-  ],
-  "score": [0,0]
-}
 ]
