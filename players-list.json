@@ -60,7 +60,7 @@
     "foto": "not_in_database.png",
     "eta": 27,
     "ruolo": "Centrocampista",
-    "descrizione": "Centrocampista tecnico e di esperienza, detta i temp con qualità in mezzo al campo",
+    "descrizione": "Centrocampista tecnico e di esperienza, detta i tempi con qualità in mezzo al campo",
     "caratteristiche": ["Visione", "Controllo", "Costruzione"]
   },
   {
@@ -132,7 +132,7 @@
     "foto": "not_in_database.png",
     "eta": 30,
     "ruolo": "Difensore",
-    "descrizione": "Difensore solido e attento, affidabile nei duelli e concentrato in fase difensaiva",
+    "descrizione": "Difensore solido e attento, affidabile nei duelli e concentrato in fase difensiva",
     "caratteristiche": ["Marcatura", "Anticipo", "Concentrazione"]
   },
   {
@@ -236,7 +236,7 @@
     "foto": "not_in_database.png",
     "eta": 26,
     "ruolo": "Centrocampista",
-    "descrizione": "Centrocampista solito con un'ottima tecnica, forte con il tiro dalla distanza",
+    "descrizione": "Centrocampista solido e con un'ottima tecnica, forte con il tiro dalla distanza",
     "caratteristiche": ["Tecnica", "Esperienza", "Tiro"]
   },
    {
