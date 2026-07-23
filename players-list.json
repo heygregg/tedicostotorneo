@@ -110,6 +110,7 @@
     "ruolo": "Attaccante",
     "descrizione": "Giocatore rapido e potente con un ottimo mancino e un fisico che gli permette di prevalere nei contrasti",
     "caratteristiche": ["Rapidità", "Fisico", "Potenza"]
+  },
   {
     "nome": "GIAMMI",
     "foto": "not_in_database.png",
