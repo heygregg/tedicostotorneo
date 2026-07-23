@@ -120,6 +120,14 @@
     "caratteristiche": ["Diffidati", "Con", "Noi"]
   },
   {
+    "nome": "GIACCHI",
+    "foto": "not_in_database.png",
+    "eta": 22,
+    "ruolo": "Centrocampista",
+    "descrizione": "",
+    "caratteristiche": ["", "", ""]
+  },
+  {
     "nome": "GIAMMI",
     "foto": "not_in_database.png",
     "eta": 30,
@@ -222,6 +230,14 @@
     "ruolo": "Esterno Sx",
     "descrizione": "Giocatore molto veloce e dinamico, con tecnica discreta ma capace a volte di segnare goal inaspettati",
     "caratteristiche": ["Impulsività", "Velocità", "Resistenza"]
+  },
+  {
+    "nome": "RENA",
+    "foto": "not_in_database.png",
+    "eta": 26,
+    "ruolo": "Centrocampista",
+    "descrizione": "Centrocampista solito con un'ottima tecnica, forte con il tiro dalla distanza",
+    "caratteristiche": ["Tecnica", "Esperienza", "Tiro"]
   },
    {
     "nome": "SANTI",
