@@ -303,7 +303,8 @@ const foto = [
   { src: "2026-05-19_news1.jpg", alt: "News1" },
   { src: "2026-05-19_news3.jpg", alt: "News2" },
   { src: "2026-05-26_news1.jpg", alt: "News3" },
-  { src: "2026-06-11_news1.jpg", alt: "News4" }
+  { src: "2026-06-11_news1.jpg", alt: "News4" },
+  { src: "Intervista_Bruno.jpg", alt: "Intervista_Bruno"}
 ];
 
 // Prende dal file HTML l'elemento con id="gallery-grid" (il contenitore della griglia)
